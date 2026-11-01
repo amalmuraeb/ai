@@ -8,7 +8,7 @@ from datetime import date
 from src.application_history import ApplicationHistory
 
 
-def _apply_job(url, closing_date=None, sequence=None):
+def _apply_job(url, closing_date=None, sequence=None, remote=False):
     job = {
         "title": f"Professor {url[-1]}",
         "company": "Example University",
@@ -17,6 +17,7 @@ def _apply_job(url, closing_date=None, sequence=None):
         "final_recommendation": "apply",
         "focus_areas": ["Artificial Intelligence"],
         "must_have_skills": ["Research experience"],
+        "remote?": "Yes" if remote else "No",
     }
     return {"job_sequence_number": sequence, **job} if sequence else job
 
@@ -96,6 +97,46 @@ def main():
     assert closed["apply_jobs"] == []
     assert closed["retained_document_plans"] == []
     assert closed["new_apply_jobs"] == []
+
+    remote_fresh = _apply_job(
+        "https://example.test/remote-1",
+        "2026-11-01",
+        remote=True,
+    )
+    remote_result = ApplicationHistory().reconcile(
+        [remote_fresh],
+        previous_applied_report=result["applied_report"],
+        remote=True,
+        today=date(2026, 8, 8),
+    )
+    assert remote_result["new_apply_jobs"][0][
+        "job_sequence_number"
+    ] == "r1"
+    assert remote_result["last_job_sequence_number"] == "r1"
+    counters = remote_result["applied_report"]["report_metadata"][
+        "last_job_sequence_numbers"
+    ]
+    assert counters == {"non_remote": 23, "remote": 1}
+
+    next_remote = ApplicationHistory().reconcile(
+        [
+            _apply_job(
+                "https://example.test/remote-2",
+                "2026-12-01",
+                remote=True,
+            )
+        ],
+        previous_document_report={
+            "report_metadata": {"last_job_sequence_number": "r1"},
+            "jobs": [],
+        },
+        previous_applied_report=remote_result["applied_report"],
+        remote=True,
+        today=date(2026, 8, 8),
+    )
+    assert next_remote["new_apply_jobs"][0][
+        "job_sequence_number"
+    ] == "r2"
     print("Application-history test passed.")
 
 

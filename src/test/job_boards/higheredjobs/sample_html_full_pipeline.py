@@ -208,6 +208,10 @@ def main() -> None:
         }
         assert actual_counts == expected_counts
         assert all(
+            report["report_metadata"]["job_scope"] == "non_remote"
+            for report in category_reports.values()
+        )
+        assert all(
             job["remote?"] in {"Yes", "No"}
             for report in category_reports.values()
             for job in report["jobs"]
@@ -234,7 +238,11 @@ def main() -> None:
             for job in analyzed_jobs
         )
         assert all(summary["validation"].values())
+        assert summary["report_metadata"]["job_scope"] == "non_remote"
         assert document_report["job_count"] == expected_counts["apply"]
+        assert document_report["report_metadata"]["job_scope"] == (
+            "non_remote"
+        )
         assert all(
             plan["job"]["remote?"] in {"Yes", "No"}
             for plan in document_report["jobs"]
@@ -308,7 +316,6 @@ def main() -> None:
             live_paths=published_paths,
             pipeline_name="Sample-HTML RPA Pipeline",
             report_title="SAMPLE-HTML RPA PIPELINE LOG",
-            append_existing_reports=True,
         )
 
         assert rpa_result["summary_report"]["report_metadata"][

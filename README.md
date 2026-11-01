@@ -42,8 +42,9 @@ flowchart TD
 ## 2.1 Job Outcomes
 Every discovered job ends in exactly one report category: `apply`, `review`,
 `do_not_apply`, `skipped`, or `unreachable`. Section 6 describes the report
-files. Every job record includes `"remote?": "Yes"` or `"No"`, derived
-deterministically from HigherEdJobs structured metadata and posting text.
+files. Remote and non-remote alerts have independent report channels. Every
+job record includes `"remote?": "Yes"` or `"No"`, derived deterministically
+from HigherEdJobs structured metadata and posting text.
 
 # 3. Prerequisites
 
@@ -439,25 +440,29 @@ job-agent/
 │   └── job_boards/
 │       └── higheredjobs/
 │           └── reports/
-│               ├── .live_runs_staging/
-│               │   Temporary production output created during a run;
-│               │   removed after successful publication or failure
+│               ├── .non-remote_live_staging/
+│               ├── .remote_live_staging/
+│               │   Scope-specific temporary production output;
+│               │   removed after publication or failure
 │               │
 │               ├── example_reports/
 │               │   Tracked sample reports published for reference
 │               │
 │               └── live_runs/
 │                   Local production output excluded from Git
-│                   ├── analyzed/
-│                   │   ├── apply_jobs.json (1)
-│                   │   ├── apply_jobs_stats.txt (2)
-│                   │   ├── review_jobs.json (3)
-│                   │   └── do_not_apply_jobs.json (4)
-│                   ├── skipped_jobs.json (5)
-│                   ├── unreachable_jobs.json (6)
-│                   ├── document_manager.json (7)
-│                   ├── log.txt (8)
-│                   └── summary.json (9)
+│                   ├── non_remote/
+│                   │   └── Same report structure shown below
+│                   └── remote/
+│                       ├── analyzed/
+│                       │   ├── apply_jobs.json (1)
+│                       │   ├── apply_jobs_stats.txt (2)
+│                       │   ├── review_jobs.json (3)
+│                       │   └── do_not_apply_jobs.json (4)
+│                       ├── skipped_jobs.json (5)
+│                       ├── unreachable_jobs.json (6)
+│                       ├── document_manager.json (7)
+│                       ├── log.txt (8)
+│                       └── summary.json (9)
 │
 ├── required_documents/
 │   Private local folder for application materials;
@@ -506,8 +511,16 @@ job-agent/
 
 `example_reports/` contains the repository's fixed sample report set.
 Production reports, including `apply_jobs_stats.txt`, are generated under
-`live_runs/` and excluded by `.gitignore`; do not force-add or publish them.
+`live_runs/non_remote/` or `live_runs/remote/` and excluded by `.gitignore`;
+do not force-add or publish them. Each run replaces only its selected channel,
+so remote and non-remote alerts may be run in either order.
 Transactional staging artifacts are ignored as well.
+
+Non-remote apply jobs use permanent integer sequence numbers (`1`, `2`, ...).
+Remote apply jobs use an independent permanent sequence prefixed with `r`
+(`r1`, `r2`, ...). Both sequences share the external private history without
+sharing counters. Each report's metadata identifies its `job_scope` as
+`non_remote` or `remote`.
 
 The permanent compact `applied_jobs.json` archive contains applied-job
 identity, tracking fields, `focus_areas`, and `must_have_skills`. The private
@@ -531,11 +544,10 @@ profile/history directory and HigherEdJobs alert URL are supplied through the CL
 
 | Scope | Command | Requires | Primary effect |
 |---|---|---|---|
-| Phases 3–6, replace | `python -m src.main --report_mode replace --landing_url <ALERT_URL> --private_data_path <PRIVATE_DATA_PATH>` | Edge/CDP and Ollama | Replace reports through `document_manager.json`. This is the default mode. |
-| Phases 3–6, append | `python -m src.main --report_mode append --landing_url <ALERT_URL> --private_data_path <PRIVATE_DATA_PATH>` | Existing base reports, Edge/CDP, and Ollama | Append deduplicated results and update Phase 6. Add `--remote` for a remote alert. |
-| Phases 3–5 | `python -m src.main --rpa --landing_url <HIGHEREDJOBS_ALERT_URL> --private_data_path <PRIVATE_DATA_PATH>` | Edge/CDP and Ollama | Refresh category reports, summary, and log. |
-| Phases 3–5, append | `python -m src.main --rpa --report_mode append --landing_url <ALERT_URL> --private_data_path <PRIVATE_DATA_PATH>` | Existing base reports, Edge/CDP, and Ollama | Append deduplicated results without rerunning Phase 6. Add `--remote` for a remote alert. |
-| Phase 6 | `python -m src.main --document_manager --private_data_path <PRIVATE_DATA_PATH>` | Edge/CDP; Ollama only for ambiguity | Refresh `document_manager.json` from current apply jobs. |
+| Non-remote Phases 3–6 | `python -m src.main --landing_url <NON_REMOTE_ALERT_URL> --private_data_path <PRIVATE_DATA_PATH>` | Edge/CDP and Ollama | Replace only `live_runs/non_remote/`. |
+| Remote Phases 3–6 | `python -m src.main --remote --landing_url <REMOTE_ALERT_URL> --private_data_path <PRIVATE_DATA_PATH>` | Edge/CDP and Ollama | Replace only `live_runs/remote/`. |
+| Phases 3–5 | Add `--rpa` to either command | Edge/CDP and Ollama | Refresh only the selected channel through Phase 5. |
+| Phase 6 | Add `--document_manager`; add `--remote` for the remote channel | Edge/CDP; Ollama only for ambiguity | Refresh Phase 6 only in the selected channel. |
 
 For example, either of these path styles is accepted when Python runs in WSL:
 
@@ -568,15 +580,15 @@ sequenceDiagram
     Runner->>Pipeline: Phases 3–5
     Runner->>Runner: Phase 6 Document Manager
     Runner->>Reports: Stage and validate complete output
-    Reports-->>Runner: Publish live_runs and remove staging
+    Reports-->>Runner: Publish selected live_runs channel and remove staging
     Runner-->>Main: Result and summary
     Main-->>User: Exit status and console summary
 ```
 
 `HigherEdJobsRunner` specializes the common `JobAgentRunner` workflow. Reports
 are staged under `output/job_boards/higheredjobs/reports/` and published to
-`live_runs/` only after validation; failures preserve the previous successful
-reports.
+the selected `live_runs/non_remote/` or `live_runs/remote/` channel only after
+validation; failures preserve that channel's previous successful reports.
 
 Complete run:
 
@@ -586,17 +598,10 @@ python -m src.main \
   --private_data_path <PRIVATE_DATA_PATH>
 ```
 
-A complete or RPA run uses `--report_mode replace` by default. Use
-`--report_mode append` to retain the existing report set and add another
-alert's results. Appending is staged and validated transactionally, and URL
-overlaps resolve in favor of the fresh result. It fails without changing the
-base reports when the required base report set does not exist. `--remote`
-describes the supplied alert independently of its report mode.
-
-Remote follow-up through Phase 6:
+Remote complete run:
 
 ```bash
-python -m src.main --remote --report_mode append \
+python -m src.main --remote \
   --landing_url <REMOTE_ALERT_URL> \
   --private_data_path <PRIVATE_DATA_PATH>
 ```
@@ -612,7 +617,7 @@ python -m src.main --rpa \
 RPA means Reader, Provisioner, and Analysis. It uses
 `HigherEdJobsRunner.run_live_rpa()` and
 `JobAgentRunner.run_rpa_transactional()` to refresh the five category reports,
-`summary.json`, and `log.txt` through `.rpa_staging/`. It performs application-
+`summary.json`, and `log.txt` through scope-specific RPA staging. It performs application-
 history maintenance by archiving manually applied records, removing expired
 unapplied records, and preserving active sequence numbers. It does not analyze
 application-material requirements for newly discovered jobs; run Phase 6
@@ -622,6 +627,13 @@ afterward when the apply-job set changes.
 
 ```bash
 python -m src.main --document_manager \
+  --private_data_path <PRIVATE_DATA_PATH>
+```
+
+Add `--remote` to consume and update the remote channel instead:
+
+```bash
+python -m src.main --document_manager --remote \
   --private_data_path <PRIVATE_DATA_PATH>
 ```
 
@@ -747,11 +759,11 @@ Complete these user-specific settings once before the first run:
 
 1. Start Ollama and launch Edge with `start_job_agent_edge.ps1`, supplying
    either HigherEdJobs alert URL through `-LandingUrl`.
-2. Run the first alert with `--report_mode replace`. Include `--remote` when
-   the remote alert is first.
-3. Run the other alert with `--report_mode append`. Include `--remote` when
-   that alert is the remote one. The alert order is optional.
-4. Review `live_runs/` and the Document Manager plan.
+2. Run the non-remote alert without `--remote`; it replaces only
+   `live_runs/non_remote/`.
+3. Run the remote alert with `--remote`; it replaces only
+   `live_runs/remote/`. The alert order is optional.
+4. Review both report channels and their Document Manager plans.
 5. Prepare the required documents and apply manually outside Job-Agent.
 6. In `document_manager.json`, set `"applied?": "Yes"` and enter the
    `application_date` for each submitted application. The next run moves that

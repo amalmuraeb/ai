@@ -10,7 +10,10 @@ from datetime import datetime
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
-from src.config.report_paths import HIGHEREDJOBS_LIVE_RUN_REPORT_PATHS
+from src.config.report_paths import (
+    build_live_scope_paths,
+    migrate_legacy_non_remote_reports,
+)
 from src.job_boards.higheredjobs.runner import (
     run_live_document_manager,
     run_live_job_agent,
@@ -20,12 +23,12 @@ from src.job_pipeline import format_elapsed_time
 from src.profile_loader import load_user_profile
 
 
-REPORT_PATHS = HIGHEREDJOBS_LIVE_RUN_REPORT_PATHS
-REPORT_DIR = REPORT_PATHS["report_dir"]
-SUMMARY_FILE = REPORT_PATHS["summary"]
-LOG_FILE = REPORT_PATHS["log"]
-DOCUMENT_MANAGER_FILE = REPORT_PATHS["document_manager"]
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
+
+
+def _selected_report_paths(remote=False):
+    """Return the published paths for the selected job scope."""
+    return build_live_scope_paths(remote)["live"]
 
 
 def _private_data_path(value):
@@ -124,13 +127,11 @@ def _redacted_command_arguments(command_arguments):
     return redacted
 
 
-def _reset_run_log(arguments, command_arguments) -> None:
+def _reset_run_log(arguments, command_arguments, report_paths) -> None:
     """Start a fresh log for every public Job-Agent invocation."""
     mode_details = []
     if arguments.remote:
         mode_details.append("remote alert")
-    if not arguments.document_manager:
-        mode_details.append(f"{arguments.report_mode} reports")
     detail_suffix = (
         f" ({', '.join(mode_details)})" if mode_details else ""
     )
@@ -140,8 +141,9 @@ def _reset_run_log(arguments, command_arguments) -> None:
         mode = "Phases 3-5 RPA" + detail_suffix
     else:
         mode = "Complete Job-Agent" + detail_suffix
-    LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
-    LOG_FILE.write_text(
+    log_file = report_paths["log"]
+    log_file.parent.mkdir(parents=True, exist_ok=True)
+    log_file.write_text(
         "Job-Agent run log\n"
         f"Started: {datetime.now().astimezone().isoformat(timespec='seconds')}\n"
         f"Mode: {mode}\n"
@@ -151,9 +153,9 @@ def _reset_run_log(arguments, command_arguments) -> None:
     )
 
 
-def _append_run_log(message) -> None:
+def _append_run_log(message, report_paths) -> None:
     """Append one current-run event without retaining historical runs."""
-    with LOG_FILE.open("a", encoding="utf-8") as log_file:
+    with report_paths["log"].open("a", encoding="utf-8") as log_file:
         log_file.write(message.rstrip() + "\n")
 
 
@@ -180,10 +182,11 @@ def print_final_summary(run_result: dict) -> None:
         f"Total run time  : "
         f"{format_elapsed_time(run_result['total_elapsed_time_sec'])}"
     )
-    print(f"Reports         : {REPORT_DIR}")
-    print(f"Summary         : {SUMMARY_FILE}")
-    print(f"Run log         : {LOG_FILE}")
-    print(f"Phase 6 report  : {DOCUMENT_MANAGER_FILE}")
+    report_paths = run_result["report_paths"]
+    print(f"Reports         : {report_paths['report_dir']}")
+    print(f"Summary         : {report_paths['summary']}")
+    print(f"Run log         : {report_paths['log']}")
+    print(f"Phase 6 report  : {report_paths['document_manager']}")
 
 
 def parse_arguments(argv=None):
@@ -226,18 +229,8 @@ def parse_arguments(argv=None):
         "--remote",
         action="store_true",
         help=(
-            "Identify the supplied alert as remote and mark its jobs as "
-            "remote; independent of report replacement or appending."
-        ),
-    )
-    parser.add_argument(
-        "--report_mode",
-        "--report-mode",
-        choices=("replace", "append"),
-        default="replace",
-        help=(
-            "Replace the current live reports (default), or append "
-            "deduplicated results to an existing successful report set."
+            "Run the remote-job channel and use live_runs/remote reports. "
+            "Without this option, live_runs/non_remote is used."
         ),
     )
     run_mode.add_argument(
@@ -252,12 +245,6 @@ def parse_arguments(argv=None):
         parser.error(
             "--landing_url is required for complete and --rpa runs."
         )
-    if arguments.document_manager and arguments.remote:
-        parser.error("--remote is available only for complete and --rpa runs.")
-    if arguments.document_manager and arguments.report_mode != "replace":
-        parser.error(
-            "--report_mode is available only for complete and --rpa runs."
-        )
     return arguments
 
 
@@ -266,10 +253,12 @@ def main(argv=None) -> int:
 
     command_arguments = list(argv) if argv is not None else sys.argv[1:]
     arguments = parse_arguments(command_arguments)
+    migrate_legacy_non_remote_reports()
+    report_paths = _selected_report_paths(arguments.remote)
     _, applied_jobs_path, closed_jobs_path = _private_files(
         arguments.private_data_path
     )
-    _reset_run_log(arguments, command_arguments)
+    _reset_run_log(arguments, command_arguments, report_paths)
     try:
         user_profile = load_user_profile(arguments.private_data_path)
     except Exception as error:
@@ -279,7 +268,8 @@ def main(argv=None) -> int:
         )
         _append_run_log(
             "FAILED: Private profile load failed: "
-            f"{type(error).__name__}: {error}"
+            f"{type(error).__name__}: {error}",
+            report_paths,
         )
         return 1
 
@@ -287,7 +277,8 @@ def main(argv=None) -> int:
         print("=" * 60)
         print("Starting Job-Agent Phase 6 only")
         print("Input: existing HigherEdJobs apply_jobs.json")
-        print(f"Output: {DOCUMENT_MANAGER_FILE}")
+        print(f"Scope: {'remote' if arguments.remote else 'non-remote'}")
+        print(f"Output: {report_paths['document_manager']}")
         print("=" * 60)
 
         try:
@@ -295,10 +286,14 @@ def main(argv=None) -> int:
                 applied_jobs_path,
                 closed_jobs_path,
                 user_profile,
+                arguments.remote,
             )
         except KeyboardInterrupt:
             print("\nJob-Agent Phase 6 run interrupted by user.")
-            _append_run_log("INTERRUPTED: Phase 6 run interrupted by user.")
+            _append_run_log(
+                "INTERRUPTED: Phase 6 run interrupted by user.",
+                report_paths,
+            )
             return 130
         except Exception as error:
             print(
@@ -307,20 +302,21 @@ def main(argv=None) -> int:
             )
             _append_run_log(
                 "FAILED: Job-Agent Phase 6 run failed: "
-                f"{type(error).__name__}: {error}"
+                f"{type(error).__name__}: {error}",
+                report_paths,
             )
             return 1
 
-        _append_run_log("SUCCESS: Phase 6 completed.")
-        print(f"Phase 6 report  : {DOCUMENT_MANAGER_FILE}")
+        _append_run_log("SUCCESS: Phase 6 completed.", report_paths)
+        print(f"Phase 6 report  : {report_paths['document_manager']}")
         return 0
 
     if arguments.rpa:
         print("=" * 60)
         print("Starting Job-Agent RPA run")
         print("Phases: 3 — Reader, 4 — Provisioner, 5 — Analysis")
-        print(f"Reports: {REPORT_DIR}")
-        print(f"Report policy: {arguments.report_mode} live reports")
+        print(f"Scope: {'remote' if arguments.remote else 'non-remote'}")
+        print(f"Reports: {report_paths['report_dir']}")
         print("=" * 60)
 
         try:
@@ -330,11 +326,13 @@ def main(argv=None) -> int:
                 user_profile,
                 arguments.landing_url,
                 arguments.remote,
-                arguments.report_mode == "append",
             )
         except KeyboardInterrupt:
             print("\nJob-Agent RPA run interrupted by user.")
-            _append_run_log("INTERRUPTED: RPA run interrupted by user.")
+            _append_run_log(
+                "INTERRUPTED: RPA run interrupted by user.",
+                report_paths,
+            )
             return 130
         except Exception as error:
             print(
@@ -343,19 +341,23 @@ def main(argv=None) -> int:
             )
             _append_run_log(
                 "FAILED: Job-Agent RPA run failed: "
-                f"{type(error).__name__}: {error}"
+                f"{type(error).__name__}: {error}",
+                report_paths,
             )
             return 1
 
-        _append_run_log("SUCCESS: Phases 3-5 RPA completed.")
+        _append_run_log(
+            "SUCCESS: Phases 3-5 RPA completed.",
+            report_paths,
+        )
         print_final_summary(run_result)
         return 0
 
     print("=" * 60)
     print("Starting Job-Agent")
     print("Source: HigherEdJobs")
-    print(f"Reports: {REPORT_DIR}")
-    print(f"Report policy: {arguments.report_mode} live reports")
+    print(f"Scope: {'remote' if arguments.remote else 'non-remote'}")
+    print(f"Reports: {report_paths['report_dir']}")
     print("=" * 60)
 
     try:
@@ -365,11 +367,13 @@ def main(argv=None) -> int:
             user_profile,
             arguments.landing_url,
             arguments.remote,
-            arguments.report_mode == "append",
         )
     except KeyboardInterrupt:
         print("\nJob-Agent run interrupted by user.")
-        _append_run_log("INTERRUPTED: Complete Job-Agent run interrupted.")
+        _append_run_log(
+            "INTERRUPTED: Complete Job-Agent run interrupted.",
+            report_paths,
+        )
         return 130
     except Exception as error:
         print(
@@ -378,11 +382,15 @@ def main(argv=None) -> int:
         )
         _append_run_log(
             "FAILED: Job-Agent run failed: "
-            f"{type(error).__name__}: {error}"
+            f"{type(error).__name__}: {error}",
+            report_paths,
         )
         return 1
 
-    _append_run_log("SUCCESS: Complete Job-Agent run completed.")
+    _append_run_log(
+        "SUCCESS: Complete Job-Agent run completed.",
+        report_paths,
+    )
     print_final_summary(run_result)
     return 0
 

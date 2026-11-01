@@ -33,8 +33,9 @@ REPORT_CATEGORIES = (
 class JobAgentRunner(ABC):
     """Run one job-board source through the shared Phase 3–5 workflow."""
 
-    def __init__(self, user_profile):
+    def __init__(self, user_profile, remote=False):
         self.user_profile = user_profile
+        self.remote = remote
 
     @abstractmethod
     def create_source(self):
@@ -86,6 +87,13 @@ class JobAgentRunner(ABC):
             for category in REPORT_CATEGORIES
         }
 
+    def _stamp_scope(self, report):
+        """Record the independently published job channel in metadata."""
+        report.setdefault("report_metadata", {})["job_scope"] = (
+            "remote" if self.remote else "non_remote"
+        )
+        return report
+
     @staticmethod
     def _load_optional_report(path: Path) -> dict:
         if not path.is_file():
@@ -112,9 +120,18 @@ class JobAgentRunner(ABC):
         document_report = self._load_optional_report(
             published_paths["document_manager"]
         )
+        other_document_path = published_paths.get("other_document_manager")
+        other_document_report = (
+            self._load_optional_report(other_document_path)
+            if other_document_path is not None
+            else {"jobs": []}
+        )
         pending_applied_urls = {
             item.get("job", {}).get("source_url")
-            for item in document_report.get("jobs", [])
+            for item in (
+                document_report.get("jobs", [])
+                + other_document_report.get("jobs", [])
+            )
             if isinstance(item, dict)
             and isinstance(item.get("job"), dict)
             and item["job"].get("applied?") == "Yes"
@@ -166,6 +183,7 @@ class JobAgentRunner(ABC):
             ),
             job_board=job_board,
             pipeline_name=pipeline_name,
+            remote=self.remote,
         )
 
         applied_urls = history["applied_urls"]
@@ -219,47 +237,6 @@ class JobAgentRunner(ABC):
             current_analyzed - prior_analyzed_count
         )
         return history
-
-    def _merge_follow_up_reports(
-        self,
-        category_reports,
-        published_paths,
-        suppressed_urls,
-    ):
-        """Append a follow-up alert while fresh URL outcomes take priority."""
-        fresh_urls = {
-            job.get("source_url")
-            for report in category_reports.values()
-            for job in report["jobs"]
-            if job.get("source_url")
-        }
-        for category, report in category_reports.items():
-            # ApplicationHistory owns the persistent apply-job merge and its
-            # permanent sequence-number allocation.
-            if category == "apply":
-                continue
-            previous = self._load_optional_report(
-                published_paths[category]
-            )
-            retained = []
-            seen = set()
-            for job in previous.get("jobs", []):
-                url = job.get("source_url")
-                if (
-                    not url
-                    or url in fresh_urls
-                    or url in suppressed_urls
-                    or url in seen
-                ):
-                    continue
-                job = dict(job)
-                job["remote?"] = (
-                    "Yes" if job.get("remote?") == "Yes" else "No"
-                )
-                retained.append(job)
-                seen.add(url)
-            report["jobs"] = retained + report["jobs"]
-            report["job_count"] = len(report["jobs"])
 
     @staticmethod
     def _reset_directory(directory: Path) -> None:
@@ -392,7 +369,6 @@ class JobAgentRunner(ABC):
         pipeline_name: str,
         report_title: str,
         include_downstream: bool = True,
-        append_existing_reports: bool = False,
     ) -> dict:
         """Execute the shared workflow through Phase 5 or Phase 6."""
 
@@ -433,6 +409,17 @@ class JobAgentRunner(ABC):
 
         job_board = job_data_list[0].get("source_type", "unknown")
         loaded_job_count = len(job_data_list)
+        expected_remote = "Yes" if self.remote else "No"
+        mismatched_scope = [
+            job.get("source_url", f"record {index}")
+            for index, job in enumerate(job_data_list, start=1)
+            if job.get("remote?", "No") != expected_remote
+        ]
+        if mismatched_scope:
+            raise RuntimeError(
+                "The selected report scope does not match job metadata: "
+                + ", ".join(mismatched_scope[:5])
+            )
         applied_urls, closed_urls = self._private_suppression_urls(
             published_paths
         )
@@ -515,16 +502,12 @@ class JobAgentRunner(ABC):
             run_started_at=run_started_at,
             pipeline_name=pipeline_name,
         )
+        for report in category_reports.values():
+            self._stamp_scope(report)
         pipeline_result["run_summary"]["fresh_analyzed_count"] = sum(
             category_reports[name]["job_count"]
             for name in ("apply", "review", "do_not_apply")
         )
-        if append_existing_reports:
-            self._merge_follow_up_reports(
-                category_reports,
-                published_paths,
-                privately_suppressed_urls,
-            )
         history = self._reconcile_application_history(
             pipeline=pipeline,
             pipeline_result=pipeline_result,
@@ -569,6 +552,8 @@ class JobAgentRunner(ABC):
                 },
                 pipeline_name=pipeline_name,
             )
+            self._stamp_scope(summary_report)
+            pipeline.save_report(summary_report, write_paths["summary"])
             if not all(summary_report["validation"].values()):
                 raise RuntimeError(
                     "RPA summary reconciliation failed: "
@@ -611,6 +596,7 @@ class JobAgentRunner(ABC):
                 pipeline_name=pipeline_name,
             )
         )
+        self._stamp_scope(document_manager_report)
         document_manager_report["report_metadata"][
             "last_job_sequence_number"
         ] = history["last_job_sequence_number"]
@@ -679,6 +665,8 @@ class JobAgentRunner(ABC):
                 for name, passed in phase_6_validation.items()
             },
         )
+        self._stamp_scope(summary_report)
+        pipeline.save_report(summary_report, write_paths["summary"])
 
         validation = summary_report["validation"]
         if not all(validation.values()):
@@ -707,25 +695,11 @@ class JobAgentRunner(ABC):
         live_paths: dict[str, Path],
         pipeline_name: str,
         report_title: str,
-        append_existing_reports: bool = False,
     ) -> dict:
         """Build and validate staged reports before publishing them."""
 
         staging_dir = staging_paths["report_dir"]
         live_dir = live_paths["report_dir"]
-        if append_existing_reports:
-            missing = [
-                live_paths[name]
-                for name in (*REPORT_CATEGORIES, "summary")
-                if not live_paths[name].is_file()
-            ]
-            if missing:
-                raise RuntimeError(
-                    "--report_mode append requires an existing successful "
-                    "base run; "
-                    "missing report(s): "
-                    + ", ".join(path.name for path in missing)
-                )
         self._reset_directory(staging_dir)
 
         try:
@@ -734,7 +708,6 @@ class JobAgentRunner(ABC):
                 published_paths=live_paths,
                 pipeline_name=pipeline_name,
                 report_title=report_title,
-                append_existing_reports=append_existing_reports,
             )
             self._publish_staged_reports(
                 staging_dir,
@@ -760,25 +733,11 @@ class JobAgentRunner(ABC):
         live_paths: dict[str, Path],
         pipeline_name: str,
         report_title: str,
-        append_existing_reports: bool = False,
     ) -> dict:
         """Run Phases 3–5 and preserve downstream published artifacts."""
 
         staging_dir = staging_paths["report_dir"]
         live_dir = live_paths["report_dir"]
-        if append_existing_reports:
-            missing = [
-                live_paths[name]
-                for name in (*REPORT_CATEGORIES, "summary")
-                if not live_paths[name].is_file()
-            ]
-            if missing:
-                raise RuntimeError(
-                    "--report_mode append requires an existing successful "
-                    "base run; "
-                    "missing report(s): "
-                    + ", ".join(path.name for path in missing)
-                )
         self._reset_directory(staging_dir)
 
         try:
@@ -788,7 +747,6 @@ class JobAgentRunner(ABC):
                 pipeline_name=pipeline_name,
                 report_title=report_title,
                 include_downstream=False,
-                append_existing_reports=append_existing_reports,
             )
 
             # RPA does not analyze application materials, but it does apply
@@ -923,6 +881,7 @@ class JobAgentRunner(ABC):
                 ),
                 job_board=job_board,
                 pipeline_name=pipeline_name,
+                remote=self.remote,
             )
             posting_results = self.load_document_postings(
                 history["new_apply_jobs"]
@@ -941,6 +900,7 @@ class JobAgentRunner(ABC):
                 run_started_at=run_started_at,
                 pipeline_name=pipeline_name,
             )
+            self._stamp_scope(report)
             report["report_metadata"]["last_job_sequence_number"] = history[
                 "last_job_sequence_number"
             ]
@@ -996,6 +956,7 @@ class JobAgentRunner(ABC):
                 "phase_6",
                 elapsed,
             )
+            self._stamp_scope(summary)
             summary["validation"].update(
                 {
                     f"phase_6_{name}": passed

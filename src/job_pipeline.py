@@ -562,16 +562,31 @@ class JobPipeline:
         for job in jobs:
             state = str(job.get("state") or "Unknown").strip() or "Unknown"
             sequence_number = job.get("job_sequence_number")
-            if not isinstance(sequence_number, int):
+            is_non_remote = isinstance(sequence_number, int) and not isinstance(
+                sequence_number,
+                bool,
+            )
+            is_remote = (
+                isinstance(sequence_number, str)
+                and sequence_number.startswith("r")
+                and sequence_number[1:].isdigit()
+            )
+            if not (is_non_remote or is_remote):
                 continue
             jobs_by_state.setdefault(state, []).append(sequence_number)
+
+        def sequence_sort_key(value):
+            return int(value[1:]) if isinstance(value, str) else value
 
         rows = [
             (
                 state,
                 ", ".join(
                     str(number)
-                    for number in sorted(set(jobs_by_state[state]))
+                    for number in sorted(
+                        set(jobs_by_state[state]),
+                        key=sequence_sort_key,
+                    )
                 ),
             )
             for state in sorted(jobs_by_state, key=str.casefold)

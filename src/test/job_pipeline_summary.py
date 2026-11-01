@@ -22,6 +22,7 @@ from src.main import (
     _done_job_files,
     _private_files,
     _redacted_command_arguments,
+    _selected_report_paths,
     parse_arguments,
     print_final_summary,
 )
@@ -49,17 +50,12 @@ def main() -> None:
         ["--remote", *private_path_arguments, *landing_url_arguments]
     )
     assert remote_arguments.remote is True
-    assert remote_arguments.report_mode == "replace"
-    append_arguments = parse_arguments(
-        [
-            "--report_mode",
-            "append",
-            *private_path_arguments,
-            *landing_url_arguments,
-        ]
+    assert str(_selected_report_paths(False)["report_dir"]).endswith(
+        "live_runs/non_remote"
     )
-    assert append_arguments.remote is False
-    assert append_arguments.report_mode == "append"
+    assert str(_selected_report_paths(True)["report_dir"]).endswith(
+        "live_runs/remote"
+    )
     windows_path = parse_arguments(
         [
             "--private_data_path",
@@ -105,29 +101,25 @@ def main() -> None:
                 raise AssertionError(
                     f"Retired argument remains accepted: {retired_argument}"
                 )
-    with redirect_stderr(StringIO()):
-        try:
-            parse_arguments(
-                ["--document_manager", "--remote", *private_path_arguments]
-            )
-        except SystemExit as error:
-            assert error.code == 2
-        else:
-            raise AssertionError("Phase 6 incorrectly accepted --remote.")
+    phase_6_remote = parse_arguments(
+        ["--document_manager", "--remote", *private_path_arguments]
+    )
+    assert phase_6_remote.document_manager is True
+    assert phase_6_remote.remote is True
     with redirect_stderr(StringIO()):
         try:
             parse_arguments(
                 [
-                    "--document_manager",
                     "--report_mode",
                     "append",
                     *private_path_arguments,
+                    *landing_url_arguments,
                 ]
             )
         except SystemExit as error:
             assert error.code == 2
         else:
-            raise AssertionError("Phase 6 incorrectly accepted append mode.")
+            raise AssertionError("Retired report mode remains accepted.")
 
     pipeline = JobPipeline(
         Stub(),
@@ -205,6 +197,12 @@ def main() -> None:
             "NY    | 2\n"
             "TX    | 3, 5\n"
         )
+        assert pipeline.create_apply_jobs_stats(
+            [
+                {"job_sequence_number": "r10", "state": "MI"},
+                {"job_sequence_number": "r2", "state": "MI"},
+            ]
+        ).endswith("MI    | r2, r10\n")
         summary_file = root / "summary.json"
         summary = pipeline.save_summary_report(
             pipeline_result=result,
@@ -260,6 +258,7 @@ def main() -> None:
                     }
                 },
                 "total_elapsed_time_sec": 6088.31,
+                "report_paths": _selected_report_paths(False),
             }
         )
     console_text = final_output.getvalue()

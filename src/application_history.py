@@ -46,6 +46,20 @@ class ApplicationHistory:
         return job
 
     @staticmethod
+    def _sequence_counter(value, remote):
+        """Return the numeric counter when a sequence belongs to the scope."""
+        if remote:
+            if isinstance(value, str) and value.startswith("r"):
+                suffix = value[1:]
+                return int(suffix) if suffix.isdigit() else None
+            return None
+        return value if isinstance(value, int) and not isinstance(value, bool) else None
+
+    @staticmethod
+    def _sequence_value(counter, remote):
+        return f"r{counter}" if remote else counter
+
+    @staticmethod
     def _applied_entry(plan, apply_job):
         """Return the compact permanent record needed after application."""
         tracked = plan["job"]
@@ -96,6 +110,7 @@ class ApplicationHistory:
         job_board="unknown",
         pipeline_name="Job-Agent",
         today=None,
+        remote=False,
     ):
         """Return persistent apply/document state and newly discovered jobs."""
         today = today or date.today()
@@ -135,7 +150,7 @@ class ApplicationHistory:
         retained_plans = {}
 
         sequence_numbers = [
-            value
+            counter
             for value in (
                 (
                     entry.get("job", {}).get("job_sequence_number")
@@ -148,20 +163,35 @@ class ApplicationHistory:
                     + list(previous_apply.values())
                 )
             )
-            if isinstance(value, int)
+            if (counter := self._sequence_counter(value, remote)) is not None
         ]
+        scoped_counters = applied_report.get("report_metadata", {}).get(
+            "last_job_sequence_numbers",
+            {},
+        )
+        scoped_counter = scoped_counters.get(
+            "remote" if remote else "non_remote",
+            0,
+        )
         counter_values = [
+            self._sequence_counter(
                 previous_document_report.get("report_metadata", {}).get(
                     "last_job_sequence_number",
                     0,
                 ),
-                applied_report.get("report_metadata", {}).get(
-                    "last_job_sequence_number",
-                    0,
-                ),
-                *sequence_numbers,
-            ]
-        last_sequence = max(
+                remote,
+            ),
+            scoped_counter if isinstance(scoped_counter, int) else 0,
+            *sequence_numbers,
+        ]
+        if not remote:
+            legacy_counter = applied_report.get("report_metadata", {}).get(
+                "last_job_sequence_number",
+                0,
+            )
+            if isinstance(legacy_counter, int):
+                counter_values.append(legacy_counter)
+        last_counter = max(
             value for value in counter_values if isinstance(value, int)
         )
 
@@ -211,8 +241,11 @@ class ApplicationHistory:
                 continue
             if url in retained_plans:
                 continue
-            last_sequence += 1
-            sequenced = self._sequenced_job(fresh_job, last_sequence)
+            last_counter += 1
+            sequenced = self._sequenced_job(
+                fresh_job,
+                self._sequence_value(last_counter, remote),
+            )
             persistent_apply.append(sequenced)
             new_jobs.append(sequenced)
 
@@ -225,9 +258,18 @@ class ApplicationHistory:
                 "report_created_at": datetime.now().astimezone().isoformat(
                     timespec="seconds"
                 ),
-                "last_job_sequence_number": last_sequence,
             }
         )
+        counters = applied_report["report_metadata"].setdefault(
+            "last_job_sequence_numbers",
+            {},
+        )
+        counters["remote" if remote else "non_remote"] = last_counter
+        if not remote:
+            # Retain the legacy field for readers of older private archives.
+            applied_report["report_metadata"][
+                "last_job_sequence_number"
+            ] = last_counter
         applied_report["jobs"] = list(applied_entries.values())
         applied_report["job_count"] = len(applied_report["jobs"])
 
@@ -238,5 +280,8 @@ class ApplicationHistory:
             "applied_report": applied_report,
             "applied_urls": applied_urls,
             "retained_urls": set(retained_plans),
-            "last_job_sequence_number": last_sequence,
+            "last_job_sequence_number": self._sequence_value(
+                last_counter,
+                remote,
+            ),
         }
