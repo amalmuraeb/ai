@@ -1,0 +1,901 @@
+{
+  "report_metadata": {
+    "report_name": "do_not_apply_jobs.json",
+    "report_version": "1.0",
+    "pipeline": "Job-Agent RPA Run",
+    "job_board": "higheredjobs_html",
+    "category": "do_not_apply",
+    "run_started_at": "2026-07-26T18:08:54-04:00",
+    "report_created_at": "2026-07-26T18:52:07-04:00"
+  },
+  "job_count": 25,
+  "jobs": [
+    {
+      "title": "Scholar in Residence - Engineering Management Program",
+      "company": "University of Colorado Boulder",
+      "city": "Boulder",
+      "state": "CO",
+      "posting_date": "2026-07-14 13:09:34.463",
+      "closing_date": "2028-01-05 23:59:59.9",
+      "match_level": "medium",
+      "fit_score": 65,
+      "focus_areas": [
+        "Engineering Management",
+        "Leadership",
+        "Project Management",
+        "Education",
+        "Teaching"
+      ],
+      "must_have_skills": [
+        "Doctorate in engineering or related field",
+        "10+ years industry experience",
+        "Teaching experience in engineering management",
+        "Leadership and service experience"
+      ],
+      "missing_skills": [],
+      "discipline_match": true,
+      "risk_flags": [
+        "Academic faculty role",
+        "Teaching focus not aligned with ECE roles",
+        "Salary below minimum",
+        "Salary range begins below the required minimum of $120,000"
+      ],
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179499314&Title=Scholar%20in%20Residence%20%2D%20Engineering%20Management%20Program",
+      "salary_match": true,
+      "employment_type_match": true,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip"
+    },
+    {
+      "title": "Nontenure Faculty Pool - Department of Engineering Technology",
+      "company": "Texas State University",
+      "city": "San Marcos",
+      "state": "TX",
+      "posting_date": "2026-06-25 10:04:14.62",
+      "closing_date": "2027-12-17 23:59:59.9",
+      "match_level": "low",
+      "fit_score": 45,
+      "focus_areas": [
+        "Teaching",
+        "Engineering Technology"
+      ],
+      "must_have_skills": [
+        "Teaching experience",
+        "Masters degree with 18 graduate hours"
+      ],
+      "missing_skills": [],
+      "discipline_match": false,
+      "risk_flags": [
+        "Not aligned with target roles",
+        "Not aligned with discipline focus",
+        "Not aligned with academic faculty role"
+      ],
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179481676&Title=Nontenure%20Faculty%20Pool%20%2D%20Department%20of%20Engineering%20Technology",
+      "salary_match": null,
+      "employment_type_match": true,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip"
+    },
+    {
+      "title": "Software Engineering and Information Technology Professor - FT40 (9-Month)",
+      "company": "Keiser University",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "posting_date": "2026-06-24 21:32:34.393",
+      "closing_date": "2027-12-16 23:59:59.9",
+      "match_level": "low",
+      "fit_score": 45,
+      "focus_areas": [
+        "Software Engineering",
+        "Information Technology Education"
+      ],
+      "must_have_skills": [
+        "Teaching",
+        "Instructional Design",
+        "Master's Degree in Software Engineering"
+      ],
+      "missing_skills": [],
+      "discipline_match": false,
+      "risk_flags": [
+        "Academic faculty role",
+        "Not aligned with ECE or Electrical/Computer Engineering focus areas",
+        "Not aligned with Quantum Computing or Embedded Systems focus areas"
+      ],
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179481235&Title=Software%20Engineering%20and%20Information%20Technology%20Professor%20%2D%20FT40%20%289%2DMonth%29",
+      "salary_match": null,
+      "employment_type_match": true,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip"
+    },
+    {
+      "title": "Lecturer, Sr.",
+      "company": "Rensselaer Polytechnic Institute",
+      "city": "Troy",
+      "state": "NY",
+      "posting_date": null,
+      "closing_date": null,
+      "match_level": "low",
+      "fit_score": 50,
+      "focus_areas": [
+        "Industrial and Systems Engineering",
+        "Systems Engineering",
+        "Operations Research",
+        "Simulation Modeling",
+        "Decision Analysis",
+        "Project Management",
+        "Uncertainty Analysis"
+      ],
+      "must_have_skills": [
+        "Teaching and course development",
+        "Research and grant writing",
+        "Systems engineering methodologies",
+        "Simulation techniques",
+        "Project management",
+        "Academic advising"
+      ],
+      "missing_skills": [],
+      "discipline_match": false,
+      "risk_flags": [
+        "Not aligned with target disciplines (Electrical Engineering, Computer Engineering, Embedded Systems, etc.)",
+        "Academic role not in target roles (e.g., not in Electrical and Computer Engineering roles)",
+        "Discipline focus is Industrial and Systems Engineering, which is excluded"
+      ],
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179479976&Title=Lecturer%2C%20Sr%2E",
+      "salary_match": null,
+      "employment_type_match": true,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip"
+    },
+    {
+      "title": "Lecturer/Assistant Teaching Professor of Communication in Audio Production",
+      "company": "Penn State Harrisburg",
+      "city": "Harrisburg",
+      "state": "PA",
+      "posting_date": "2026-06-18 11:17:35.837",
+      "closing_date": "2027-12-10 23:59:59.9",
+      "match_level": "low",
+      "fit_score": 30,
+      "focus_areas": [
+        "Audio Production",
+        "Communication",
+        "Podcasting",
+        "News Reporting",
+        "Radio Production"
+      ],
+      "must_have_skills": [
+        "Audio production (pre- to post-production in radio)",
+        "Studio and field production",
+        "Audio and editing equipment",
+        "Software proficiency (Adobe Audition, Adobe Audacity, GarageBand)",
+        "Teaching experience"
+      ],
+      "missing_skills": [],
+      "discipline_match": false,
+      "risk_flags": [
+        "Not aligned with target disciplines (Electrical Engineering, Computer Engineering, ECE, Quantum Computing)",
+        "Academic role with no engineering focus",
+        "Teaching-focused role not aligned with engineering or technical roles"
+      ],
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179475853&Title=Lecturer%2FAssistant%20Teaching%20Professor%20of%20Communication%20in%20Audio%20Production",
+      "salary_match": null,
+      "employment_type_match": true,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip"
+    },
+    {
+      "title": "Assistant Professor",
+      "company": "Long Island University",
+      "city": "Brooklyn",
+      "state": "NY",
+      "posting_date": "2026-06-15 08:17:09.0",
+      "closing_date": "2026-11-25 23:59:59.9",
+      "match_level": "low",
+      "fit_score": 35,
+      "focus_areas": [
+        "Computational biology",
+        "Computational chemistry",
+        "Bioinformatics",
+        "Signal processing",
+        "AI",
+        "Robotics",
+        "Cybersecurity",
+        "Big Data in Health",
+        "Human Virtual Modeling",
+        "Precision Medicine",
+        "Digital Health",
+        "Digital Engineering"
+      ],
+      "must_have_skills": [
+        "Ph.D. in relevant field",
+        "Research excellence",
+        "Teaching experience",
+        "Experience with Dassault Syst\u00e8mes SW Suite or equivalent",
+        "Digital design and manufacturing experience",
+        "AI and in-silico modeling"
+      ],
+      "missing_skills": [],
+      "discipline_match": false,
+      "risk_flags": [
+        "Academic faculty role",
+        "Salary below minimum",
+        "Discipline focus not aligned with target roles",
+        "Salary range begins below the required minimum of $120,000"
+      ],
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179150814&Title=Assistant%20Professor",
+      "salary_match": true,
+      "employment_type_match": true,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip"
+    },
+    {
+      "title": "Assistant/Associate Professor of Engineering Management & Program Coordinator",
+      "company": "Texas A&amp;M University - Texarkana",
+      "city": "Texarkana",
+      "state": "TX",
+      "posting_date": "2026-05-22 10:15:51.287",
+      "closing_date": "2027-11-13 23:59:59.9",
+      "match_level": "low",
+      "fit_score": 55,
+      "focus_areas": [
+        "Engineering Management",
+        "Curriculum Development",
+        "Program Coordination",
+        "Teaching",
+        "Research"
+      ],
+      "must_have_skills": [
+        "Ph.D. in Engineering Management or related field",
+        "Research experience",
+        "Teaching experience",
+        "Curriculum development",
+        "Academic advising",
+        "Communication skills"
+      ],
+      "missing_skills": [],
+      "discipline_match": false,
+      "risk_flags": [
+        "Not aligned with target disciplines (Electrical Engineering, Computer Engineering, etc.)",
+        "Academic faculty role, which is allowed but not directly aligned with target roles",
+        "Focus on Engineering Management not covered in target disciplines"
+      ],
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179451184&Title=Assistant%2FAssociate%20Professor%20of%20Engineering%20Management%20%26amp%3B%20Program%20Coordinator",
+      "salary_match": null,
+      "employment_type_match": true,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip"
+    },
+    {
+      "title": "Assistant/Associate Professor of Science, Technology, Engineering and Math (STEM) Education",
+      "company": "University of San Diego",
+      "city": "San Diego",
+      "state": "CA",
+      "posting_date": null,
+      "closing_date": null,
+      "match_level": "medium",
+      "fit_score": 65,
+      "focus_areas": [
+        "STEM Education",
+        "Inclusive Education",
+        "Culturally Responsive Pedagogy",
+        "Curriculum Development",
+        "Educational Equity",
+        "Social Justice in Education"
+      ],
+      "must_have_skills": [
+        "Ed.D. or Ph.D. in Education or STEM Education",
+        "Valid K\u201312 teaching credential",
+        "STEM K\u201312 classroom teaching experience",
+        "Experience teaching online and in-person in higher education",
+        "Scholarly productivity in STEM education",
+        "Curriculum development in STEM",
+        "Culturally sustaining and inclusive instructional practices",
+        "Grant writing and external funding",
+        "Leadership in academic or professional settings",
+        "Mentorship and advising"
+      ],
+      "missing_skills": [],
+      "discipline_match": true,
+      "risk_flags": [],
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179433827&Title=Assistant%2FAssociate%20Professor%20of%20Science%2C%20Technology%2C%20Engineering%20and%20Math%20%28STEM%29%20Education",
+      "salary_match": null,
+      "employment_type_match": true,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip"
+    },
+    {
+      "title": "Assistant/Associate Professor - Engineering",
+      "company": "Viterbo University",
+      "city": "La Crosse",
+      "state": "WI",
+      "posting_date": null,
+      "closing_date": null,
+      "match_level": "medium",
+      "fit_score": 65,
+      "focus_areas": [
+        "Undergraduate engineering curriculum",
+        "Engineering lecture and laboratory sequence"
+      ],
+      "must_have_skills": [
+        "Teaching undergraduate engineering courses",
+        "Student-centered teaching",
+        "Curriculum development"
+      ],
+      "missing_skills": [],
+      "discipline_match": true,
+      "risk_flags": [
+        "Academic faculty role",
+        "No specific engineering discipline focus mentioned",
+        "No mention of quantum computing or ECE roles"
+      ],
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179426771&Title=Assistant%2FAssociate%20Professor%20%2D%20Engineering",
+      "salary_match": null,
+      "employment_type_match": true,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip"
+    },
+    {
+      "title": "Professional Track Teaching Faculty Positions in Architectural Engineering",
+      "company": "Penn State",
+      "city": "University Park",
+      "state": "PA",
+      "posting_date": "2026-04-06 19:45:33.89",
+      "closing_date": "2027-09-28 23:59:59.9",
+      "match_level": "low",
+      "fit_score": 45,
+      "focus_areas": [
+        "Construction",
+        "Mechanical",
+        "Structural",
+        "Systems integration"
+      ],
+      "must_have_skills": [
+        "Teaching experience",
+        "Professional engineer (P.E.) or certified construction manager (CCM) license",
+        "Doctoral degree in architectural engineering, civil engineering, mechanical engineering, or related field"
+      ],
+      "missing_skills": [],
+      "discipline_match": false,
+      "risk_flags": [
+        "Discipline not in target roles",
+        "Academic faculty role excluded due to discipline mismatch",
+        "No focus on Electrical Engineering, Computer Engineering, or related fields"
+      ],
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179409889&Title=Professional%20Track%20Teaching%20Faculty%20Positions%20in%20Architectural%20Engineering",
+      "salary_match": null,
+      "employment_type_match": true,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip"
+    },
+    {
+      "title": "Artificial Intelligence Instructor - FT40",
+      "company": "Keiser University",
+      "city": "Pembroke Pines",
+      "state": "FL",
+      "posting_date": "2026-03-23 15:02:50.863",
+      "closing_date": "2027-09-14 23:59:59.9",
+      "match_level": "low",
+      "fit_score": 50,
+      "focus_areas": [
+        "Teaching",
+        "Artificial Intelligence"
+      ],
+      "must_have_skills": [
+        "Teaching experience",
+        "Master's Degree in Artificial Intelligence or related field"
+      ],
+      "missing_skills": [],
+      "discipline_match": false,
+      "risk_flags": [
+        "Excluded industry: Education (not in target disciplines)",
+        "Excluded role: Instructor",
+        "Excluded role: Teaching roles"
+      ],
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179397328&Title=Artificial%20Intelligence%20Instructor%20%2D%20FT40",
+      "salary_match": null,
+      "employment_type_match": true,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip"
+    },
+    {
+      "title": "Assistant, Associate, or Full Project Scientist/s (2026) Organized Research Units (Multi) University of California, San Diego (UCSD)",
+      "company": "University of California, San Diego",
+      "city": "La Jolla (San Diego)",
+      "state": "CA",
+      "posting_date": "2026-03-03 08:47:26.177",
+      "closing_date": "2027-08-25 23:59:59.9",
+      "match_level": "medium",
+      "fit_score": 65,
+      "focus_areas": [
+        "Research",
+        "Academic collaboration",
+        "Project-based work"
+      ],
+      "must_have_skills": [
+        "Doctorate degree or equivalent terminal degree in relevant field",
+        "Research experience",
+        "Ability to publish and conduct research under supervision"
+      ],
+      "missing_skills": [],
+      "discipline_match": true,
+      "risk_flags": [
+        "Salary range begins below the required minimum of $120,000"
+      ],
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179379102&Title=Assistant%2C%20Associate%2C%20or%20Full%20Project%20Scientist%2Fs%20%282026%29%20Organized%20Research%20Units%20%28Multi%29%20University%20of%20California%2C%20San%20Diego%20%28UCSD%29",
+      "salary_match": true,
+      "employment_type_match": true,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip"
+    },
+    {
+      "title": "Tenure Track Assistant Professor/Teaching Assistant Professor/Assistant Professor of the Practice",
+      "company": "Kettering University",
+      "city": "Flint",
+      "state": "MI",
+      "posting_date": "2026-02-20 05:19:31.17",
+      "closing_date": "2027-08-14 23:59:59.9",
+      "match_level": "medium",
+      "fit_score": 65,
+      "focus_areas": [
+        "Mechatronics",
+        "Dynamic Systems",
+        "Vibrations",
+        "Controls",
+        "Autonomous Systems",
+        "New Energy",
+        "Crash Safety"
+      ],
+      "must_have_skills": [
+        "Teaching at undergraduate and graduate level",
+        "Research and scholarly activity",
+        "Use of modern engineering tools",
+        "Developing externally funded applied-research programs",
+        "Communication skills in English",
+        "Commitment to Kettering University Values"
+      ],
+      "missing_skills": [],
+      "discipline_match": false,
+      "risk_flags": [
+        "Discipline focus does not align with Electrical Engineering, Computer Engineering, or ECE roles",
+        "Position is academic faculty",
+        "Focus areas include Mechanical Engineering and related fields not in target disciplines"
+      ],
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179370272&Title=Tenure%20Track%20Assistant%20Professor%2FTeaching%20Assistant%20Professor%2FAssistant%20Professor%20of%20the%20Practice",
+      "salary_match": null,
+      "employment_type_match": true,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip"
+    },
+    {
+      "title": "Assistant/Associate Professor in Mining Engineering (2 Positions)",
+      "company": "University of Texas at El Paso",
+      "city": "El Paso",
+      "state": "TX",
+      "posting_date": null,
+      "closing_date": null,
+      "match_level": "low",
+      "fit_score": 45,
+      "focus_areas": [
+        "Mining Engineering",
+        "Geomechanics",
+        "Mineral Processing",
+        "Digital Mining Systems",
+        "Sustainability",
+        "Safety"
+      ],
+      "must_have_skills": [
+        "Ph.D. in Mining Engineering or related field",
+        "Peer-reviewed publications",
+        "Experienced in securing research funding",
+        "Industry experience",
+        "Teaching experience",
+        "Interdisciplinary collaboration"
+      ],
+      "missing_skills": [],
+      "discipline_match": false,
+      "risk_flags": [
+        "Not within target disciplines (Electrical Engineering, Computer Engineering, etc.)",
+        "Academic role, but not in target roles (ECE, Quantum Computing, etc.)"
+      ],
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179323891&Title=Assistant%2FAssociate%20Professor%20in%20Mining%20Engineering%20%282%20Positions%29",
+      "salary_match": null,
+      "employment_type_match": true,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip"
+    },
+    {
+      "title": "Electrical Engineering and Computer Science - Research Assistant/Associate/Full Professor",
+      "company": "University of Tennessee, Knoxville",
+      "city": "Knoxville",
+      "state": "TN",
+      "posting_date": "2025-12-15 15:46:29.413",
+      "closing_date": "2027-06-08 23:59:59.9",
+      "match_level": "low",
+      "fit_score": 30,
+      "focus_areas": [
+        "Robotics",
+        "Computer Vision",
+        "Machine Learning",
+        "Sensor Fusion",
+        "3D Reconstruction",
+        "Decision-Support Systems",
+        "Automation",
+        "Building Inspection",
+        "Construction Technology"
+      ],
+      "must_have_skills": [
+        "Computer Vision",
+        "Machine Learning",
+        "Sensor Fusion",
+        "3D Reconstruction",
+        "Robotics",
+        "Decision-Support Systems",
+        "Building Inspection",
+        "Automation",
+        "Collaborative Research"
+      ],
+      "missing_skills": [],
+      "discipline_match": false,
+      "risk_flags": [
+        "Not aligned with target disciplines (Electrical Engineering, Computer Engineering, Embedded Systems, Autonomous Vehicles/ADAS, Quantum Computers)",
+        "Academic role not explicitly excluded but not aligned with target roles",
+        "Focus on construction and building technology is outside of core ECE/Computer Engineering disciplines"
+      ],
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179320528&Title=Electrical%20Engineering%20and%20Computer%20Science%20%2D%20Research%20Assistant%2FAssociate%2FFull%20Professor",
+      "salary_match": null,
+      "employment_type_match": true,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip"
+    },
+    {
+      "title": "Assistant Professor of Instruction in Mining Engineering",
+      "company": "University of Texas at El Paso",
+      "city": "El Paso",
+      "state": "TX",
+      "posting_date": null,
+      "closing_date": null,
+      "match_level": "low",
+      "fit_score": 45,
+      "focus_areas": [
+        "Mining Engineering Program Development",
+        "Curriculum Design",
+        "Industry Engagement",
+        "Student Recruitment and Outreach",
+        "ABET Accreditation"
+      ],
+      "must_have_skills": [
+        "Ph.D. in Mining Engineering or related fields",
+        "Engineering education expertise",
+        "Leadership and organizational skills",
+        "Curriculum development",
+        "Industry collaboration",
+        "Student success orientation"
+      ],
+      "missing_skills": [],
+      "discipline_match": false,
+      "risk_flags": [
+        "Discipline outside target focus areas",
+        "Academic role not aligned with target roles",
+        "Industry focus not aligned with exclusion criteria"
+      ],
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179311942&Title=Assistant%20Professor%20of%20Instruction%20in%20Mining%20Engineering",
+      "salary_match": null,
+      "employment_type_match": true,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip"
+    },
+    {
+      "title": "Assistant Project Scientist - ECE - 25/26",
+      "company": "University of California, San Diego",
+      "city": "La Jolla",
+      "state": "CA",
+      "posting_date": "2025-11-24 15:01:45.413",
+      "closing_date": "2027-05-18 23:59:59.9",
+      "match_level": "medium",
+      "fit_score": 65,
+      "focus_areas": [
+        "Biomedical Interfaces and Systems",
+        "Microfluidic pump development",
+        "Implantable pulse generator (IPG) systems",
+        "Hermetic sealing and passivation",
+        "Programmable drug delivery"
+      ],
+      "must_have_skills": [
+        "PhD in electrical engineering, materials science, physics, or related area",
+        "Research experience in biomedical interfaces and systems",
+        "Microfluidic system design and integration",
+        "Implantable device development",
+        "Biomedical device testing in animal models"
+      ],
+      "missing_skills": [],
+      "discipline_match": true,
+      "risk_flags": [
+        "Excluded focus area: Biomedical interfaces and systems",
+        "Excluded focus area: Medical robotics and biomedical systems",
+        "Salary range begins below the required minimum of $120,000"
+      ],
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179305813&Title=Assistant%20Project%20Scientist%20%2D%20ECE%20%2D%2025%2F26",
+      "salary_match": true,
+      "employment_type_match": true,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip"
+    },
+    {
+      "title": "Lecturer Pool - Jacobs Institute for Design Innovation - College of Engineering",
+      "company": "University of California Berkeley",
+      "city": "Berkeley",
+      "state": "CA",
+      "posting_date": "2025-10-24 10:16:55.88",
+      "closing_date": "2027-04-17 23:59:59.9",
+      "match_level": "medium",
+      "fit_score": 65,
+      "focus_areas": [
+        "Design Innovation",
+        "Teaching",
+        "Undergraduate Education",
+        "Curriculum Development"
+      ],
+      "must_have_skills": [
+        "Teaching Experience",
+        "Design and Technology Integration",
+        "Course Development"
+      ],
+      "missing_skills": [
+        "Advanced Degree or Industry Experience",
+        "Inclusive Pedagogy",
+        "Interdisciplinary Collaboration"
+      ],
+      "discipline_match": true,
+      "risk_flags": [
+        "Academic Faculty Role",
+        "Salary Below Minimum",
+        "Non-Engineering Focus Areas",
+        "Salary range begins below the required minimum of $120,000"
+      ],
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179279392&Title=Lecturer%20Pool%20%2D%20Jacobs%20Institute%20for%20Design%20Innovation%20%2D%20College%20of%20Engineering",
+      "salary_match": true,
+      "employment_type_match": true,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip"
+    },
+    {
+      "title": "Research Associate-Orthopaedic Surgery",
+      "company": "University of Pennsylvania",
+      "city": "Philadelphia",
+      "state": "PA",
+      "posting_date": "2025-10-06 08:31:47.32",
+      "closing_date": "2027-03-30 23:59:59.9",
+      "match_level": "low",
+      "fit_score": 30,
+      "focus_areas": [
+        "tissue engineering",
+        "biomaterials",
+        "mechanical testing",
+        "cartilage/meniscus",
+        "translational animal models"
+      ],
+      "must_have_skills": [
+        "Ph.D. in Biomedical Engineering or equivalent",
+        "postdoctoral experience in regenerative medicine",
+        "expertise in tissue engineering",
+        "expertise in biomaterials synthesis",
+        "strong written and oral communication skills",
+        "publication experience"
+      ],
+      "missing_skills": [],
+      "discipline_match": false,
+      "risk_flags": [
+        "Not aligned with target roles (Electrical Engineer, Computer Engineer, ECE roles, Quantum computing roles)",
+        "Not within discipline focus areas (Electrical Engineering, Computer Engineering, Embedded Systems, Autonomous Vehicles/ADAS, Quantum Computers)",
+        "Academic role not aligned with engineering focus",
+        "Excluded focus area: Nuclear energy and engineering, Power and energy systems, Deep microelectronics and semiconductor devices, Medical robotics and biomedical systems, Mechanical design and fabrication, Cybersecurity"
+      ],
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179261060&Title=Research%20Associate%2DOrthopaedic%20Surgery",
+      "salary_match": null,
+      "employment_type_match": true,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip"
+    },
+    {
+      "title": "Assistant Professor-Modeling in Environmental Systems (# 370402)",
+      "company": "University of Minnesota",
+      "city": "Twin Cities",
+      "state": "MN",
+      "posting_date": null,
+      "closing_date": null,
+      "match_level": "low",
+      "fit_score": 50,
+      "focus_areas": [
+        "Environmental systems modeling",
+        "Decision support systems",
+        "Stochastic methods",
+        "Computational modeling",
+        "Water resources engineering"
+      ],
+      "must_have_skills": [
+        "Systems modeling",
+        "Research program development",
+        "Teaching undergraduate and graduate courses",
+        "Strong fundamentals in science and engineering",
+        "Collaborative problem-solving"
+      ],
+      "missing_skills": [],
+      "discipline_match": false,
+      "risk_flags": [
+        "Not aligned with target disciplines (Electrical Engineering, Computer Engineering, Embedded Systems, etc.)",
+        "Academic faculty role, but not in target roles (ECE, Quantum computing, etc.)"
+      ],
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179260445&Title=Assistant%20Professor%2DModeling%20in%20Environmental%20Systems%20%28%23%20370402%29",
+      "salary_match": null,
+      "employment_type_match": true,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip"
+    },
+    {
+      "title": "Assistant Professor, NeuroTechnology",
+      "company": "Carnegie Mellon University",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "posting_date": "2025-09-27 14:17:28.243",
+      "closing_date": "2027-03-21 23:59:59.9",
+      "match_level": "low",
+      "fit_score": 45,
+      "focus_areas": [
+        "Neurotechnology",
+        "Translational research",
+        "Clinical research",
+        "Entrepreneurship",
+        "Neurocentric instrumentation",
+        "Data science",
+        "Machine learning"
+      ],
+      "must_have_skills": [
+        "Research excellence",
+        "Ph.D. or equivalent in relevant fields",
+        "Teaching and mentoring",
+        "Cross-disciplinary collaboration",
+        "Entrepreneurship"
+      ],
+      "missing_skills": [],
+      "discipline_match": false,
+      "risk_flags": [
+        "Does not align with ECE or Electrical Engineering focus areas",
+        "Does not align with Computer Engineering focus areas",
+        "Does not align with Embedded Systems, ADAS, or Quantum Computing focus areas",
+        "Academic role in Humanities and Social Sciences, not in Engineering",
+        "Focus on Neuroscience and Biomedical Engineering, not in Electrical/Computer Engineering"
+      ],
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179254608&Title=Assistant%20Professor%2C%20NeuroTechnology",
+      "salary_match": null,
+      "employment_type_match": true,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip"
+    },
+    {
+      "title": "2025-26 Professional Track Faculty - IROM",
+      "company": "University of Texas at Austin",
+      "city": "Austin",
+      "state": "TX",
+      "posting_date": "2025-09-10 19:46:17.29",
+      "closing_date": "2027-03-04 23:59:59.9",
+      "match_level": "low",
+      "fit_score": 45,
+      "focus_areas": [
+        "Information Management",
+        "Decision Sciences",
+        "Statistics",
+        "Operations Management"
+      ],
+      "must_have_skills": [
+        "Teaching at the undergraduate level",
+        "Excellent communication skills",
+        "Curriculum Vitae",
+        "Letters of recommendation"
+      ],
+      "missing_skills": [],
+      "discipline_match": false,
+      "risk_flags": [
+        "Not aligned with target disciplines (Electrical Engineering, Computer Engineering, etc.)",
+        "Academic role not explicitly supported by target roles",
+        "Focus areas outside of excluded focus areas"
+      ],
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179237871&Title=2025%2D26%20Professional%20Track%20Faculty%20%2D%20IROM",
+      "salary_match": null,
+      "employment_type_match": true,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip"
+    },
+    {
+      "title": "Professional Track Faculty Aerospace Engineering & Engineering Mechanics 2025-26",
+      "company": "University of Texas at Austin",
+      "city": "Austin",
+      "state": "TX",
+      "posting_date": "2025-08-19 15:02:19.423",
+      "closing_date": "2027-02-10 23:59:59.9",
+      "match_level": "low",
+      "fit_score": 30,
+      "focus_areas": [
+        "Teaching",
+        "Undergraduate education",
+        "Graduate education"
+      ],
+      "must_have_skills": [
+        "Doctoral degree in engineering or equivalent",
+        "Teaching experience"
+      ],
+      "missing_skills": [],
+      "discipline_match": false,
+      "risk_flags": [
+        "Academic faculty role",
+        "Not in target disciplines",
+        "Not in target roles"
+      ],
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179218951&Title=Professional%20Track%20Faculty%20Aerospace%20Engineering%20%26amp%3B%20Engineering%20Mechanics%202025%2D26",
+      "salary_match": null,
+      "employment_type_match": true,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip"
+    },
+    {
+      "title": "Temporary Lecturer - Masters of Advanced Studies (MAS) - Jacobs School of Engineering",
+      "company": "University of California, San Diego",
+      "city": "La Jolla",
+      "state": "CA",
+      "posting_date": "2025-07-29 13:51:46.14",
+      "closing_date": "2027-01-20 23:59:59.9",
+      "match_level": "medium",
+      "fit_score": 65,
+      "focus_areas": [
+        "Convergent Systems Engineering (CoSE)",
+        "Architecture-Based Enterprise Systems Engineering (AESE)"
+      ],
+      "must_have_skills": [
+        "Teaching at the graduate level",
+        "Course development and instruction",
+        "Grading and feedback",
+        "Supervising teaching assistants",
+        "Office hours and student support"
+      ],
+      "missing_skills": [],
+      "discipline_match": true,
+      "risk_flags": [
+        "Academic faculty role (allowed but not prioritized)",
+        "Salary range begins below the required minimum of $120,000"
+      ],
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179199796&Title=Temporary%20Lecturer%20%2D%20Masters%20of%20Advanced%20Studies%20%28MAS%29%20%2D%20Jacobs%20School%20of%20Engineering",
+      "salary_match": true,
+      "employment_type_match": true,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip"
+    },
+    {
+      "title": "Lecturer in School of Science, Technology, Engineering and Mathematics (Continuous Recruitment)",
+      "company": "University of Wisconsin Oshkosh",
+      "city": "Oshkosh",
+      "state": "WI",
+      "posting_date": "2025-07-22 15:31:40.157",
+      "closing_date": "2027-01-13 23:59:59.9",
+      "match_level": "medium",
+      "fit_score": 65,
+      "focus_areas": [
+        "Engineering and Engineering Technology"
+      ],
+      "must_have_skills": [
+        "Teaching experience",
+        "Course development",
+        "Classroom and online instruction",
+        "Student assessment"
+      ],
+      "missing_skills": [],
+      "discipline_match": true,
+      "risk_flags": [
+        "Academic faculty position",
+        "Terminal (Fixed Term) employment type"
+      ],
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179193186&Title=Lecturer%20in%20School%20of%20Science%2C%20Technology%2C%20Engineering%20and%20Mathematics%20%28Continuous%20Recruitment%29",
+      "salary_match": null,
+      "employment_type_match": true,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip"
+    }
+  ]
+}

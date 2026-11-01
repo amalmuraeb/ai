@@ -1,0 +1,27 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+
+# Private application documents
+required_documents/
+
+# Private profile and application history (when copied into the workspace)
+user_profile.toml
+private_data/
+done_jobs/
+
+# Local production reports and transactional staging
+output/job_boards/*/reports/live_runs/
+output/job_boards/*/reports/.*staging*
+
+# auto-generated files
+*:Zone.Identifier

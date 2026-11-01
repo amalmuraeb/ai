@@ -1,0 +1,3764 @@
+{
+  "report_metadata": {
+    "report_name": "skipped_jobs.json",
+    "report_version": "1.0",
+    "pipeline": "Job-Agent RPA Run",
+    "job_board": "higheredjobs_html",
+    "category": "skipped",
+    "run_started_at": "2026-07-26T18:08:54-04:00",
+    "report_created_at": "2026-07-26T18:52:07-04:00"
+  },
+  "job_count": 202,
+  "jobs": [
+    {
+      "title": "Post-Doctoral Research Associate: Analysis of Plasma Facing Component Performance - UTK (9113)",
+      "company": "University of Tennessee, Knoxville",
+      "city": "Knoxville",
+      "state": "TN",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179508425&Title=Post%2DDoctoral%20Research%20Associate%3A%20Analysis%20of%20Plasma%20Facing%20Component%20Performance%20%2D%20UTK%20%289113%29",
+      "posting_date": "2026-07-24 08:45:39.067",
+      "closing_date": "2028-01-15 23:59:59.9",
+      "salary": "$72,000 - $75,000 per year",
+      "salary_min": 72000,
+      "salary_max": 75000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $75,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "PostDoctoral Associate",
+      "company": "University of Colorado Boulder",
+      "city": "Boulder",
+      "state": "CO",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179506905&Title=PostDoctoral%20Associate",
+      "posting_date": "2026-07-22 16:48:02.19",
+      "closing_date": "2028-01-13 23:59:59.9",
+      "salary": "$70,000 - $74,000 per year",
+      "salary_min": 70000,
+      "salary_max": 74000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $74,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Research Scientist II",
+      "company": "Michigan Technological University",
+      "city": "Houghton",
+      "state": "MI",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179506737&Title=Research%20Scientist%20II",
+      "posting_date": "2026-07-22 14:46:45.853",
+      "closing_date": "2028-01-13 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Research scientist roles"
+      ]
+    },
+    {
+      "title": "PostDoctoral Associate",
+      "company": "University of Colorado Boulder",
+      "city": "Boulder",
+      "state": "CO",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179505899&Title=PostDoctoral%20Associate",
+      "posting_date": "2026-07-21 21:01:45.39",
+      "closing_date": "2028-01-12 23:59:59.9",
+      "salary": "$70,000 per year",
+      "salary_min": 70000,
+      "salary_max": 70000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $70,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Researcher (PIER - Trustworthy Artificial Intelligence)-2",
+      "company": "Prairie View A&amp;M University",
+      "city": "Prairie View",
+      "state": "TX",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179505137&Title=Postdoctoral%20Researcher%20%28PIER%20%2D%20Trustworthy%20Artificial%20Intelligence%29%2D2",
+      "posting_date": "2026-07-21 10:02:27.403",
+      "closing_date": "2028-01-12 23:59:59.9",
+      "salary": "Commensurate with education and experience",
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Teaching Faculty I",
+      "company": "University of Wisconsin - Madison",
+      "city": "Madison",
+      "state": "WI",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179505127&Title=Teaching%20Faculty%20I",
+      "posting_date": "2026-07-21 10:01:21.077",
+      "closing_date": "2028-01-12 23:59:59.9",
+      "salary": "Starting at $72,000 per year",
+      "salary_min": 72000,
+      "salary_max": 72000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Maximum salary $72,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Department Chair (Computer Science)",
+      "company": "Angelo State University",
+      "city": "San Angelo",
+      "state": "TX",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179504812&Title=Department%20Chair%20%28Computer%20Science%29",
+      "posting_date": "2026-07-20 14:02:31.733",
+      "closing_date": "2028-01-11 23:59:59.9",
+      "salary": "Commensurate",
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Chair roles"
+      ]
+    },
+    {
+      "title": "Embedded Systems Department Head (FACULTY)",
+      "company": "Penn State",
+      "city": "University Park",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179504643&Title=Embedded%20Systems%20Department%20Head%20%28FACULTY%29",
+      "posting_date": "2026-07-20 12:02:25.357",
+      "closing_date": "2028-01-11 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Head roles",
+        "Excluded industry: Military/Defense"
+      ]
+    },
+    {
+      "title": "Professor & Department Chair - Electrical and Computer Engineering",
+      "company": "University of Pittsburgh",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179503681&Title=Professor%20%26%20Department%20Chair%20%2D%20Electrical%20and%20Computer%20Engineering",
+      "posting_date": "2026-07-20 09:26:11.447",
+      "closing_date": "2026-09-15 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Chair roles"
+      ]
+    },
+    {
+      "title": "Postdoctoral Associate or Research Associate",
+      "company": "University of Colorado Boulder",
+      "city": "Boulder",
+      "state": "CO",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179503821&Title=Postdoctoral%20Associate%20or%20Research%20Associate",
+      "posting_date": "2026-07-18 10:31:19.13",
+      "closing_date": "2028-01-09 23:59:59.9",
+      "salary": "$74,000 - $108,000 per year",
+      "salary_min": 74000,
+      "salary_max": 108000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Excluded industry: Military/Defense",
+        "Maximum salary $108,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "NRRI Duluth/Coleraine Lab - Post-Doc - High-Temperature Extractive Metallurgy (# 374836)",
+      "company": "University of Minnesota",
+      "city": "Duluth",
+      "state": "MN",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179503419&Title=NRRI%20Duluth%2FColeraine%20Lab%20%2D%20Post%2DDoc%20%2D%20High%2DTemperature%20Extractive%20Metallurgy%20%28%23%20374836%29",
+      "posting_date": "2026-07-17 15:19:28.88",
+      "closing_date": "2028-01-08 23:59:59.9",
+      "salary": "$75,000 - $80,000 per year",
+      "salary_min": 75000,
+      "salary_max": 80000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $80,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral position in AI for Engineering Applications",
+      "company": "Harvard University",
+      "city": "Cambridge",
+      "state": "MA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179501942&Title=Postdoctoral%20position%20in%20AI%20for%20Engineering%20Applications",
+      "posting_date": "2026-07-16 14:31:06.313",
+      "closing_date": "2028-01-07 23:59:59.9",
+      "salary": "$67,600 - $91,826 per year",
+      "salary_min": 67600,
+      "salary_max": 91826,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $91,826 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Scholar, Nuclear Engineering",
+      "company": "Penn State",
+      "city": "University Park",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179501563&Title=Postdoctoral%20Scholar%2C%20Nuclear%20Engineering",
+      "posting_date": "2026-07-16 10:19:44.777",
+      "closing_date": "2028-01-07 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Excluded focus area: Nuclear energy and engineering"
+      ]
+    },
+    {
+      "title": "Visiting Lecturer",
+      "company": "Rochester Institute of Technology",
+      "city": "Rochester",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179499684&Title=Visiting%20Lecturer",
+      "posting_date": "2026-07-14 16:16:25.443",
+      "closing_date": "2028-01-05 23:59:59.9",
+      "salary": "$75,000 - $85,000 per year",
+      "salary_min": 75000,
+      "salary_max": 85000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Visiting roles",
+        "Maximum salary $85,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Assistant Professor - Electrical Engineering Technology (Tenure Track)",
+      "company": "Savannah State University",
+      "city": "Savannah",
+      "state": "GA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179498469&Title=Assistant%20Professor%20%2D%20Electrical%20Engineering%20Technology%20%28Tenure%20Track%29",
+      "posting_date": "2026-07-14 05:07:46.963",
+      "closing_date": "2028-01-05 23:59:59.9",
+      "salary": "$75,000 - $80,000 per year",
+      "salary_min": 75000,
+      "salary_max": 80000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Maximum salary $80,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Associate or Research Associate",
+      "company": "University of Colorado Boulder",
+      "city": "Boulder",
+      "state": "CO",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179498127&Title=Postdoctoral%20Associate%20or%20Research%20Associate",
+      "posting_date": "2026-07-13 16:00:59.907",
+      "closing_date": "2028-01-04 23:59:59.9",
+      "salary": "$74,000 - $108,000 per year",
+      "salary_min": 74000,
+      "salary_max": 108000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Excluded industry: Military/Defense",
+        "Maximum salary $108,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Associate",
+      "company": "Stony Brook University",
+      "city": "Stony Brook",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179497871&Title=Postdoctoral%20Associate",
+      "posting_date": "2026-07-13 14:07:38.163",
+      "closing_date": "2028-01-04 23:59:59.9",
+      "salary": "$61,000 - $72,000 per year",
+      "salary_min": 61000,
+      "salary_max": 72000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Excluded focus area: Power and energy systems",
+        "Maximum salary $72,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Scholar",
+      "company": "Tufts University",
+      "city": "Medford",
+      "state": "MA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179497832&Title=Postdoctoral%20Scholar",
+      "posting_date": "2026-07-13 14:03:23.27",
+      "closing_date": "2028-01-04 23:59:59.9",
+      "salary": "$67,500 per year",
+      "salary_min": 67500,
+      "salary_max": 67500,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $67,500 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Post-Doctoral Associate in the Division of Engineering (Computer Engineering) - Dr. Tuka Alhanai",
+      "company": "New York University",
+      "city": "New York",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179496743&Title=Post%2DDoctoral%20Associate%20in%20the%20Division%20of%20Engineering%20%28Computer%20Engineering%29%20%2D%20Dr%2E%20Tuka%20Alhanai",
+      "posting_date": "2026-07-12 11:33:03.487",
+      "closing_date": "2028-01-03 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Visiting Assistant Professor of Electrical and Computer Engineering",
+      "company": "Valparaiso University",
+      "city": "Valparaiso",
+      "state": "IN",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179494912&Title=Visiting%20Assistant%20Professor%20of%20Electrical%20and%20Computer%20Engineering",
+      "posting_date": null,
+      "closing_date": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Visiting roles"
+      ]
+    },
+    {
+      "title": "Postdoctoral Research Associate",
+      "company": "University of Texas at Arlington",
+      "city": "Arlington",
+      "state": "TX",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179493801&Title=Postdoctoral%20Research%20Associate",
+      "posting_date": "2026-07-09 08:17:04.033",
+      "closing_date": "2027-12-31 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Excluded focus area: Power and energy systems"
+      ]
+    },
+    {
+      "title": "Postdoctoral Researcher - Electrical and Computer Engineering",
+      "company": "Villanova University",
+      "city": "Villanova",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179493630&Title=Postdoctoral%20Researcher%20%2D%20Electrical%20and%20Computer%20Engineering",
+      "posting_date": "2026-07-09 05:06:14.09",
+      "closing_date": "2027-12-31 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Postdoctoral Associate - MEMS/NEMS Fabrication and Characterization for Piezoelectric/Ferroelectric Devices and Emerging Computing Hardware",
+      "company": "Cornell University",
+      "city": "Ithaca",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179491529&Title=Postdoctoral%20Associate%20%2D%20MEMS%2FNEMS%20Fabrication%20and%20Characterization%20for%20Piezoelectric%2FFerroelectric%20Devices%20and%20Emerging%20Computing%20Hardware",
+      "posting_date": "2026-07-07 08:45:48.56",
+      "closing_date": "2027-12-29 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Research Professor and Assistant Director, Center for Microgrid Research",
+      "company": "University of St. Thomas",
+      "city": "St. Paul",
+      "state": "MN",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179491155&Title=Research%20Professor%20and%20Assistant%20Director%2C%20Center%20for%20Microgrid%20Research",
+      "posting_date": "2026-07-06 17:46:05.993",
+      "closing_date": "2027-12-28 23:59:59.9",
+      "salary": "$80,000 - $100,000 per year",
+      "salary_min": 80000,
+      "salary_max": 100000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Director roles",
+        "Excluded focus area: Power and energy systems",
+        "Excluded industry: Military/Defense",
+        "Maximum salary $100,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Senior Electrical Engineer",
+      "company": "Mercer University",
+      "city": "Warner Robins",
+      "state": "GA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179490632&Title=Senior%20Electrical%20Engineer",
+      "posting_date": "2026-07-06 11:31:44.69",
+      "closing_date": "2027-12-28 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded industry: Military/Defense"
+      ]
+    },
+    {
+      "title": "Postdoctoral Researcher",
+      "company": "New York University",
+      "city": "Brooklyn",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179490477&Title=Postdoctoral%20Researcher",
+      "posting_date": "2026-07-06 09:04:50.333",
+      "closing_date": "2027-12-28 23:59:59.9",
+      "salary": "$62,500 - $75,000 per year",
+      "salary_min": 62500,
+      "salary_max": 75000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $75,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Research Associate - Robotics Institute",
+      "company": "Carnegie Mellon University",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179487249&Title=Postdoctoral%20Research%20Associate%20%2D%20Robotics%20Institute",
+      "posting_date": "2026-07-01 14:17:51.977",
+      "closing_date": "2027-12-23 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Post-Doctoral Fellow",
+      "company": "Worcester Polytechnic Institute",
+      "city": "Worcester",
+      "state": "MA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179486113&Title=Post%2DDoctoral%20Fellow",
+      "posting_date": "2026-06-30 15:46:51.94",
+      "closing_date": "2027-12-22 23:59:59.9",
+      "salary": "$65,000 per year",
+      "salary_min": 65000,
+      "salary_max": 65000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $65,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Post-Doctoral Associate (# 374509)",
+      "company": "University of Minnesota",
+      "city": "Twin Cities",
+      "state": "MN",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179485633&Title=Post%2DDoctoral%20Associate%20%28%23%20374509%29",
+      "posting_date": "2026-06-30 11:02:13.62",
+      "closing_date": "2027-12-22 23:59:59.9",
+      "salary": "$62,232 - $72,232 per year",
+      "salary_min": 62232,
+      "salary_max": 72232,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $72,232 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow (PREP0004857)",
+      "company": "Johns Hopkins University",
+      "city": "Gaithersburg",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179484936&Title=Postdoctoral%20Fellow%20%28PREP0004857%29",
+      "posting_date": "2026-06-29 17:01:33.973",
+      "closing_date": "2027-12-21 23:59:59.9",
+      "salary": "$82,000 - $89,000 per year",
+      "salary_min": 82000,
+      "salary_max": 89000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $89,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Research Associate",
+      "company": "University of Texas at Arlington",
+      "city": "Arlington",
+      "state": "TX",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179484719&Title=Postdoctoral%20Research%20Associate",
+      "posting_date": "2026-06-29 12:38:55.863",
+      "closing_date": "2027-12-21 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Excluded focus area: Power and energy systems"
+      ]
+    },
+    {
+      "title": "Postdoctoral Research Associate - College of Engineering - Electrical and Computer Engineering",
+      "company": "Carnegie Mellon University",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179484351&Title=Postdoctoral%20Research%20Associate%20%2D%20College%20of%20Engineering%20%2D%20Electrical%20and%20Computer%20Engineering",
+      "posting_date": "2026-06-29 10:47:49.777",
+      "closing_date": "2027-12-21 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow (PREP0004815)",
+      "company": "Johns Hopkins University",
+      "city": "Gaithersburg",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179484144&Title=Postdoctoral%20Fellow%20%28PREP0004815%29",
+      "posting_date": "2026-06-29 09:51:50.46",
+      "closing_date": "2027-12-21 23:59:59.9",
+      "salary": "$82,000 - $89,000 per year",
+      "salary_min": 82000,
+      "salary_max": 89000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $89,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow (PREP0004792)",
+      "company": "Johns Hopkins University",
+      "city": "Gaithersburg",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179484143&Title=Postdoctoral%20Fellow%20%28PREP0004792%29",
+      "posting_date": "2026-06-29 09:51:43.97",
+      "closing_date": "2027-12-21 23:59:59.9",
+      "salary": "$82,000 - $89,000 per year",
+      "salary_min": 82000,
+      "salary_max": 89000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $89,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow (PREP0004829)",
+      "company": "Johns Hopkins University",
+      "city": "Gaithersburg",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179484142&Title=Postdoctoral%20Fellow%20%28PREP0004829%29",
+      "posting_date": "2026-06-29 09:51:37.527",
+      "closing_date": "2027-12-21 23:59:59.9",
+      "salary": "$82,000 - $89,000 per year",
+      "salary_min": 82000,
+      "salary_max": 89000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $89,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow in the Vision and Image Understanding (VIU) Lab",
+      "company": "Johns Hopkins University",
+      "city": "Baltimore",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179484134&Title=Postdoctoral%20Fellow%20in%20the%20Vision%20and%20Image%20Understanding%20%28VIU%29%20Lab",
+      "posting_date": "2026-06-29 09:50:31.16",
+      "closing_date": "2027-12-21 23:59:59.9",
+      "salary": "$63,480 - $80,000 per year",
+      "salary_min": 63480,
+      "salary_max": 80000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $80,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Research Associate - College of Engineering - Engineering and Public Policy",
+      "company": "Carnegie Mellon University",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179483532&Title=Postdoctoral%20Research%20Associate%20%2D%20College%20of%20Engineering%20%2D%20Engineering%20and%20Public%20Policy",
+      "posting_date": "2026-06-27 23:00:39.28",
+      "closing_date": "2027-12-19 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Postdoctoral Research Associate - College of Engineering - Electrical and Computer Engineering",
+      "company": "Carnegie Mellon University",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179479851&Title=Postdoctoral%20Research%20Associate%20%2D%20College%20of%20Engineering%20%2D%20Electrical%20and%20Computer%20Engineering",
+      "posting_date": "2026-06-23 13:31:35.21",
+      "closing_date": "2027-12-15 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Engineering - Non-Tenure Track Faculty",
+      "company": "Hope College",
+      "city": "Holland",
+      "state": "MI",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179479640&Title=Engineering%20%2D%20Non%2DTenure%20Track%20Faculty",
+      "posting_date": "2026-06-23 12:16:59.463",
+      "closing_date": "2026-08-22 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded institution: Religious mission or affiliation"
+      ]
+    },
+    {
+      "title": "Postdoctoral Research Associate",
+      "company": "University of Texas at Arlington",
+      "city": "Arlington",
+      "state": "TX",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179479550&Title=Postdoctoral%20Research%20Associate",
+      "posting_date": "2026-06-23 10:48:35.373",
+      "closing_date": "2027-12-15 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Excluded focus area: Power and energy systems"
+      ]
+    },
+    {
+      "title": "Postdoctoral Associate",
+      "company": "Massachusetts Institute of Technology",
+      "city": "Cambridge",
+      "state": "MA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179479330&Title=Postdoctoral%20Associate",
+      "posting_date": "2026-06-23 07:17:37.53",
+      "closing_date": "2027-12-15 23:59:59.9",
+      "salary": "$73,308 - $90,000 per year",
+      "salary_min": 73308,
+      "salary_max": 90000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Excluded focus area: Nuclear energy and engineering",
+        "Maximum salary $90,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Engineering - Non-Tenure Track Faculty",
+      "company": "Hope College",
+      "city": "Holland",
+      "state": "MI",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179478941&Title=Engineering%20%2D%20Non%2DTenure%20Track%20Faculty",
+      "posting_date": null,
+      "closing_date": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded institution: Religious mission or affiliation"
+      ]
+    },
+    {
+      "title": "Research Associates - National Security Initiatives",
+      "company": "University of Colorado Boulder",
+      "city": "Boulder",
+      "state": "CO",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179478847&Title=Research%20Associates%20%2D%20National%20Security%20Initiatives",
+      "posting_date": "2026-06-22 15:46:06.367",
+      "closing_date": "2027-12-14 23:59:59.9",
+      "salary": "We offer a competitive salary, commensurate with experience, along with a generous",
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded industry: Military/Defense"
+      ]
+    },
+    {
+      "title": "Tenured: Professor and Department Head of Engineering Medicine Research and Innovation",
+      "company": "Texas A&amp;M University",
+      "city": "Houston",
+      "state": "TX",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179477481&Title=Tenured%3A%20Professor%20and%20Department%20Head%20of%20Engineering%20Medicine%20Research%20and%20Innovation",
+      "posting_date": "2026-06-22 08:01:00.047",
+      "closing_date": "2027-12-14 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Head roles",
+        "Excluded industry: Military/Defense"
+      ]
+    },
+    {
+      "title": "Research Scholar",
+      "company": "New York University",
+      "city": "Brooklyn",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179475705&Title=Research%20Scholar",
+      "posting_date": "2026-06-18 10:00:35.397",
+      "closing_date": "2027-12-10 23:59:59.9",
+      "salary": "$48,000 - $62,500 per year",
+      "salary_min": 48000,
+      "salary_max": 62500,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Maximum salary $62,500 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Open-Rank Faculty - Cybersecurity",
+      "company": "Texas Tech University",
+      "city": "Lubbock",
+      "state": "TX",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179471933&Title=Open%2DRank%20Faculty%20%2D%20Cybersecurity",
+      "posting_date": "2026-06-13 10:32:50.387",
+      "closing_date": "2027-12-05 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded focus area: Power and energy systems",
+        "Excluded industry: Military/Defense"
+      ]
+    },
+    {
+      "title": "Research Associate",
+      "company": "New York University",
+      "city": "Brooklyn",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179469968&Title=Research%20Associate",
+      "posting_date": "2026-06-11 12:32:06.83",
+      "closing_date": "2027-12-03 23:59:59.9",
+      "salary": "$48,000 per year",
+      "salary_min": 48000,
+      "salary_max": 48000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Maximum salary $48,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Scholar in the Center for Critical Minerals at the EMS Energy Institute",
+      "company": "Penn State",
+      "city": "University Park",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179469088&Title=Postdoctoral%20Scholar%20in%20the%20Center%20for%20Critical%20Minerals%20at%20the%20EMS%20Energy%20Institute",
+      "posting_date": "2026-06-10 20:33:04.34",
+      "closing_date": "2027-12-02 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow (PREP0004695)",
+      "company": "Johns Hopkins University",
+      "city": "Gaithersburg",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179468052&Title=Postdoctoral%20Fellow%20%28PREP0004695%29",
+      "posting_date": "2026-06-09 19:31:14.5",
+      "closing_date": "2027-12-01 23:59:59.9",
+      "salary": "$100,000 - $110,000 per year",
+      "salary_min": 100000,
+      "salary_max": 110000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Excluded focus area: Nuclear energy and engineering",
+        "Maximum salary $110,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow (PREP0004687)",
+      "company": "Johns Hopkins University",
+      "city": "Gaithersburg",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179468050&Title=Postdoctoral%20Fellow%20%28PREP0004687%29",
+      "posting_date": "2026-06-09 19:31:01.43",
+      "closing_date": "2027-12-01 23:59:59.9",
+      "salary": "$75,000 - $85,000 per year",
+      "salary_min": 75000,
+      "salary_max": 85000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $85,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Professor, Robotics",
+      "company": "Savannah College of Art and Design",
+      "city": "Savannah",
+      "state": "GA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179465556&Title=Professor%2C%20Robotics",
+      "posting_date": null,
+      "closing_date": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded focus area: Mechanical design and fabrication"
+      ]
+    },
+    {
+      "title": "Postdoctoral Research Fellow (CONTRACTUAL)",
+      "company": "Morgan State University",
+      "city": "Baltimore",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179463694&Title=Postdoctoral%20Research%20Fellow%20%28CONTRACTUAL%29",
+      "posting_date": "2026-06-05 09:31:54.93",
+      "closing_date": "2027-11-27 23:59:59.9",
+      "salary": "$19 - $23 per hour",
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Post-Doctoral Research Associate: Department of Electrical Engineering and Computer Science - UTK (8332)",
+      "company": "University of Tennessee, Knoxville",
+      "city": "Knoxville",
+      "state": "TN",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179460955&Title=Post%2DDoctoral%20Research%20Associate%3A%20Department%20of%20Electrical%20Engineering%20and%20Computer%20Science%20%2D%20UTK%20%288332%29",
+      "posting_date": "2026-06-03 07:59:28.633",
+      "closing_date": "2027-11-25 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Research Associate",
+      "company": "University of Colorado Boulder",
+      "city": "Boulder",
+      "state": "CO",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179460667&Title=Research%20Associate",
+      "posting_date": "2026-06-02 22:00:59.65",
+      "closing_date": "2027-11-24 23:59:59.9",
+      "salary": "$55,000 - $65,000 per year",
+      "salary_min": 55000,
+      "salary_max": 65000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Maximum salary $65,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Assistant Teaching Professor - Electrical and Computer Engineering",
+      "company": "University of Colorado Colorado Springs",
+      "city": "Colorado Springs",
+      "state": "CO",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179460117&Title=Assistant%20Teaching%20Professor%20%2D%20Electrical%20and%20Computer%20Engineering",
+      "posting_date": "2026-06-02 11:49:41.997",
+      "closing_date": "2027-11-24 23:59:59.9",
+      "salary": "$69,000 - $77,000 per year",
+      "salary_min": 69000,
+      "salary_max": 77000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Maximum salary $77,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellowship in Applied Physics",
+      "company": "Harvard University",
+      "city": "Cambridge",
+      "state": "MA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179456581&Title=Postdoctoral%20Fellowship%20in%20Applied%20Physics",
+      "posting_date": "2026-05-28 13:47:23.89",
+      "closing_date": "2027-11-19 23:59:59.9",
+      "salary": "$67,600 - $91,826 per year",
+      "salary_min": 67600,
+      "salary_max": 91826,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $91,826 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Scholar, Center for Microgrid Research",
+      "company": "University of St. Thomas",
+      "city": "St. Paul",
+      "state": "MN",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179453162&Title=Postdoctoral%20Scholar%2C%20Center%20for%20Microgrid%20Research",
+      "posting_date": "2026-05-26 11:00:39.517",
+      "closing_date": "2027-11-17 23:59:59.9",
+      "salary": "$54,830 - $56,570 per year",
+      "salary_min": 54830,
+      "salary_max": 56570,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Excluded industry: Military/Defense",
+        "Maximum salary $56,570 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Visiting Assistant Professor/Visiting Assistant Professor of Practice in First Year Engineering Technology",
+      "company": "Purdue University Fort Wayne",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179453098&Title=Visiting%20Assistant%20Professor%2FVisiting%20Assistant%20Professor%20of%20Practice%20in%20First%20Year%20Engineering%20Technology",
+      "posting_date": "2026-05-26 10:36:34.903",
+      "closing_date": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Visiting roles"
+      ]
+    },
+    {
+      "title": "Visiting Assistant Professor/Visiting Assistant Professor of Practice in Mechanical Engineering Technology",
+      "company": "Purdue University Fort Wayne",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179453097&Title=Visiting%20Assistant%20Professor%2FVisiting%20Assistant%20Professor%20of%20Practice%20in%20Mechanical%20Engineering%20Technology",
+      "posting_date": "2026-05-26 10:35:51.197",
+      "closing_date": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Visiting roles",
+        "Excluded focus area: Mechanical design and fabrication"
+      ]
+    },
+    {
+      "title": "Postdoctoral Research Associate - College of Engineering - Materials Science and Engineering",
+      "company": "Carnegie Mellon University",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179451809&Title=Postdoctoral%20Research%20Associate%20%2D%20College%20of%20Engineering%20%2D%20Materials%20Science%20and%20Engineering",
+      "posting_date": "2026-05-22 14:15:57.82",
+      "closing_date": "2027-11-13 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Visiting Assistant Professor of Computer Engineering",
+      "company": "Texas A&amp;amp;M International University",
+      "city": "Laredo",
+      "state": "TX",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179451627&Title=Visiting%20Assistant%20Professor%20of%20Computer%20Engineering",
+      "posting_date": "2026-05-22 13:38:29.823",
+      "closing_date": "2027-11-13 23:59:59.9",
+      "salary": "Commensurate",
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Visiting roles"
+      ]
+    },
+    {
+      "title": "Visiting Assistant Professor of Petroleum Engineering",
+      "company": "Texas A&amp;amp;M International University",
+      "city": "Laredo",
+      "state": "TX",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179451626&Title=Visiting%20Assistant%20Professor%20of%20Petroleum%20Engineering",
+      "posting_date": "2026-05-22 13:38:23.08",
+      "closing_date": "2027-11-13 23:59:59.9",
+      "salary": "Commensurate",
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Visiting roles"
+      ]
+    },
+    {
+      "title": "Postdoctoral Research Associate - College of Engineering - Electrical and Computer Engineering",
+      "company": "Carnegie Mellon University",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179450066&Title=Postdoctoral%20Research%20Associate%20%2D%20College%20of%20Engineering%20%2D%20Electrical%20and%20Computer%20Engineering",
+      "posting_date": "2026-05-21 10:31:05.55",
+      "closing_date": "2027-11-12 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "PostDoctoral Fellow (PREP0004546)",
+      "company": "Johns Hopkins University",
+      "city": "Gaithersburg",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179446321&Title=PostDoctoral%20Fellow%20%28PREP0004546%29",
+      "posting_date": "2026-05-17 15:02:11.093",
+      "closing_date": "2027-11-08 23:59:59.9",
+      "salary": "$85,000 - $90,000 per year",
+      "salary_min": 85000,
+      "salary_max": 90000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $90,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Assistant, Associate or Full Research Scientist",
+      "company": "University of California, San Diego",
+      "city": "San Diego",
+      "state": "CA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179443870&Title=Assistant%2C%20Associate%20or%20Full%20Research%20Scientist",
+      "posting_date": null,
+      "closing_date": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Research scientist roles"
+      ]
+    },
+    {
+      "title": "Research Fellow",
+      "company": "University of Michigan",
+      "city": "Ann Arbor",
+      "state": "MI",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179442684&Title=Research%20Fellow",
+      "posting_date": "2026-05-13 11:01:34.037",
+      "closing_date": "2027-11-04 23:59:59.9",
+      "salary": "$62,232 - $64,099 per year",
+      "salary_min": 62232,
+      "salary_max": 64099,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded industry: Military/Defense",
+        "Maximum salary $64,099 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral AI Researcher in AI/ML for NeuroAI and Computational Neurobiology",
+      "company": "Harvard University",
+      "city": "Cambridge",
+      "state": "MA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179441396&Title=Postdoctoral%20AI%20Researcher%20in%20AI%2FML%20for%20NeuroAI%20and%20Computational%20Neurobiology",
+      "posting_date": "2026-05-12 07:31:51.053",
+      "closing_date": "2027-11-03 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Postdoctoral AI Researcher in AI/ML for Foundation Models, Scientific Applications, and AI Systems",
+      "company": "Harvard University",
+      "city": "Cambridge",
+      "state": "MA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179441395&Title=Postdoctoral%20AI%20Researcher%20in%20AI%2FML%20for%20Foundation%20Models%2C%20Scientific%20Applications%2C%20and%20AI%20Systems",
+      "posting_date": "2026-05-12 07:31:44.533",
+      "closing_date": "2027-11-03 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Postdoctoral Associate",
+      "company": "Massachusetts Institute of Technology",
+      "city": "Cambridge",
+      "state": "MA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179435733&Title=Postdoctoral%20Associate",
+      "posting_date": "2026-05-05 16:16:50.35",
+      "closing_date": "2027-10-27 23:59:59.9",
+      "salary": "$71,000 - $90,000 per year",
+      "salary_min": 71000,
+      "salary_max": 90000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Excluded focus area: Nuclear energy and engineering",
+        "Maximum salary $90,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Research Associate - College of Engineering - Electrical and Computer Engineering",
+      "company": "Carnegie Mellon University",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179434942&Title=Postdoctoral%20Research%20Associate%20%2D%20College%20of%20Engineering%20%2D%20Electrical%20and%20Computer%20Engineering",
+      "posting_date": "2026-05-05 09:11:22.99",
+      "closing_date": "2027-10-27 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow in Electrical Engineering",
+      "company": "Harvard University",
+      "city": "Cambridge",
+      "state": "MA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179434416&Title=Postdoctoral%20Fellow%20in%20Electrical%20Engineering",
+      "posting_date": "2026-05-04 18:45:58.68",
+      "closing_date": "2027-10-26 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Postdoctoral Research Associate - Electrical and Computer Engineering",
+      "company": "University of Massachusetts Lowell",
+      "city": "Lowell",
+      "state": "MA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179434186&Title=Postdoctoral%20Research%20Associate%20%2D%20Electrical%20and%20Computer%20Engineering",
+      "posting_date": "2026-05-04 15:49:22.613",
+      "closing_date": "2027-10-26 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Cornell University's Duffield Engineering Education Research Institute Postdoctoral Associate Positions",
+      "company": "Cornell University",
+      "city": "Ithaca",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179433194&Title=Cornell%20University%27s%20Duffield%20Engineering%20Education%20Research%20Institute%20Postdoctoral%20Associate%20Positions",
+      "posting_date": "2026-05-02 19:45:59.037",
+      "closing_date": "2027-10-24 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Rowland Fellow",
+      "company": "Harvard University",
+      "city": "Cambridge",
+      "state": "MA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179433057&Title=Rowland%20Fellow",
+      "posting_date": "2026-05-02 10:00:32.9",
+      "closing_date": "2027-10-24 23:59:59.9",
+      "salary": "$89,999 per year",
+      "salary_min": 89999,
+      "salary_max": 89999,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Maximum salary $89,999 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Full Time Adjunct Faculty, Electrical Engineering",
+      "company": "University of San Diego",
+      "city": "San Diego",
+      "state": "CA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179430931&Title=Full%20Time%20Adjunct%20Faculty%2C%20Electrical%20Engineering",
+      "posting_date": null,
+      "closing_date": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Adjunct teaching roles"
+      ]
+    },
+    {
+      "title": "Postdoctoral Research Associate - Complex Artificial Electromagnetic Materials",
+      "company": "University of Massachusetts Lowell",
+      "city": "Lowell",
+      "state": "MA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179430295&Title=Postdoctoral%20Research%20Associate%20%2D%20Complex%20Artificial%20Electromagnetic%20Materials",
+      "posting_date": "2026-04-29 20:16:13.363",
+      "closing_date": "2027-10-21 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Excluded industry: Military/Defense"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow (PREP0004384)",
+      "company": "Johns Hopkins University",
+      "city": "Gaithersburg",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179429727&Title=Postdoctoral%20Fellow%20%28PREP0004384%29",
+      "posting_date": "2026-04-29 11:01:15.64",
+      "closing_date": "2027-10-21 23:59:59.9",
+      "salary": "$82,000 - $87,000 per year",
+      "salary_min": 82000,
+      "salary_max": 87000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $87,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow (PREP0004376)",
+      "company": "Johns Hopkins University",
+      "city": "Gaithersburg",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179428740&Title=Postdoctoral%20Fellow%20%28PREP0004376%29",
+      "posting_date": "2026-04-28 14:03:07.813",
+      "closing_date": "2027-10-20 23:59:59.9",
+      "salary": "$82,000 - $87,000 per year",
+      "salary_min": 82000,
+      "salary_max": 87000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $87,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow (PREP0004375)",
+      "company": "Johns Hopkins University",
+      "city": "Gaithersburg",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179428739&Title=Postdoctoral%20Fellow%20%28PREP0004375%29",
+      "posting_date": "2026-04-28 14:03:01.19",
+      "closing_date": "2027-10-20 23:59:59.9",
+      "salary": "$85,447 - $89,000 per year",
+      "salary_min": 85447,
+      "salary_max": 89000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Excluded industry: Military/Defense",
+        "Maximum salary $89,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow (PREP0004328)",
+      "company": "Johns Hopkins University",
+      "city": "Gaithersburg",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179428704&Title=Postdoctoral%20Fellow%20%28PREP0004328%29",
+      "posting_date": "2026-04-28 13:49:02.19",
+      "closing_date": "2027-10-20 23:59:59.9",
+      "salary": "$83,000 - $89,000 per year",
+      "salary_min": 83000,
+      "salary_max": 89000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $89,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow (PREP0004308)",
+      "company": "Johns Hopkins University",
+      "city": "Gaithersburg",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179428703&Title=Postdoctoral%20Fellow%20%28PREP0004308%29",
+      "posting_date": "2026-04-28 13:48:55.56",
+      "closing_date": "2027-10-20 23:59:59.9",
+      "salary": "$85,000 - $90,000 per year",
+      "salary_min": 85000,
+      "salary_max": 90000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $90,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow (PREP0004289)",
+      "company": "Johns Hopkins University",
+      "city": "Gaithersburg",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179428701&Title=Postdoctoral%20Fellow%20%28PREP0004289%29",
+      "posting_date": "2026-04-28 13:48:42.733",
+      "closing_date": "2027-10-20 23:59:59.9",
+      "salary": "$75,000 - $85,000 per year",
+      "salary_min": 75000,
+      "salary_max": 85000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $85,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow (PREP0004280)",
+      "company": "Johns Hopkins University",
+      "city": "Gaithersburg",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179428700&Title=Postdoctoral%20Fellow%20%28PREP0004280%29",
+      "posting_date": "2026-04-28 13:48:36.343",
+      "closing_date": "2027-10-20 23:59:59.9",
+      "salary": "$70,000 - $89,000 per year",
+      "salary_min": 70000,
+      "salary_max": 89000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Excluded focus area: Deep microelectronics and semiconductor devices",
+        "Maximum salary $89,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow (PREP0004259)",
+      "company": "Johns Hopkins University",
+      "city": "Boulder",
+      "state": "CO",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179428699&Title=Postdoctoral%20Fellow%20%28PREP0004259%29",
+      "posting_date": "2026-04-28 13:48:29.893",
+      "closing_date": "2027-10-20 23:59:59.9",
+      "salary": "$120,000 per year",
+      "salary_min": 120000,
+      "salary_max": 120000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Postdoctoral Research Associate",
+      "company": "Texas State University",
+      "city": "San Marcos",
+      "state": "TX",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179427650&Title=Postdoctoral%20Research%20Associate",
+      "posting_date": "2026-04-27 15:00:41.883",
+      "closing_date": "2027-10-19 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Excluded focus area: Deep microelectronics and semiconductor devices",
+        "Excluded industry: Military/Defense"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow (PREP0004276)",
+      "company": "Johns Hopkins University",
+      "city": "Gaithersburg",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179427515&Title=Postdoctoral%20Fellow%20%28PREP0004276%29",
+      "posting_date": "2026-04-27 12:46:58.633",
+      "closing_date": "2027-10-19 23:59:59.9",
+      "salary": "$70,000 - $89,000 per year",
+      "salary_min": 70000,
+      "salary_max": 89000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Excluded focus area: Deep microelectronics and semiconductor devices",
+        "Maximum salary $89,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Associate Research Scientist (PREP0004233)",
+      "company": "Johns Hopkins University",
+      "city": "Gaithersburg",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179425016&Title=Associate%20Research%20Scientist%20%28PREP0004233%29",
+      "posting_date": "2026-04-23 13:33:38.177",
+      "closing_date": "2027-10-15 23:59:59.9",
+      "salary": "$95,000 - $99,000 per year",
+      "salary_min": 95000,
+      "salary_max": 99000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Research scientist roles",
+        "Maximum salary $99,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow (PREP0004220)",
+      "company": "Johns Hopkins University",
+      "city": "Gaithersburg",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179425013&Title=Postdoctoral%20Fellow%20%28PREP0004220%29",
+      "posting_date": "2026-04-23 13:33:18.743",
+      "closing_date": "2027-10-15 23:59:59.9",
+      "salary": "$85,447 - $88,500 per year",
+      "salary_min": 85447,
+      "salary_max": 88500,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $88,500 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow (PREP0004210)",
+      "company": "Johns Hopkins University",
+      "city": "Gaithersburg",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179425012&Title=Postdoctoral%20Fellow%20%28PREP0004210%29",
+      "posting_date": "2026-04-23 13:33:12.473",
+      "closing_date": "2027-10-15 23:59:59.9",
+      "salary": "$89,000 per year",
+      "salary_min": 89000,
+      "salary_max": 89000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $89,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow (PREP0004208)",
+      "company": "Johns Hopkins University",
+      "city": "Gaithersburg",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179425011&Title=Postdoctoral%20Fellow%20%28PREP0004208%29",
+      "posting_date": "2026-04-23 13:33:03.26",
+      "closing_date": "2027-10-15 23:59:59.9",
+      "salary": "$75,000 - $89,000 per year",
+      "salary_min": 75000,
+      "salary_max": 89000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $89,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow (PREP0004207)",
+      "company": "Johns Hopkins University",
+      "city": "Gaithersburg",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179425010&Title=Postdoctoral%20Fellow%20%28PREP0004207%29",
+      "posting_date": "2026-04-23 13:32:56.78",
+      "closing_date": "2027-10-15 23:59:59.9",
+      "salary": "$89,000 per year",
+      "salary_min": 89000,
+      "salary_max": 89000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $89,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow (PREP0004018)",
+      "company": "Johns Hopkins University",
+      "city": "Gaithersburg",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179425006&Title=Postdoctoral%20Fellow%20%28PREP0004018%29",
+      "posting_date": "2026-04-23 13:32:30.877",
+      "closing_date": "2027-10-15 23:59:59.9",
+      "salary": "$85,000 - $89,000 per year",
+      "salary_min": 85000,
+      "salary_max": 89000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $89,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Associate Research Scientist (PREP0003810)",
+      "company": "Johns Hopkins University",
+      "city": "Gaithersburg",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179425004&Title=Associate%20Research%20Scientist%20%28PREP0003810%29",
+      "posting_date": "2026-04-23 13:32:24.503",
+      "closing_date": "2027-10-15 23:59:59.9",
+      "salary": "$120,579 - $149,315 per year",
+      "salary_min": 120579,
+      "salary_max": 149315,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Research scientist roles"
+      ]
+    },
+    {
+      "title": "Postdoctoral Associate",
+      "company": "Massachusetts Institute of Technology",
+      "city": "Cambridge",
+      "state": "MA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179423917&Title=Postdoctoral%20Associate",
+      "posting_date": "2026-04-22 15:50:04.193",
+      "closing_date": "2027-10-14 23:59:59.9",
+      "salary": "$71,000 - $90,000 per year",
+      "salary_min": 71000,
+      "salary_max": 90000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Excluded focus area: Power and energy systems",
+        "Maximum salary $90,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Associate",
+      "company": "Massachusetts Institute of Technology",
+      "city": "Cambridge",
+      "state": "MA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179423916&Title=Postdoctoral%20Associate",
+      "posting_date": "2026-04-22 15:49:57.73",
+      "closing_date": "2027-10-14 23:59:59.9",
+      "salary": "$71,000 - $90,000 per year",
+      "salary_min": 71000,
+      "salary_max": 90000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $90,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "POSTDOCTORAL RESEARCH SCHOLAR",
+      "company": "Arizona State University - Polytechnic Campus",
+      "city": "Mesa",
+      "state": "AZ",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179423770&Title=POSTDOCTORAL%20RESEARCH%20SCHOLAR",
+      "posting_date": "2026-04-22 14:25:48.62",
+      "closing_date": "2026-08-08 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellowship in Electrical and Computer Engineering",
+      "company": "Harvard University",
+      "city": "Cambridge",
+      "state": "MA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179422659&Title=Postdoctoral%20Fellowship%20in%20Electrical%20and%20Computer%20Engineering",
+      "posting_date": "2026-04-21 17:17:45.947",
+      "closing_date": "2027-10-13 23:59:59.9",
+      "salary": "$67,600 - $91,826 per year",
+      "salary_min": 67600,
+      "salary_max": 91826,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $91,826 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Senior Radar Research Engineer",
+      "company": "Michigan Technological University",
+      "city": "Ann Arbor",
+      "state": "MI",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179422609&Title=Senior%20Radar%20Research%20Engineer",
+      "posting_date": "2026-04-21 16:30:33.24",
+      "closing_date": "2027-10-13 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded industry: Military/Defense"
+      ]
+    },
+    {
+      "title": "Instructor/Assistant Professor, Electrical and Computer Engineering and Technology  - IFO (AA27048)",
+      "company": "Minnesota State University, Mankato",
+      "city": "Mankato",
+      "state": "MN",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179419970&Title=Instructor%2FAssistant%20Professor%2C%20Electrical%20and%20Computer%20Engineering%20and%20Technology%20%20%2D%20IFO%20%28AA27048%29",
+      "posting_date": "2026-04-19 09:32:11.6",
+      "closing_date": "2027-10-11 23:59:59.9",
+      "salary": "$50,065 - $86,316 per year",
+      "salary_min": 50065,
+      "salary_max": 86316,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Maximum salary $86,316 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Research Associate",
+      "company": "Northeastern University",
+      "city": "Boston",
+      "state": "MA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179417937&Title=Postdoctoral%20Research%20Associate",
+      "posting_date": "2026-04-15 15:02:52.38",
+      "closing_date": "2027-10-07 23:59:59.9",
+      "salary": "$60,315.00 - $85,192.50 per year",
+      "salary_min": 60315,
+      "salary_max": 85192,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $85,192 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Post Doctoral Research Associate",
+      "company": "University of Texas at Arlington",
+      "city": "Arlington",
+      "state": "TX",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179417567&Title=Post%20Doctoral%20Research%20Associate",
+      "posting_date": "2026-04-15 10:32:56.313",
+      "closing_date": "2027-10-07 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Postdoctoral Research Associate - CAAAM",
+      "company": "University of North Texas System",
+      "city": "Denton",
+      "state": "TX",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179416882&Title=Postdoctoral%20Research%20Associate%20%2D%20CAAAM",
+      "posting_date": "2026-04-14 16:47:47.42",
+      "closing_date": "2027-10-06 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Assistant Professor - Mechanical or Electrical Engineering",
+      "company": "Abilene Christian University",
+      "city": "Abilene",
+      "state": "TX",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179415743&Title=Assistant%20Professor%20%2D%20Mechanical%20or%20Electrical%20Engineering",
+      "posting_date": "2026-04-13 16:45:58.597",
+      "closing_date": "2027-10-05 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded institution: Religious mission or affiliation"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow (PREP0004186)",
+      "company": "Johns Hopkins University",
+      "city": "Gaithersburg",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179415532&Title=Postdoctoral%20Fellow%20%28PREP0004186%29",
+      "posting_date": "2026-04-13 12:02:29.723",
+      "closing_date": "2027-10-05 23:59:59.9",
+      "salary": "$89,000 per year",
+      "salary_min": 89000,
+      "salary_max": 89000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $89,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow (PREP0004156)",
+      "company": "Johns Hopkins University",
+      "city": "Gaithersburg",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179415367&Title=Postdoctoral%20Fellow%20%28PREP0004156%29",
+      "posting_date": "2026-04-13 11:17:16.86",
+      "closing_date": "2027-10-05 23:59:59.9",
+      "salary": "$83,000 per year",
+      "salary_min": 83000,
+      "salary_max": 83000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Excluded focus area: Deep microelectronics and semiconductor devices",
+        "Maximum salary $83,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow (PREP0004135)",
+      "company": "Johns Hopkins University",
+      "city": "Gaithersburg",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179415366&Title=Postdoctoral%20Fellow%20%28PREP0004135%29",
+      "posting_date": "2026-04-13 11:17:10.41",
+      "closing_date": "2027-10-05 23:59:59.9",
+      "salary": "$80,000 - $85,000 per year",
+      "salary_min": 80000,
+      "salary_max": 85000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $85,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Research Associate, Biomedical Engineering (Multiple Positions)",
+      "company": "The University of Arizona",
+      "city": "Tucson",
+      "state": "AZ",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179414492&Title=Postdoctoral%20Research%20Associate%2C%20Biomedical%20Engineering%20%28Multiple%20Positions%29",
+      "posting_date": "2026-04-12 09:46:31.49",
+      "closing_date": "2027-10-04 23:59:59.9",
+      "salary": "Rate of Pay: NIH Postdoc Salary Scale, Depends on Experience",
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Excluded focus area: Medical robotics and biomedical systems"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow (PREP0004131)",
+      "company": "Johns Hopkins University",
+      "city": "Gaithersburg",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179413313&Title=Postdoctoral%20Fellow%20%28PREP0004131%29",
+      "posting_date": "2026-04-09 21:30:59.263",
+      "closing_date": "2027-10-01 23:59:59.9",
+      "salary": "$82,000 - $89,000 per year",
+      "salary_min": 82000,
+      "salary_max": 89000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $89,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Assistant Professor, Electrical & Microelectronic Engineering",
+      "company": "Rochester Institute of Technology",
+      "city": "Rochester",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179412625&Title=Assistant%20Professor%2C%20Electrical%20%26amp%3B%20Microelectronic%20Engineering",
+      "posting_date": null,
+      "closing_date": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded focus area: Deep microelectronics and semiconductor devices"
+      ]
+    },
+    {
+      "title": "Assistant Professor, Electrical & Microelectronic Engineering",
+      "company": "Rochester Institute of Technology",
+      "city": "Rochester",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179410555&Title=Assistant%20Professor%2C%20Electrical%20%26amp%3B%20Microelectronic%20Engineering",
+      "posting_date": null,
+      "closing_date": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded focus area: Deep microelectronics and semiconductor devices"
+      ]
+    },
+    {
+      "title": "Full -Time Lecturer - Electrical Engineering (AY 26/27)",
+      "company": "Cal Poly, San Luis Obispo",
+      "city": "San Luis Obispo",
+      "state": "CA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179407163&Title=Full%20%2DTime%20Lecturer%20%2D%20Electrical%20Engineering%20%28AY%2026%2F27%29",
+      "posting_date": "2026-04-02 16:23:41.05",
+      "closing_date": "2027-09-24 23:59:59.9",
+      "salary": "$5,507 - $15,211 per course",
+      "salary_min": 15211,
+      "salary_max": 15211,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Maximum salary $15,211 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "College Professor of Electrical or Mechanical Engineering (Non-tenure track)",
+      "company": "Abilene Christian University",
+      "city": "Abilene",
+      "state": "TX",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179406377&Title=College%20Professor%20of%20Electrical%20or%20Mechanical%20Engineering%20%28Non%2Dtenure%20track%29",
+      "posting_date": "2026-04-02 10:04:00.213",
+      "closing_date": "2027-09-24 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded institution: Religious mission or affiliation",
+        "Excluded focus area: Mechanical design and fabrication"
+      ]
+    },
+    {
+      "title": "Postdoctoral Scholar-Sengupta Group",
+      "company": "Penn State",
+      "city": "University Park",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179405870&Title=Postdoctoral%20Scholar%2DSengupta%20Group",
+      "posting_date": null,
+      "closing_date": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Postdoctoral researcher in AI for Science in M2LInES - Generative Models for Dynamical Systems (NYU Courant Institute School)",
+      "company": "New York University",
+      "city": "New York",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179404898&Title=Postdoctoral%20researcher%20in%20AI%20for%20Science%20in%20M2LInES%20%2D%20Generative%20Models%20for%20Dynamical%20Systems%20%28NYU%20Courant%20Institute%20School%29",
+      "posting_date": "2026-04-01 08:16:16.47",
+      "closing_date": "2027-09-23 23:59:59.9",
+      "salary": "$62,500 - $94,000 per year",
+      "salary_min": 62500,
+      "salary_max": 94000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $94,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Researcher in AI for Climate - Surrogate Multiscale Modeling (NYU Courant Institute School)",
+      "company": "New York University",
+      "city": "New York",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179404897&Title=Postdoctoral%20Researcher%20in%20AI%20for%20Climate%20%2D%20Surrogate%20Multiscale%20Modeling%20%28NYU%20Courant%20Institute%20School%29",
+      "posting_date": "2026-04-01 08:16:09.843",
+      "closing_date": "2027-09-23 23:59:59.9",
+      "salary": "$62,500 - $94,000 per year",
+      "salary_min": 62500,
+      "salary_max": 94000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $94,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Post-Doctoral Fellow,  Intelligence and Computing Lab",
+      "company": "Colorado School of Mines",
+      "city": "Golden",
+      "state": "CO",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179404539&Title=Post%2DDoctoral%20Fellow%2C%20%20Intelligence%20and%20Computing%20Lab",
+      "posting_date": "2026-03-31 14:02:51.81",
+      "closing_date": "2027-09-22 23:59:59.9",
+      "salary": "$60,000 per year",
+      "salary_min": 60000,
+      "salary_max": 60000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $60,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "ECE Teaching Assistant or Associate Professor (# 372782)",
+      "company": "University of Minnesota",
+      "city": "Twin Cities",
+      "state": "MN",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179403521&Title=ECE%20Teaching%20Assistant%20or%20Associate%20Professor%20%28%23%20372782%29",
+      "posting_date": null,
+      "closing_date": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded focus area: Power and energy systems"
+      ]
+    },
+    {
+      "title": "Postdoctoral Scholar - Engineering Education & Outreach",
+      "company": "Penn State",
+      "city": "University Park",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179403403&Title=Postdoctoral%20Scholar%20%2D%20Engineering%20Education%20%26amp%3B%20Outreach",
+      "posting_date": "2026-03-30 14:02:16.79",
+      "closing_date": "2027-09-21 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Instructor of Engineering",
+      "company": "Houston Christian University",
+      "city": "Houston",
+      "state": "TX",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179101319&Title=Instructor%20of%20Engineering",
+      "posting_date": "2026-03-27 13:41:31.0",
+      "closing_date": "2026-09-29 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded institution: Religious mission or affiliation"
+      ]
+    },
+    {
+      "title": "Instructor of Electrical Engineering or Cyber Engineering",
+      "company": "Houston Christian University",
+      "city": "Houston",
+      "state": "TX",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179045025&Title=Instructor%20of%20Electrical%20Engineering%20or%20Cyber%20Engineering",
+      "posting_date": "2026-03-27 13:40:30.0",
+      "closing_date": "2026-07-28 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded institution: Religious mission or affiliation"
+      ]
+    },
+    {
+      "title": "Tenure-Track Program Director and Associate/Full Professor of Computer Science (Artificial Intelligence and Systems Integration)",
+      "company": "Sacred Heart University",
+      "city": "Fairfield",
+      "state": "CT",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179401627&Title=Tenure%2DTrack%20Program%20Director%20and%20Associate%2FFull%20Professor%20of%20Computer%20Science%20%28Artificial%20Intelligence%20and%20Systems%20Integration%29",
+      "posting_date": "2026-03-27 11:33:03.697",
+      "closing_date": "2027-09-18 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Director roles"
+      ]
+    },
+    {
+      "title": "Postdoctoral Research Associate- IRIS Lab",
+      "company": "University of Notre Dame",
+      "city": "Notre Dame",
+      "state": "IN",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179394946&Title=Postdoctoral%20Research%20Associate%2D%20IRIS%20Lab",
+      "posting_date": "2026-03-19 17:33:24.263",
+      "closing_date": "2027-09-10 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Associate/Full Professor and Holder of the Ross B. Matthews Professorship in Petroleum Engineering",
+      "company": "Texas Christian University",
+      "city": "Fort Worth",
+      "state": "TX",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179394009&Title=Associate%2FFull%20Professor%20and%20Holder%20of%20the%20Ross%20B%2E%20Matthews%20Professorship%20in%20Petroleum%20Engineering",
+      "posting_date": "2026-03-19 08:47:44.3",
+      "closing_date": "2027-09-10 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded institution: Religious mission or affiliation"
+      ]
+    },
+    {
+      "title": "Head of the Ken and Mary Alice Lindquist Department of Nuclear Engineering The Pennsylvania State University - College of Engineering",
+      "company": "Penn State",
+      "city": "University Park",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179391670&Title=Head%20of%20the%20Ken%20and%20Mary%20Alice%20Lindquist%20Department%20of%20Nuclear%20Engineering%20The%20Pennsylvania%20State%20University%20%2D%20College%20of%20Engineering",
+      "posting_date": "2026-03-16 19:30:52.043",
+      "closing_date": "2027-09-07 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Head roles",
+        "Excluded focus area: Nuclear energy and engineering"
+      ]
+    },
+    {
+      "title": "Contract Faculty, Department of Computer Science and Engineering",
+      "company": "New York University",
+      "city": "New York",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179390056&Title=Contract%20Faculty%2C%20Department%20of%20Computer%20Science%20and%20Engineering",
+      "posting_date": "2026-03-13 16:01:00.2",
+      "closing_date": "2027-09-04 23:59:59.9",
+      "salary": "$115,000 - $140,000 per year",
+      "salary_min": 115000,
+      "salary_max": 140000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Contract faculty roles"
+      ]
+    },
+    {
+      "title": "Tenured/Tenure-Track: Associate Professor or Full Professor in Robotics",
+      "company": "Texas A&M University",
+      "city": "Houston",
+      "state": "TX",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179377256&Title=Tenured%2FTenure%2DTrack%3A%20Associate%20Professor%20or%20Full%20Professor%20in%20Robotics",
+      "posting_date": null,
+      "closing_date": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded focus area: Medical robotics and biomedical systems"
+      ]
+    },
+    {
+      "title": "Visiting Assistant Professor - Electrical and Computer Engineering",
+      "company": "State University of New York (SUNY) at Albany",
+      "city": "Albany",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179375913&Title=Visiting%20Assistant%20Professor%20%2D%20Electrical%20and%20Computer%20Engineering",
+      "posting_date": "2026-02-26 15:16:28.993",
+      "closing_date": "2027-08-20 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Visiting roles"
+      ]
+    },
+    {
+      "title": "Post Doctoral Associate",
+      "company": "New York University",
+      "city": "Brooklyn",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179374838&Title=Post%20Doctoral%20Associate",
+      "posting_date": "2026-02-25 15:48:07.447",
+      "closing_date": "2027-08-19 23:59:59.9",
+      "salary": "$65,000 - $70,000 per year",
+      "salary_min": 65000,
+      "salary_max": 70000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $70,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral researcher - Low carbon transition of electricity systems, Environmental Markets Lab (emLab), University of California Santa Barbara",
+      "company": "University of California Santa Barbara",
+      "city": "Santa Barbara",
+      "state": "CA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179374627&Title=Postdoctoral%20researcher%20%2D%20Low%20carbon%20transition%20of%20electricity%20systems%2C%20Environmental%20Markets%20Lab%20%28emLab%29%2C%20University%20of%20California%20Santa%20Barbara",
+      "posting_date": "2026-02-25 13:15:49.707",
+      "closing_date": "2027-08-19 23:59:59.9",
+      "salary": "$69,073 - $85,000 per year",
+      "salary_min": 69073,
+      "salary_max": 85000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Excluded focus area: Power and energy systems",
+        "Maximum salary $85,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Research Associate - College of Engineering - Electrical and Computer Engineering",
+      "company": "Carnegie Mellon University",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179371683&Title=Postdoctoral%20Research%20Associate%20%2D%20College%20of%20Engineering%20%2D%20Electrical%20and%20Computer%20Engineering",
+      "posting_date": "2026-02-22 05:02:55.143",
+      "closing_date": "2027-08-16 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Adjunct Faculty in Computer Science/Cybersecurity/Cyber Engineering Technology",
+      "company": "Texas A&amp;M University-San Antonio",
+      "city": "San Antonio",
+      "state": "TX",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179369475&Title=Adjunct%20Faculty%20in%20Computer%20Science%2FCybersecurity%2FCyber%20Engineering%20Technology",
+      "posting_date": "2026-02-19 10:15:43.41",
+      "closing_date": "2027-08-13 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Adjunct teaching roles",
+        "Excluded focus area: Cybersecurity"
+      ]
+    },
+    {
+      "title": "Postdoctoral Associate- Agelab",
+      "company": "Massachusetts Institute of Technology",
+      "city": "Cambridge",
+      "state": "MA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179366510&Title=Postdoctoral%20Associate%2D%20Agelab",
+      "posting_date": "2026-02-16 15:00:58.443",
+      "closing_date": "2027-08-10 23:59:59.9",
+      "salary": "$71,000 - $90,000 per year",
+      "salary_min": 71000,
+      "salary_max": 90000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $90,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Research Scientist - College of Engineering - Electrical and Computer Engineering",
+      "company": "Carnegie Mellon University",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179352707&Title=Research%20Scientist%20%2D%20College%20of%20Engineering%20%2D%20Electrical%20and%20Computer%20Engineering",
+      "posting_date": "2026-01-31 15:16:30.64",
+      "closing_date": "2027-07-25 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Research scientist roles",
+        "Excluded focus area: Medical robotics and biomedical systems"
+      ]
+    },
+    {
+      "title": "Postdoctoral Research Associate - College of Engineering - Electrical and Computer Engineering",
+      "company": "Carnegie Mellon University",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179352706&Title=Postdoctoral%20Research%20Associate%20%2D%20College%20of%20Engineering%20%2D%20Electrical%20and%20Computer%20Engineering",
+      "posting_date": "2026-01-31 15:16:24.453",
+      "closing_date": "2027-07-25 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Assistant/Associate/Full Professor of Electrical Engineering or Cyber Engineering",
+      "company": "Houston Christian University",
+      "city": "Houston",
+      "state": "TX",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=178679789&Title=Assistant%2FAssociate%2FFull%20Professor%20of%20Electrical%20Engineering%20or%20Cyber%20Engineering",
+      "posting_date": "2026-01-22 13:47:03.0",
+      "closing_date": "2026-08-28 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded institution: Religious mission or affiliation"
+      ]
+    },
+    {
+      "title": "Postdoctoral Researcher - ABC Innovation Lab",
+      "company": "Syracuse University",
+      "city": "Syracuse",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179344958&Title=Postdoctoral%20Researcher%20%2D%20ABC%20Innovation%20Lab",
+      "posting_date": "2026-01-22 10:45:51.397",
+      "closing_date": "2027-07-16 23:59:59.9",
+      "salary": "$66,900 per year",
+      "salary_min": 66900,
+      "salary_max": 66900,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $66,900 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Endowed Chair in Semiconductor Research",
+      "company": "Texas State University",
+      "city": "San Marcos",
+      "state": "TX",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179343133&Title=Endowed%20Chair%20in%20Semiconductor%20Research",
+      "posting_date": "2026-01-20 12:31:04.827",
+      "closing_date": "2027-07-14 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Chair roles",
+        "Excluded focus area: Deep microelectronics and semiconductor devices"
+      ]
+    },
+    {
+      "title": "Temporary Lecturer - IDEA Engineering Student Center - Jacobs School of Engineering",
+      "company": "University of California, San Diego",
+      "city": "La Jolla",
+      "state": "CA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179331192&Title=Temporary%20Lecturer%20%2D%20IDEA%20Engineering%20Student%20Center%20%2D%20Jacobs%20School%20of%20Engineering",
+      "posting_date": "2026-01-05 14:45:45.833",
+      "closing_date": "2027-06-29 23:59:59.9",
+      "salary": "$70,977 - $77,561 per year",
+      "salary_min": 70977,
+      "salary_max": 77561,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Maximum salary $77,561 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Assistant/Associate/Full Professor (2 Positions)",
+      "company": "Tennessee Tech University",
+      "city": "Cookeville",
+      "state": "TN",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179329780&Title=Assistant%2FAssociate%2FFull%20Professor%20%282%20Positions%29",
+      "posting_date": "2025-12-31 14:33:37.33",
+      "closing_date": "2027-06-24 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded focus area: Power and energy systems"
+      ]
+    },
+    {
+      "title": "Assistant or Associate Professor in Energy Storage Systems",
+      "company": "Binghamton University",
+      "city": "Binghamton",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179328859&Title=Assistant%20or%20Associate%20Professor%20in%20Energy%20Storage%20Systems",
+      "posting_date": "2025-12-29 15:33:05.29",
+      "closing_date": "2027-06-22 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded focus area: Power and energy systems"
+      ]
+    },
+    {
+      "title": "Project Scientist (all levels) in interdisciplinary biotechnology research",
+      "company": "University of California Santa Barbara",
+      "city": "Santa Barbara",
+      "state": "CA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179316948&Title=Project%20Scientist%20%28all%20levels%29%20in%20interdisciplinary%20biotechnology%20research",
+      "posting_date": "2025-12-10 18:31:37.017",
+      "closing_date": "2027-06-03 23:59:59.9",
+      "salary": "$78,500 - $176,500 per year",
+      "salary_min": 78500,
+      "salary_max": 176500,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded industry: Military/Defense"
+      ]
+    },
+    {
+      "title": "Professor of Empire Innovation, Microelectronics",
+      "company": "Binghamton University",
+      "city": "Binghamton",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179314510&Title=Professor%20of%20Empire%20Innovation%2C%20Microelectronics",
+      "posting_date": "2025-12-08 07:18:27.85",
+      "closing_date": "2027-06-01 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded focus area: Deep microelectronics and semiconductor devices"
+      ]
+    },
+    {
+      "title": "Postdoctoral Research Associate (Electrical and Computer Engineering)",
+      "company": "The University of Arizona",
+      "city": "Tucson",
+      "state": "AZ",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179314264&Title=Postdoctoral%20Research%20Associate%20%28Electrical%20and%20Computer%20Engineering%29",
+      "posting_date": null,
+      "closing_date": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Research Scientist or Postdoctoral Associate in Formal Methods for Security and Machine Learning",
+      "company": "University of Massachusetts Lowell",
+      "city": "Lowell",
+      "state": "MA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179311492&Title=Research%20Scientist%20or%20Postdoctoral%20Associate%20in%20Formal%20Methods%20for%20Security%20and%20Machine%20Learning",
+      "posting_date": "2025-12-03 11:49:12.21",
+      "closing_date": "2027-05-27 23:59:59.9",
+      "salary": "$70,000 per year",
+      "salary_min": 70000,
+      "salary_max": 70000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $70,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Assistant Professor of Computer Engineering",
+      "company": "Chicago State University",
+      "city": "Chicago",
+      "state": "IL",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179311454&Title=Assistant%20Professor%20of%20Computer%20Engineering",
+      "posting_date": "2025-12-03 11:31:57.73",
+      "closing_date": "2027-05-27 23:59:59.9",
+      "salary": "$80,000 per year",
+      "salary_min": 80000,
+      "salary_max": 80000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Maximum salary $80,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "One-Year Lecturer in Electrical and Computer Engineering",
+      "company": "University of Texas Rio Grande Valley",
+      "city": "Edinburg",
+      "state": "TX",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179309991&Title=One%2DYear%20Lecturer%20in%20Electrical%20and%20Computer%20Engineering",
+      "posting_date": "2025-12-02 08:07:05.523",
+      "closing_date": "2027-05-26 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: One-year lecturer roles"
+      ]
+    },
+    {
+      "title": "Postdoctoral Research Associate",
+      "company": "Northeastern University",
+      "city": "Boston",
+      "state": "MA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179308609&Title=Postdoctoral%20Research%20Associate",
+      "posting_date": "2025-11-30 14:05:18.95",
+      "closing_date": "2027-05-24 23:59:59.9",
+      "salary": "$60,315.00 - $85,192.50 per year",
+      "salary_min": 60315,
+      "salary_max": 85192,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $85,192 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Research Associate",
+      "company": "New York University",
+      "city": "Brooklyn",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179305499&Title=Research%20Associate",
+      "posting_date": "2025-11-24 11:16:49.273",
+      "closing_date": "2027-05-18 23:59:59.9",
+      "salary": "$52,500 - $54,000 per year",
+      "salary_min": 52500,
+      "salary_max": 54000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Maximum salary $54,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Research Associate - Xu lab",
+      "company": "Carnegie Mellon University",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179301311&Title=Postdoctoral%20Research%20Associate%20%2D%20Xu%20lab",
+      "posting_date": "2025-11-19 09:46:52.77",
+      "closing_date": "2027-05-13 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Assistant Professor of Cybersecurity",
+      "company": "California State University, Long Beach",
+      "city": "Long Beach",
+      "state": "CA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179300385&Title=Assistant%20Professor%20of%20Cybersecurity",
+      "posting_date": "2025-11-18 12:45:38.68",
+      "closing_date": "2027-05-12 23:59:59.9",
+      "salary": "$74,652 - $158,688 per year",
+      "salary_min": 74652,
+      "salary_max": 158688,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded focus area: Cybersecurity"
+      ]
+    },
+    {
+      "title": "Post Doctoral Associate",
+      "company": "New York University",
+      "city": "Brooklyn",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179294322&Title=Post%20Doctoral%20Associate",
+      "posting_date": "2025-11-11 10:02:07.87",
+      "closing_date": "2027-05-05 23:59:59.9",
+      "salary": "$62,500 - $80,000 per year",
+      "salary_min": 62500,
+      "salary_max": 80000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $80,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Associate (Kent)",
+      "company": "New York University",
+      "city": "New York",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179292002&Title=Postdoctoral%20Associate%20%28Kent%29",
+      "posting_date": "2025-11-07 11:24:04.557",
+      "closing_date": "2027-05-01 23:59:59.9",
+      "salary": "$62,500 - $64,000 per year",
+      "salary_min": 62500,
+      "salary_max": 64000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $64,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Open-Rank Faculty Position in Electrical, Computer, and Cybersecurity Engineering",
+      "company": "Florida Polytechnic University",
+      "city": "Lakeland",
+      "state": "FL",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179291065&Title=Open%2DRank%20Faculty%20Position%20in%20Electrical%2C%20Computer%2C%20and%20Cybersecurity%20Engineering",
+      "posting_date": "2025-11-06 12:00:58.493",
+      "closing_date": "2027-04-30 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded focus area: Cybersecurity"
+      ]
+    },
+    {
+      "title": "Electromagnetic Effects & Applications Department Head (Faculty)",
+      "company": "Penn State",
+      "city": "University Park",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179289874&Title=Electromagnetic%20Effects%20%26%20Applications%20Department%20Head%20%28Faculty%29",
+      "posting_date": "2025-11-05 11:45:51.087",
+      "closing_date": "2027-04-29 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Head roles",
+        "Excluded industry: Military/Defense"
+      ]
+    },
+    {
+      "title": "Electromagnetic Effects & Applications Department Head",
+      "company": "Penn State",
+      "city": "University Park",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179289873&Title=Electromagnetic%20Effects%20%26amp%3B%20Applications%20Department%20Head",
+      "posting_date": "2025-11-05 11:45:44.933",
+      "closing_date": "2027-04-29 23:59:59.9",
+      "salary": "$161,004 - $298,800 per year",
+      "salary_min": 161004,
+      "salary_max": 298800,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Head roles",
+        "Excluded industry: Military/Defense"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellowship Position in Visual Computing at Harvard University",
+      "company": "Harvard University",
+      "city": "Cambridge",
+      "state": "MA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179284991&Title=Postdoctoral%20Fellowship%20Position%20in%20Visual%20Computing%20at%20Harvard%20University",
+      "posting_date": "2025-10-30 16:00:56.603",
+      "closing_date": "2027-04-23 23:59:59.9",
+      "salary": "$67,600 - $91,826 per year",
+      "salary_min": 67600,
+      "salary_max": 91826,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $91,826 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Associate",
+      "company": "Morgan State University",
+      "city": "Baltimore",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179282612&Title=Postdoctoral%20Associate",
+      "posting_date": "2025-10-28 15:31:24.29",
+      "closing_date": "2027-04-21 23:59:59.9",
+      "salary": "$50,000 - $75,000 per year",
+      "salary_min": 50000,
+      "salary_max": 75000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $75,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Assistant Professor, Simons Empire Faculty Fellow, Electrical Engineering",
+      "company": "University at Buffalo",
+      "city": "Buffalo",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179275314&Title=Assistant%20Professor%2C%20Simons%20Empire%20Faculty%20Fellow%2C%20Electrical%20Engineering",
+      "posting_date": "2025-10-21 00:30:01.733",
+      "closing_date": "2027-04-14 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded focus area: Power and energy systems"
+      ]
+    },
+    {
+      "title": "Postdoctoral Associate in Engineering Education, Ithaca NY",
+      "company": "Cornell University",
+      "city": "Ithaca",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179266029&Title=Postdoctoral%20Associate%20in%20Engineering%20Education%2C%20Ithaca%20NY",
+      "posting_date": "2025-10-09 15:32:00.963",
+      "closing_date": "2027-04-02 23:59:59.9",
+      "salary": "$62,232 - $88,745 per year",
+      "salary_min": 62232,
+      "salary_max": 88745,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $88,745 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Research Associate -  Medical Device Wound Healing",
+      "company": "University of Massachusetts Lowell",
+      "city": "Lowell",
+      "state": "MA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179265231&Title=Postdoctoral%20Research%20Associate%20%2D%20%20Medical%20Device%20Wound%20Healing",
+      "posting_date": "2025-10-09 00:02:18.76",
+      "closing_date": "2027-04-02 23:59:59.9",
+      "salary": "$50,000 - $76,000 per year",
+      "salary_min": 50000,
+      "salary_max": 76000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $76,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Research Associate, Electrical and Computer Engineering",
+      "company": "The University of Arizona",
+      "city": "Tucson",
+      "state": "AZ",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179263570&Title=Postdoctoral%20Research%20Associate%2C%20Electrical%20and%20Computer%20Engineering",
+      "posting_date": null,
+      "closing_date": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Excluded industry: Military/Defense"
+      ]
+    },
+    {
+      "title": "Empire Innovation Professor, Electrical Engineering",
+      "company": "University at Buffalo",
+      "city": "Buffalo",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179263351&Title=Empire%20Innovation%20Professor%2C%20Electrical%20Engineering",
+      "posting_date": "2025-10-07 15:31:09.217",
+      "closing_date": "2027-03-31 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded focus area: Power and energy systems"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow in Nanoelectronics or Flexible Electronics",
+      "company": "Harvard University",
+      "city": "Cambridge",
+      "state": "MA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179262739&Title=Postdoctoral%20Fellow%20in%20Nanoelectronics%20or%20Flexible%20Electronics",
+      "posting_date": "2025-10-07 10:49:32.49",
+      "closing_date": "2027-03-31 23:59:59.9",
+      "salary": "$67,600 - $91,826 per year",
+      "salary_min": 67600,
+      "salary_max": 91826,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $91,826 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "PHY: Experimental and Theoretical Positions for Quantum and Information Sciences.",
+      "company": "Syracuse University",
+      "city": "Syracuse",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179258213&Title=PHY%3A%20Experimental%20and%20Theoretical%20Positions%20for%20Quantum%20and%20Information%20Sciences%2E",
+      "posting_date": "2025-10-01 14:34:38.863",
+      "closing_date": "2027-03-25 23:59:59.9",
+      "salary": "$85,000 - $105,000 per year",
+      "salary_min": 85000,
+      "salary_max": 105000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Maximum salary $105,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Optical Diagnostics for Plasma Etching Postdoc Researcher",
+      "company": "Morgan State University",
+      "city": "Baltimore",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179255541&Title=Optical%20Diagnostics%20for%20Plasma%20Etching%20Postdoc%20Researcher",
+      "posting_date": "2025-09-29 10:00:56.737",
+      "closing_date": "2027-03-23 23:59:59.9",
+      "salary": "$82,000 per year",
+      "salary_min": 82000,
+      "salary_max": 82000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $82,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Associate Professor/Full Professor & Director (SMART Center)",
+      "company": "Prairie View A&amp;M University",
+      "city": "Prairie View",
+      "state": "TX",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179253109&Title=Associate%20Professor%2FFull%20Professor%20%26amp%3B%20Director%20%28SMART%20Center%29",
+      "posting_date": "2025-09-26 07:18:17.87",
+      "closing_date": "2027-03-20 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Director roles",
+        "Excluded focus area: Power and energy systems"
+      ]
+    },
+    {
+      "title": "Assistant Professor - Computer Engineering",
+      "company": "University of Massachusetts - Boston",
+      "city": "Boston",
+      "state": "MA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179251343&Title=Assistant%20Professor%20%2D%20Computer%20Engineering",
+      "posting_date": "2025-09-24 11:18:49.69",
+      "closing_date": "2027-03-18 23:59:59.9",
+      "salary": "$80,000 - $105,000 per year",
+      "salary_min": 80000,
+      "salary_max": 105000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Maximum salary $105,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Assistant Professor - Power Systems",
+      "company": "University of Massachusetts - Boston",
+      "city": "Boston",
+      "state": "MA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179248600&Title=Assistant%20Professor%20%2D%20Power%20Systems",
+      "posting_date": "2025-09-22 12:04:13.67",
+      "closing_date": "2027-03-16 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded focus area: Power and energy systems"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow - Robotics Institute",
+      "company": "Carnegie Mellon University",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179241889&Title=Postdoctoral%20Fellow%20%2D%20Robotics%20Institute",
+      "posting_date": "2025-09-15 15:18:42.25",
+      "closing_date": "2027-03-09 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Professor-Electrical Engineering and Material Research Institute (MRI)",
+      "company": "Penn State",
+      "city": "University Park",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179232072&Title=Professor%2DElectrical%20Engineering%20and%20Material%20Research%20Institute%20%28MRI%29",
+      "posting_date": "2025-09-04 10:05:48.657",
+      "closing_date": "2027-02-26 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded focus area: Deep microelectronics and semiconductor devices"
+      ]
+    },
+    {
+      "title": "Lecturer Pool- Nuclear Engineering- College of Engineering",
+      "company": "University of California Berkeley",
+      "city": "Berkeley",
+      "state": "CA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179221522&Title=Lecturer%20Pool%2D%20Nuclear%20Engineering%2D%20College%20of%20Engineering",
+      "posting_date": "2025-08-22 08:48:16.203",
+      "closing_date": "2027-02-13 23:59:59.9",
+      "salary": "$75,301 - $199,722 per year",
+      "salary_min": 75301,
+      "salary_max": 199722,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded focus area: Nuclear energy and engineering"
+      ]
+    },
+    {
+      "title": "Postdoctoral Scholar - Polymer Engineering",
+      "company": "Penn State Erie, The Behrend College",
+      "city": "Erie",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179208472&Title=Postdoctoral%20Scholar%20%2D%20Polymer%20Engineering",
+      "posting_date": "2025-08-07 13:15:44.393",
+      "closing_date": "2027-01-29 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Assistant/Associate/Full Professor of Computer Science or Cyber Engineering",
+      "company": "Houston Christian University",
+      "city": "Houston",
+      "state": "TX",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=178252954&Title=Assistant%2FAssociate%2FFull%20Professor%20of%20Computer%20Science%20or%20Cyber%20Engineering",
+      "posting_date": "2025-08-07 08:21:05.0",
+      "closing_date": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded institution: Religious mission or affiliation"
+      ]
+    },
+    {
+      "title": "Research Assistant Professor in Microelectronics and Semiconductors (3 Positions)",
+      "company": "University of Texas at El Paso",
+      "city": "El Paso",
+      "state": "TX",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179191472&Title=Research%20Assistant%20Professor%20in%20Microelectronics%20and%20Semiconductors%20%283%20Positions%29",
+      "posting_date": "2025-07-21 16:20:17.713",
+      "closing_date": "2027-01-12 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded focus area: Deep microelectronics and semiconductor devices"
+      ]
+    },
+    {
+      "title": "Post Doctoral Associate",
+      "company": "New York University",
+      "city": "Brooklyn",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179189821&Title=Post%20Doctoral%20Associate",
+      "posting_date": "2025-07-18 14:33:03.9",
+      "closing_date": "2027-01-09 23:59:59.9",
+      "salary": "Starting at $67,500 per year",
+      "salary_min": 67500,
+      "salary_max": 67500,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Excluded focus area: Deep microelectronics and semiconductor devices",
+        "Maximum salary $67,500 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow (PREP0003088)",
+      "company": "Johns Hopkins University",
+      "city": "Gaithersburg",
+      "state": "MD",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179181653&Title=Postdoctoral%20Fellow%20%28PREP0003088%29",
+      "posting_date": "2025-07-09 16:04:33.51",
+      "closing_date": "2026-12-31 23:59:59.9",
+      "salary": "$78,000 - $83,000 per year",
+      "salary_min": 78000,
+      "salary_max": 83000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $83,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Scholar - MOCVD Thin Films",
+      "company": "Penn State",
+      "city": "University Park",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179174322&Title=Postdoctoral%20Scholar%20%2D%20MOCVD%20Thin%20Films",
+      "posting_date": "2025-06-30 14:46:24.08",
+      "closing_date": "2026-12-22 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Non-Destructive Inspection Engineer/Material Scientist (Faculty)",
+      "company": "Penn State",
+      "city": "University Park",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179172701&Title=Non%2DDestructive%20Inspection%20Engineer%2FMaterial%20Scientist%20%28Faculty%29",
+      "posting_date": "2025-06-28 12:01:23.88",
+      "closing_date": "2026-12-20 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded industry: Military/Defense"
+      ]
+    },
+    {
+      "title": "Postdoctoral Scholar-Electrical Engineering",
+      "company": "Penn State",
+      "city": "University Park",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179163221&Title=Postdoctoral%20Scholar%2DElectrical%20Engineering",
+      "posting_date": "2025-06-16 17:02:47.817",
+      "closing_date": "2026-12-08 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Excluded focus area: Power and energy systems"
+      ]
+    },
+    {
+      "title": "Research Scientist - Radio Frequency (RF) Propagation Channel Development",
+      "company": "New York University",
+      "city": "Brooklyn",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179157176&Title=Research%20Scientist%20%2D%20Radio%20Frequency%20%28RF%29%20Propagation%20Channel%20Development",
+      "posting_date": "2025-06-10 13:01:09.737",
+      "closing_date": "2026-12-02 23:59:59.9",
+      "salary": "$100,000 - $120,000 per year",
+      "salary_min": 100000,
+      "salary_max": 120000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Research scientist roles"
+      ]
+    },
+    {
+      "title": "Research Scientist - Channel Simulation and Data Analytics",
+      "company": "New York University",
+      "city": "Brooklyn",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179156513&Title=Research%20Scientist%20%2D%20Channel%20Simulation%20and%20Data%20Analytics",
+      "posting_date": "2025-06-09 20:31:03.747",
+      "closing_date": "2026-12-01 23:59:59.9",
+      "salary": "$100,000 - $120,000 per year",
+      "salary_min": 100000,
+      "salary_max": 120000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Research scientist roles"
+      ]
+    },
+    {
+      "title": "NYU ECE Faculty Fellow | Fall 2025",
+      "company": "New York University",
+      "city": "Brooklyn",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179119955&Title=NYU%20ECE%20Faculty%20Fellow%20%7C%20Fall%202025",
+      "posting_date": "2025-04-28 14:50:20.607",
+      "closing_date": "2026-10-20 23:59:59.9",
+      "salary": "$70,000 - $110,000 per year",
+      "salary_min": 70000,
+      "salary_max": 110000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded focus area: Cybersecurity",
+        "Maximum salary $110,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Associate",
+      "company": "New York University",
+      "city": "Brooklyn",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179104623&Title=Postdoctoral%20Associate",
+      "posting_date": "2025-04-10 08:23:29.883",
+      "closing_date": "2026-10-02 23:59:59.9",
+      "salary": "$62,500 - $67,500 per year",
+      "salary_min": 62500,
+      "salary_max": 67500,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Excluded focus area: Power and energy systems",
+        "Maximum salary $67,500 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "U.A. Whitaker College of Engineering Visiting Faculty Positions",
+      "company": "Florida Gulf Coast University",
+      "city": "Fort Myers",
+      "state": "FL",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179081740&Title=U%2EA%2E%20Whitaker%20College%20of%20Engineering%20Visiting%20Faculty%20Positions",
+      "posting_date": "2025-03-14 10:35:48.76",
+      "closing_date": "2026-09-05 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Visiting roles"
+      ]
+    },
+    {
+      "title": "Research Scientist",
+      "company": "New York University",
+      "city": "Brooklyn",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179076751&Title=Research%20Scientist",
+      "posting_date": "2025-03-09 14:16:24.0",
+      "closing_date": "2026-08-31 23:59:59.9",
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Research scientist roles"
+      ]
+    },
+    {
+      "title": "Post Doctoral Associate",
+      "company": "New York University",
+      "city": "Brooklyn",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179032103&Title=Post%20Doctoral%20Associate",
+      "posting_date": "2025-01-21 00:33:50.76",
+      "closing_date": null,
+      "salary": "$62,500 per year",
+      "salary_min": 62500,
+      "salary_max": 62500,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $62,500 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Assistant Professor Software Engineering Tenure Track",
+      "company": "Clarkson University",
+      "city": "Potsdam",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=178998577&Title=Assistant%20Professor%20Software%20Engineering%20Tenure%20Track",
+      "posting_date": "2024-12-05 11:47:29.427",
+      "closing_date": null,
+      "salary": "$110,000 - $118,000 per year",
+      "salary_min": 110000,
+      "salary_max": 118000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Maximum salary $118,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Scholar - Electrical Engineering Wooram Lee Group",
+      "company": "Penn State",
+      "city": "University Park",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=178997543&Title=Postdoctoral%20Scholar%20%2D%20Electrical%20Engineering%20Wooram%20Lee%20Group",
+      "posting_date": "2024-12-04 09:31:56.323",
+      "closing_date": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Excluded focus area: Deep microelectronics and semiconductor devices"
+      ]
+    },
+    {
+      "title": "Postdoctoral Scholar - Electrical Engineering Werner Group",
+      "company": "Penn State",
+      "city": "University Park",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=178997169&Title=Postdoctoral%20Scholar%20%2D%20Electrical%20Engineering%20Werner%20Group",
+      "posting_date": "2024-12-04 05:02:47.27",
+      "closing_date": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Postdoctoral Scholar-Electrical Engineering",
+      "company": "Penn State",
+      "city": "University Park",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=178997168&Title=Postdoctoral%20Scholar%2DElectrical%20Engineering",
+      "posting_date": "2024-12-04 05:02:40.907",
+      "closing_date": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Lecturer or Teaching Assistant Professor in Nuclear Engineering, Fall 2025",
+      "company": "University of Tennessee, Knoxville",
+      "city": "Knoxville",
+      "state": "TN",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=178984474&Title=Lecturer%20or%20Teaching%20Assistant%20Professor%20in%20Nuclear%20Engineering%2C%20Fall%202025",
+      "posting_date": "2024-11-18 13:45:59.97",
+      "closing_date": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded focus area: Nuclear energy and engineering"
+      ]
+    },
+    {
+      "title": "Postdoctoral Research Scholar--Zhou Lab",
+      "company": "Penn State",
+      "city": "University Park",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=178946707&Title=Postdoctoral%20Research%20Scholar%2D%2DZhou%20Lab",
+      "posting_date": "2024-10-10 19:01:37.77",
+      "closing_date": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Post Doctoral Associate",
+      "company": "New York University",
+      "city": "Brooklyn",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=178925852&Title=Post%20Doctoral%20Associate",
+      "posting_date": "2024-09-20 12:16:48.757",
+      "closing_date": null,
+      "salary": "$48,000 per year",
+      "salary_min": 48000,
+      "salary_max": 48000,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $48,000 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Post Doctoral Associate",
+      "company": "New York University",
+      "city": "Brooklyn",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=178920624&Title=Post%20Doctoral%20Associate",
+      "posting_date": "2024-09-16 21:17:39.133",
+      "closing_date": null,
+      "salary": "$62,500 per year",
+      "salary_min": 62500,
+      "salary_max": 62500,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $62,500 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Researcher - College of Engineering",
+      "company": "Villanova University",
+      "city": "Villanova",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=178833400&Title=Postdoctoral%20Researcher%20%2D%20College%20of%20Engineering",
+      "posting_date": null,
+      "closing_date": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Postdoctoral Scholar in Radiation Effects on Electronics",
+      "company": "Penn State",
+      "city": "University Park",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=178774521&Title=Postdoctoral%20Scholar%20in%20Radiation%20Effects%20on%20Electronics",
+      "posting_date": "2024-04-30 08:32:35.4",
+      "closing_date": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Open Rank Academic Faculty in Cybersecurity Engineering",
+      "company": "Augusta University",
+      "city": "Augusta",
+      "state": "GA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=178739137&Title=Open%20Rank%20Academic%20Faculty%20in%20Cybersecurity%20Engineering",
+      "posting_date": "2024-03-27 05:11:54.307",
+      "closing_date": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded focus area: Cybersecurity"
+      ]
+    },
+    {
+      "title": "Associate Dean for Research - School of Computer and Cyber Sciences",
+      "company": "Augusta University",
+      "city": "Augusta",
+      "state": "GA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=178665912&Title=Associate%20Dean%20for%20Research%20%2D%20School%20of%20Computer%20and%20Cyber%20Sciences",
+      "posting_date": "2024-01-17 17:31:50.74",
+      "closing_date": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded industry: Military/Defense"
+      ]
+    },
+    {
+      "title": "Assistant Teaching Professor of Computer Engineering",
+      "company": "Villanova University",
+      "city": "Villanova",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=178577951&Title=Assistant%20Teaching%20Professor%20of%20Computer%20Engineering",
+      "posting_date": null,
+      "closing_date": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded focus area: Cybersecurity"
+      ]
+    },
+    {
+      "title": "Postdoctoral Research Associate",
+      "company": "Northeastern University",
+      "city": "Boston",
+      "state": "MA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=178375523&Title=Postdoctoral%20Research%20Associate",
+      "posting_date": "2023-04-28 09:12:17.317",
+      "closing_date": null,
+      "salary": "$59,423.00 - $83,934.50",
+      "salary_min": 59423,
+      "salary_max": 83934,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions",
+        "Maximum salary $83,934 is below the required minimum of $120,000"
+      ]
+    },
+    {
+      "title": "Postdoctoral Researcher - College of Engineering",
+      "company": "Villanova University",
+      "city": "Villanova",
+      "state": "PA",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=178322018&Title=Postdoctoral%20Researcher%20%2D%20College%20of%20Engineering",
+      "posting_date": null,
+      "closing_date": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Postdoctoral positions"
+      ]
+    },
+    {
+      "title": "Adjunct Lecturer-Electrical & Computer Engineering",
+      "company": "SUNY Polytechnic Institute",
+      "city": "Utica",
+      "state": "NY",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=176412425&Title=Adjunct%20Lecturer%2DElectrical%20%26amp%3B%20Computer%20Engineering",
+      "posting_date": "2017-01-06 15:41:02.65",
+      "closing_date": null,
+      "salary": null,
+      "salary_min": null,
+      "salary_max": null,
+      "is_closing_date_soon": false,
+      "final_recommendation": "skip",
+      "skipped_before_llm": true,
+      "skip_reasons": [
+        "Excluded role: Adjunct teaching roles"
+      ]
+    }
+  ]
+}

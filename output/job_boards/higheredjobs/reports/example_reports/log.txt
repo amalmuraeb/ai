@@ -1,0 +1,6 @@
+Job-Agent run log
+Started: 2026-08-05T18:25:29-04:00
+Mode: Phase 7 only
+Command: python -m src.main --application_document_agents --job_sequence_number 2
+
+SUCCESS: Phase 7 completed; generated files: 2; checkpoint hits: 0; Ollama-generated documents: 2.

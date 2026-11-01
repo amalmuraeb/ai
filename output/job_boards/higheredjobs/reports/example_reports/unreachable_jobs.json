@@ -1,0 +1,29 @@
+{
+  "report_metadata": {
+    "report_name": "unreachable_jobs.json",
+    "report_version": "1.0",
+    "pipeline": "Job-Agent RPA Run",
+    "job_board": "higheredjobs_html",
+    "category": "unreachable",
+    "run_started_at": "2026-07-26T18:08:54-04:00",
+    "report_created_at": "2026-07-26T18:52:07-04:00"
+  },
+  "job_count": 1,
+  "jobs": [
+    {
+      "title": "Assistant, Associate or Professor of Practice, Mining Engineering",
+      "company": "University of Nevada Reno",
+      "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179298476&Title=Assistant%2C%20Associate%20or%20Professor%20of%20Practice%2C%20Mining%20Engineering",
+      "salary_match": null,
+      "employment_type_match": true,
+      "is_closing_date_soon": false,
+      "risk_flags": [
+        "LLM analysis failed; manual review required."
+      ],
+      "focus_areas": [],
+      "llm_error_type": "JSONDecodeError",
+      "llm_error": "Expecting value: line 1 column 1 (char 0)",
+      "final_recommendation": "manual_review"
+    }
+  ]
+}

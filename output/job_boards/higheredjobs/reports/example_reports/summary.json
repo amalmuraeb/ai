@@ -1,0 +1,55 @@
+{
+  "report_metadata": {
+    "report_name": "summary.json",
+    "report_version": "1.2",
+    "pipeline": "Job-Agent RPA Run",
+    "job_board": "higheredjobs_html",
+    "run_started_at": "2026-07-26T18:08:54-04:00",
+    "report_created_at": "2026-08-05T20:59:36-04:00"
+  },
+  "job_counts": {
+    "discovered": 282,
+    "sent_to_llm": 80,
+    "skipped_before_llm": 202,
+    "llm_failures": 1,
+    "apply": 20,
+    "review": 33,
+    "do_not_apply": 25,
+    "skipped": 202,
+    "unreachable": 1,
+    "analyzed": 78,
+    "accounted_for": 281,
+    "suppressed_applied_duplicates": 1
+  },
+  "timing": {
+    "phase_3_elapsed_time": "1 m 46.57 s",
+    "phase_4_elapsed_time": "1.12 s",
+    "phase_5_elapsed_time": "41 m 24.55 s",
+    "phase_6_elapsed_time": "7 m 59.77 s",
+    "phase_7_elapsed_time": "2 h 34 m 7 s",
+    "pipeline_overhead_time": "0.08 s",
+    "report_writing_time": "0.01 s",
+    "total_elapsed_time": "3 h 25 m 19.1 s",
+    "average_llm_time": "31.06 s",
+    "llm_utilization_percent": 28.4
+  },
+  "report_files": {
+    "apply": "output/job_boards/higheredjobs/reports/live_runs/analyzed/apply_jobs.json",
+    "review": "output/job_boards/higheredjobs/reports/live_runs/analyzed/review_jobs.json",
+    "do_not_apply": "output/job_boards/higheredjobs/reports/live_runs/analyzed/do_not_apply_jobs.json",
+    "skipped": "output/job_boards/higheredjobs/reports/live_runs/skipped_jobs.json",
+    "unreachable": "output/job_boards/higheredjobs/reports/live_runs/unreachable_jobs.json",
+    "document_manager": "output/job_boards/higheredjobs/reports/live_runs/document_manager.json",
+    "summary": "output/job_boards/higheredjobs/reports/live_runs/summary.json",
+    "log": "output/job_boards/higheredjobs/reports/live_runs/log.txt",
+    "applied": "output/job_boards/higheredjobs/reports/live_runs/applied_jobs.json"
+  },
+  "validation": {
+    "all_jobs_accounted_for": true,
+    "discovered_equals_sent_plus_skipped": true,
+    "llm_results_accounted_for": true,
+    "phase_6_all_apply_jobs_accounted_for": true,
+    "phase_6_unique_apply_source_urls": true,
+    "phase_6_unique_plan_source_urls": true
+  }
+}

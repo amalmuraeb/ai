@@ -1,0 +1,1086 @@
+{
+  "report_metadata": {
+    "report_name": "document_manager.json",
+    "report_version": "1.1",
+    "pipeline": "Job-Agent Isolated Phase 6 Run",
+    "phase": "Phase 6 — Document Manager",
+    "job_board": "higheredjobs",
+    "run_started_at": "2026-07-27T18:18:44-04:00",
+    "report_created_at": "2026-07-27T18:26:44-04:00",
+    "phase_7_reconciled_at": "2026-08-05T18:25:29-04:00",
+    "last_job_sequence_number": 21
+  },
+  "job_count": 20,
+  "ready_count": 12,
+  "missing_documents_count": 0,
+  "manual_review_count": 8,
+  "jobs": [
+    {
+      "job": {
+        "job_sequence_number": 1,
+        "title": "Assistant Professor of Instruction",
+        "applied?": "No",
+        "application_date": null,
+        "company": "University of Texas at Arlington",
+        "city": "Arlington",
+        "state": "TX",
+        "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179509878&Title=Assistant%20Professor%20of%20Instruction"
+      },
+      "required_documents": [
+        {
+          "document_type": "cv",
+          "posting_requirement": "Curriculum Vitae",
+          "available": true,
+          "selected_template": {
+            "name": "cv_master.docx",
+            "path": "required_documents/original/cv/cv_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "cover_letter",
+          "posting_requirement": "Cover Letter",
+          "available": true,
+          "selected_template": {
+            "name": "cover_letter_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/cover_letter_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "references",
+          "posting_requirement": "Contact information for 3 references",
+          "available": true,
+          "selected_template": {
+            "name": "references.docx",
+            "path": "required_documents/original/static/references.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "teaching_statement",
+          "posting_requirement": "Statement of Teaching Philosophy",
+          "available": true,
+          "selected_template": {
+            "name": "teaching_statement_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/teaching_statement_master.docx",
+            "extension": ".docx"
+          }
+        }
+      ],
+      "unclassified_requirements": [],
+      "missing_documents": [],
+      "manual_review_required": false,
+      "review_reason": null,
+      "ollama_fallback_used": true,
+      "ollama_fallback_error": null,
+      "ready": true
+    },
+    {
+      "job": {
+        "job_sequence_number": 3,
+        "title": "Nontenure Faculty Pool - Electrical Engineering",
+        "applied?": "No",
+        "application_date": null,
+        "company": "Texas State University",
+        "city": "San Marcos",
+        "state": "TX",
+        "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179504018&Title=Nontenure%20Faculty%20Pool%20%2D%20Electrical%20Engineering"
+      },
+      "required_documents": [
+        {
+          "document_type": "cv",
+          "posting_requirement": "A minimum of a masters degree in Electrical Engineering or a closely related engineering field.",
+          "available": true,
+          "selected_template": {
+            "name": "cv_master.docx",
+            "path": "required_documents/original/cv/cv_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "references",
+          "posting_requirement": "Previous experience teaching undergraduate engineering courses as the instructor of record.",
+          "available": true,
+          "selected_template": {
+            "name": "references.docx",
+            "path": "required_documents/original/static/references.docx",
+            "extension": ".docx"
+          }
+        }
+      ],
+      "unclassified_requirements": [],
+      "missing_documents": [],
+      "manual_review_required": false,
+      "review_reason": null,
+      "ollama_fallback_used": true,
+      "ollama_fallback_error": null,
+      "ready": true
+    },
+    {
+      "job": {
+        "job_sequence_number": 4,
+        "title": "Assistant/Associate Professor of Electrical & Computer Engineering",
+        "applied?": "Yes",
+        "application_date": "2026-08-09",
+        "company": "Lafayette College",
+        "city": "Easton",
+        "state": "PA",
+        "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179503860&Title=Assistant%2FAssociate%20Professor%20of%20Electrical%20%26amp%3B%20Computer%20Engineering"
+      },
+      "required_documents": [
+        {
+          "document_type": "cover_letter",
+          "posting_requirement": "Applicants should submit a cover letter, curriculum vitae, a statement of teaching interests and philosophy, a research statement describing plans for involving undergraduates, and the names and contact information of three professional references. Applicants who are invited to interview will be asked to submit three confidential letters of recommendation. Within the submitted materials, candidates should address how their teaching, scholarship, and/or service will support Lafayette's",
+          "available": true,
+          "selected_template": {
+            "name": "cover_letter_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/cover_letter_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "cv",
+          "posting_requirement": "Applicants should submit a cover letter, curriculum vitae, a statement of teaching interests and philosophy, a research statement describing plans for involving undergraduates, and the names and contact information of three professional references. Applicants who are invited to interview will be asked to submit three confidential letters of recommendation. Within the submitted materials, candidates should address how their teaching, scholarship, and/or service will support Lafayette's",
+          "available": true,
+          "selected_template": {
+            "name": "cv_master.docx",
+            "path": "required_documents/original/cv/cv_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "research_statement",
+          "posting_requirement": "Applicants should submit a cover letter, curriculum vitae, a statement of teaching interests and philosophy, a research statement describing plans for involving undergraduates, and the names and contact information of three professional references. Applicants who are invited to interview will be asked to submit three confidential letters of recommendation. Within the submitted materials, candidates should address how their teaching, scholarship, and/or service will support Lafayette's",
+          "available": true,
+          "selected_template": {
+            "name": "research_statement_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/research_statement_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "references",
+          "posting_requirement": "Applicants should submit a cover letter, curriculum vitae, a statement of teaching interests and philosophy, a research statement describing plans for involving undergraduates, and the names and contact information of three professional references. Applicants who are invited to interview will be asked to submit three confidential letters of recommendation. Within the submitted materials, candidates should address how their teaching, scholarship, and/or service will support Lafayette's",
+          "available": true,
+          "selected_template": {
+            "name": "references.docx",
+            "path": "required_documents/original/static/references.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "teaching_statement",
+          "posting_requirement": "a statement of teaching interests and philosophy",
+          "available": true,
+          "selected_template": {
+            "name": "teaching_statement_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/teaching_statement_master.docx",
+            "extension": ".docx"
+          }
+        }
+      ],
+      "unclassified_requirements": [],
+      "missing_documents": [],
+      "manual_review_required": false,
+      "review_reason": null,
+      "ollama_fallback_used": true,
+      "ollama_fallback_error": null,
+      "ready": true
+    },
+    {
+      "job": {
+        "job_sequence_number": 5,
+        "title": "Assistant Professor - Computer Engineering (AY 27/28)",
+        "applied?": "No",
+        "application_date": null,
+        "company": "Cal Poly, San Luis Obispo",
+        "city": "San Luis Obispo",
+        "state": "CA",
+        "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179494858&Title=Assistant%20Professor%20%2D%20Computer%20Engineering%20%28AY%2027%2F28%29"
+      },
+      "required_documents": [
+        {
+          "document_type": "cover_letter",
+          "posting_requirement": "(1) cover letter providing details of the applicant's qualifications and interest in the position",
+          "available": true,
+          "selected_template": {
+            "name": "cover_letter_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/cover_letter_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "cv",
+          "posting_requirement": "(2) current CV",
+          "available": true,
+          "selected_template": {
+            "name": "cv_master.docx",
+            "path": "required_documents/original/cv/cv_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "research_statement",
+          "posting_requirement": "(3) statement of goals and plans for research",
+          "available": true,
+          "selected_template": {
+            "name": "research_statement_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/research_statement_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "transcripts",
+          "posting_requirement": "(4) copy of unofficial transcripts",
+          "available": true,
+          "selected_template": {
+            "name": "transcripts.pdf",
+            "path": "required_documents/original/static/transcripts.pdf",
+            "extension": ".pdf"
+          }
+        },
+        {
+          "document_type": "personal_statement",
+          "posting_requirement": "Universal Student Success Statement (see prompt below)",
+          "available": true,
+          "selected_template": {
+            "name": "personal_statement_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/personal_statement_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "references",
+          "posting_requirement": "Please be prepared to provide three professional references with names and email addresses when completing the online faculty application.",
+          "available": true,
+          "selected_template": {
+            "name": "references.docx",
+            "path": "required_documents/original/static/references.docx",
+            "extension": ".docx"
+          }
+        }
+      ],
+      "unclassified_requirements": [],
+      "missing_documents": [],
+      "manual_review_required": false,
+      "review_reason": null,
+      "ollama_fallback_used": true,
+      "ollama_fallback_error": null,
+      "ready": true
+    },
+    {
+      "job": {
+        "job_sequence_number": 6,
+        "title": "Computer Science & Engineering - Assistant Professor (Tenure-Track)",
+        "applied?": "No",
+        "application_date": null,
+        "company": "Sacred Heart University",
+        "city": "Fairfield",
+        "state": "CT",
+        "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179428144&Title=Computer%20Science%20%26amp%3B%20Engineering%20%2D%20Assistant%20Professor%20%28Tenure%2DTrack%29"
+      },
+      "required_documents": [
+        {
+          "document_type": "cover_letter",
+          "posting_requirement": "A cover letter describing your interest in the position and how your background aligns with the responsibilities and qualifications",
+          "available": true,
+          "selected_template": {
+            "name": "cover_letter_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/cover_letter_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "cv",
+          "posting_requirement": "A curriculum vitae",
+          "available": true,
+          "selected_template": {
+            "name": "cv_master.docx",
+            "path": "required_documents/original/cv/cv_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "teaching_statement",
+          "posting_requirement": "A statement of teaching philosophy",
+          "available": true,
+          "selected_template": {
+            "name": "teaching_statement_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/teaching_statement_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "research_statement",
+          "posting_requirement": "A statement describing past and future research interests",
+          "available": true,
+          "selected_template": {
+            "name": "research_statement_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/research_statement_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "references",
+          "posting_requirement": "Contact information for three professional references",
+          "available": true,
+          "selected_template": {
+            "name": "references.docx",
+            "path": "required_documents/original/static/references.docx",
+            "extension": ".docx"
+          }
+        }
+      ],
+      "unclassified_requirements": [],
+      "missing_documents": [],
+      "manual_review_required": false,
+      "review_reason": null,
+      "ollama_fallback_used": true,
+      "ollama_fallback_error": null,
+      "ready": true
+    },
+    {
+      "job": {
+        "job_sequence_number": 7,
+        "title": "Research Assistant/Associate Professor in AI-driven Resource Constrained Intelligent Systems (CS)",
+        "applied?": "No",
+        "application_date": null,
+        "company": "University of Texas at El Paso",
+        "city": "El Paso",
+        "state": "TX",
+        "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179416112&Title=Research%20Assistant%2FAssociate%20Professor%20in%20AI%2Ddriven%20Resource%20Constrained%20Intelligent%20Systems%20%28CS%29"
+      },
+      "required_documents": [
+        {
+          "document_type": "references",
+          "posting_requirement": "Applicants must submit the following: 1) a letter of interest describing their interest in the position and their fit to the position requirements; 2) detailed curriculum vita; 3) name and complete contact information of at least three references; 4) research statement (up to 3 pages); 5) unofficial transcripts; and 6) copies of their two most representative publications. Please state in your cover letter which rank you wish to be considered for.",
+          "available": true,
+          "selected_template": {
+            "name": "references.docx",
+            "path": "required_documents/original/static/references.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "research_statement",
+          "posting_requirement": "Applicants must submit the following: 1) a letter of interest describing their interest in the position and their fit to the position requirements; 2) detailed curriculum vita; 3) name and complete contact information of at least three references; 4) research statement (up to 3 pages); 5) unofficial transcripts; and 6) copies of their two most representative publications. Please state in your cover letter which rank you wish to be considered for.",
+          "available": true,
+          "selected_template": {
+            "name": "research_statement_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/research_statement_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "transcripts",
+          "posting_requirement": "Applicants must submit the following: 1) a letter of interest describing their interest in the position and their fit to the position requirements; 2) detailed curriculum vita; 3) name and complete contact information of at least three references; 4) research statement (up to 3 pages); 5) unofficial transcripts; and 6) copies of their two most representative publications. Please state in your cover letter which rank you wish to be considered for.",
+          "available": true,
+          "selected_template": {
+            "name": "transcripts.pdf",
+            "path": "required_documents/original/static/transcripts.pdf",
+            "extension": ".pdf"
+          }
+        },
+        {
+          "document_type": "representative_publications",
+          "posting_requirement": "Applicants must submit the following: 1) a letter of interest describing their interest in the position and their fit to the position requirements; 2) detailed curriculum vita; 3) name and complete contact information of at least three references; 4) research statement (up to 3 pages); 5) unofficial transcripts; and 6) copies of their two most representative publications. Please state in your cover letter which rank you wish to be considered for.",
+          "available": true,
+          "selected_template": {
+            "name": "representative_publications",
+            "path": "required_documents/original/static/representative_publications",
+            "extension": ""
+          }
+        },
+        {
+          "document_type": "cover_letter",
+          "posting_requirement": "Applicants must submit the following: 1) a letter of interest describing their interest in the position and their fit to the position requirements; 2) detailed curriculum vita; 3) name and complete contact information of at least three references; 4) research statement (up to 3 pages); 5) unofficial transcripts; and 6) copies of their two most representative publications. Please state in your cover letter which rank you wish to be considered for.",
+          "available": true,
+          "selected_template": {
+            "name": "cover_letter_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/cover_letter_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "cv",
+          "posting_requirement": "2) detailed curriculum vita;",
+          "available": true,
+          "selected_template": {
+            "name": "cv_master.docx",
+            "path": "required_documents/original/cv/cv_master.docx",
+            "extension": ".docx"
+          }
+        }
+      ],
+      "unclassified_requirements": [],
+      "missing_documents": [],
+      "manual_review_required": false,
+      "review_reason": null,
+      "ollama_fallback_used": true,
+      "ollama_fallback_error": null,
+      "ready": true
+    },
+    {
+      "job": {
+        "job_sequence_number": 8,
+        "title": "Research Assistant/Associate Professor in AI-driven Resource Constrained Intelligent Systems (ECE)",
+        "applied?": "No",
+        "application_date": null,
+        "company": "University of Texas at El Paso",
+        "city": "El Paso",
+        "state": "TX",
+        "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179416111&Title=Research%20Assistant%2FAssociate%20Professor%20in%20AI%2Ddriven%20Resource%20Constrained%20Intelligent%20Systems%20%28ECE%29"
+      },
+      "required_documents": [
+        {
+          "document_type": "references",
+          "posting_requirement": "Applicants must submit the following: 1) a letter of interest describing their interest in the position and their fit to the position requirements; 2) detailed curriculum vita; 3) name and complete contact information of at least three references; 4) research statement (up to 3 pages); 5) unofficial transcripts; and 6) copies of their two most representative publications. Please state in your cover letter which rank you wish to be considered for.",
+          "available": true,
+          "selected_template": {
+            "name": "references.docx",
+            "path": "required_documents/original/static/references.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "research_statement",
+          "posting_requirement": "Applicants must submit the following: 1) a letter of interest describing their interest in the position and their fit to the position requirements; 2) detailed curriculum vita; 3) name and complete contact information of at least three references; 4) research statement (up to 3 pages); 5) unofficial transcripts; and 6) copies of their two most representative publications. Please state in your cover letter which rank you wish to be considered for.",
+          "available": true,
+          "selected_template": {
+            "name": "research_statement_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/research_statement_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "transcripts",
+          "posting_requirement": "Applicants must submit the following: 1) a letter of interest describing their interest in the position and their fit to the position requirements; 2) detailed curriculum vita; 3) name and complete contact information of at least three references; 4) research statement (up to 3 pages); 5) unofficial transcripts; and 6) copies of their two most representative publications. Please state in your cover letter which rank you wish to be considered for.",
+          "available": true,
+          "selected_template": {
+            "name": "transcripts.pdf",
+            "path": "required_documents/original/static/transcripts.pdf",
+            "extension": ".pdf"
+          }
+        },
+        {
+          "document_type": "representative_publications",
+          "posting_requirement": "Applicants must submit the following: 1) a letter of interest describing their interest in the position and their fit to the position requirements; 2) detailed curriculum vita; 3) name and complete contact information of at least three references; 4) research statement (up to 3 pages); 5) unofficial transcripts; and 6) copies of their two most representative publications. Please state in your cover letter which rank you wish to be considered for.",
+          "available": true,
+          "selected_template": {
+            "name": "representative_publications",
+            "path": "required_documents/original/static/representative_publications",
+            "extension": ""
+          }
+        },
+        {
+          "document_type": "cover_letter",
+          "posting_requirement": "Applicants must submit the following: 1) a letter of interest describing their interest in the position and their fit to the position requirements; 2) detailed curriculum vita; 3) name and complete contact information of at least three references; 4) research statement (up to 3 pages); 5) unofficial transcripts; and 6) copies of their two most representative publications. Please state in your cover letter which rank you wish to be considered for.",
+          "available": true,
+          "selected_template": {
+            "name": "cover_letter_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/cover_letter_master.docx",
+            "extension": ".docx"
+          }
+        }
+      ],
+      "unclassified_requirements": [
+        "Review of applications will begin immediately and will continue until the position is filled. For information/inquiries regarding the position, please email,",
+        "ECE_Faculty_Search@utep.edu",
+        "."
+      ],
+      "missing_documents": [],
+      "manual_review_required": true,
+      "review_reason": "Ollama fallback failed validation; manual review required.",
+      "ollama_fallback_used": true,
+      "ollama_fallback_error": "ValueError: Fallback evidence is not an exact posting quote.",
+      "ready": false
+    },
+    {
+      "job": {
+        "job_sequence_number": 9,
+        "title": "Full-Time Lecturer AY - Computer Engineering (AY26/27)",
+        "applied?": "No",
+        "application_date": null,
+        "company": "Cal Poly, San Luis Obispo",
+        "city": "San Luis Obispo",
+        "state": "CA",
+        "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179407516&Title=Full%2DTime%20Lecturer%20AY%20%2D%20Computer%20Engineering%20%28AY26%2F27%29"
+      },
+      "required_documents": [],
+      "unclassified_requirements": [],
+      "missing_documents": [],
+      "manual_review_required": true,
+      "review_reason": "Ollama fallback failed validation; manual review required.",
+      "ollama_fallback_used": true,
+      "ollama_fallback_error": "JSONDecodeError: Expecting ':' delimiter: line 17 column 19 (char 435)",
+      "ready": false
+    },
+    {
+      "job": {
+        "job_sequence_number": 10,
+        "title": "Assistant or Associate Professor in Quantum Information Science and Technology",
+        "applied?": "No",
+        "application_date": null,
+        "company": "Binghamton University",
+        "city": "Binghamton",
+        "state": "NY",
+        "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179321265&Title=Assistant%20or%20Associate%20Professor%20in%20Quantum%20Information%20Science%20and%20Technology"
+      },
+      "required_documents": [
+        {
+          "document_type": "cv",
+          "posting_requirement": "a curriculum vitae (including a list of publications),",
+          "available": true,
+          "selected_template": {
+            "name": "cv_master.docx",
+            "path": "required_documents/original/cv/cv_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "teaching_statement",
+          "posting_requirement": "teaching statement (1-2 pages)",
+          "available": true,
+          "selected_template": {
+            "name": "teaching_statement_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/teaching_statement_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "references",
+          "posting_requirement": "the names and contact information of three professional references; Associate Professor applicants will be asked to provide contact information for a fourth reference at a later stage.",
+          "available": true,
+          "selected_template": {
+            "name": "references.docx",
+            "path": "required_documents/original/static/references.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "cover_letter",
+          "posting_requirement": "a letter of application,",
+          "available": true,
+          "selected_template": {
+            "name": "cover_letter_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/cover_letter_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "research_statement",
+          "posting_requirement": "vision for research (3-5 pages),",
+          "available": true,
+          "selected_template": {
+            "name": "research_statement_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/research_statement_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "service_statement",
+          "posting_requirement": "a diversity statement that describes your experience teaching a diverse population of students, which may include first generation students, students from diverse racial and ethnic backgrounds, and international students, and how this experience would contribute to enhancing the diversity and climate of the department, college and university,",
+          "available": true,
+          "selected_template": {
+            "name": "service_statement_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/service_statement_master.docx",
+            "extension": ".docx"
+          }
+        }
+      ],
+      "unclassified_requirements": [],
+      "missing_documents": [],
+      "manual_review_required": false,
+      "review_reason": null,
+      "ollama_fallback_used": true,
+      "ollama_fallback_error": null,
+      "ready": true
+    },
+    {
+      "job": {
+        "job_sequence_number": 11,
+        "title": "Assistant or Associate Professor in Robotics and Control",
+        "applied?": "No",
+        "application_date": null,
+        "company": "Binghamton University",
+        "city": "Binghamton",
+        "state": "NY",
+        "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179321264&Title=Assistant%20or%20Associate%20Professor%20in%20Robotics%20and%20Control"
+      },
+      "required_documents": [
+        {
+          "document_type": "cover_letter",
+          "posting_requirement": "A cover letter,",
+          "available": true,
+          "selected_template": {
+            "name": "cover_letter_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/cover_letter_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "cv",
+          "posting_requirement": "A curriculum vitae (including a list of publications),",
+          "available": true,
+          "selected_template": {
+            "name": "cv_master.docx",
+            "path": "required_documents/original/cv/cv_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "research_statement",
+          "posting_requirement": "Research Statement (3-5 pages),",
+          "available": true,
+          "selected_template": {
+            "name": "research_statement_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/research_statement_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "teaching_statement",
+          "posting_requirement": "Teaching statement (1-2 pages)",
+          "available": true,
+          "selected_template": {
+            "name": "teaching_statement_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/teaching_statement_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "references",
+          "posting_requirement": "The names and contact information of three professional references; Associate Professor applicants will be asked to provide contact information for a fourth reference at a later stage.",
+          "available": true,
+          "selected_template": {
+            "name": "references.docx",
+            "path": "required_documents/original/static/references.docx",
+            "extension": ".docx"
+          }
+        }
+      ],
+      "unclassified_requirements": [
+        "A diversity statement that describes your experience teaching a diverse population of students, which may include first-generation students, students from diverse racial and ethnic backgrounds, and international students, and how this experience would contribute to enhancing the diversity and climate of the department, college, and university, and",
+        "Applications received by January 25, 2026, will receive full consideration. Position will remain open until filled."
+      ],
+      "missing_documents": [],
+      "manual_review_required": true,
+      "review_reason": "Ollama fallback failed validation; manual review required.",
+      "ollama_fallback_used": true,
+      "ollama_fallback_error": "ValueError: Fallback evidence is not an exact posting quote.",
+      "ready": false
+    },
+    {
+      "job": {
+        "job_sequence_number": 12,
+        "title": "Non-Tenure/Professional Track Faculty in Electrical and Computer Engineering",
+        "applied?": "No",
+        "application_date": null,
+        "company": "University of Texas at Austin",
+        "city": "Austin",
+        "state": "TX",
+        "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179304355&Title=Non%2DTenure%2FProfessional%20Track%20Faculty%20in%20Electrical%20and%20Computer%20Engineering"
+      },
+      "required_documents": [
+        {
+          "document_type": "cover_letter",
+          "posting_requirement": "Interested applicants should submit a cover letter, curriculum vitae, and three references who will submit original letters (one of the three must be from outside of UT).",
+          "available": true,
+          "selected_template": {
+            "name": "cover_letter_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/cover_letter_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "cv",
+          "posting_requirement": "Interested applicants should submit a cover letter, curriculum vitae, and three references who will submit original letters (one of the three must be from outside of UT).",
+          "available": true,
+          "selected_template": {
+            "name": "cv_master.docx",
+            "path": "required_documents/original/cv/cv_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "references",
+          "posting_requirement": "Interested applicants should submit a cover letter, curriculum vitae, and three references who will submit original letters (one of the three must be from outside of UT).",
+          "available": true,
+          "selected_template": {
+            "name": "references.docx",
+            "path": "required_documents/original/static/references.docx",
+            "extension": ".docx"
+          }
+        }
+      ],
+      "unclassified_requirements": [],
+      "missing_documents": [],
+      "manual_review_required": false,
+      "review_reason": null,
+      "ollama_fallback_used": true,
+      "ollama_fallback_error": null,
+      "ready": true
+    },
+    {
+      "job": {
+        "job_sequence_number": 13,
+        "title": "Assistant Professor of Computer Engineering",
+        "applied?": "No",
+        "application_date": null,
+        "company": "California State University, Long Beach",
+        "city": "Long Beach",
+        "state": "CA",
+        "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179300383&Title=Assistant%20Professor%20of%20Computer%20Engineering"
+      },
+      "required_documents": [],
+      "unclassified_requirements": [],
+      "missing_documents": [],
+      "manual_review_required": true,
+      "review_reason": "Ollama fallback failed validation; manual review required.",
+      "ollama_fallback_used": true,
+      "ollama_fallback_error": "ValueError: Fallback evidence is not an exact posting quote.",
+      "ready": false
+    },
+    {
+      "job": {
+        "job_sequence_number": 14,
+        "title": "Faculty Positions (# 370864)",
+        "applied?": "No",
+        "application_date": null,
+        "company": "University of Minnesota",
+        "city": "Twin Cities",
+        "state": "MN",
+        "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179286839&Title=Faculty%20Positions%20%28%23%20370864%29"
+      },
+      "required_documents": [
+        {
+          "document_type": "cv",
+          "posting_requirement": "Applications must be submitted online.",
+          "available": true,
+          "selected_template": {
+            "name": "cv_master.docx",
+            "path": "required_documents/original/cv/cv_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "references",
+          "posting_requirement": "Applications must be submitted online.",
+          "available": true,
+          "selected_template": {
+            "name": "references.docx",
+            "path": "required_documents/original/static/references.docx",
+            "extension": ".docx"
+          }
+        }
+      ],
+      "unclassified_requirements": [],
+      "missing_documents": [],
+      "manual_review_required": false,
+      "review_reason": null,
+      "ollama_fallback_used": true,
+      "ollama_fallback_error": null,
+      "ready": true
+    },
+    {
+      "job": {
+        "job_sequence_number": 15,
+        "title": "ESE Tenured or Tenure-track Faculty Positions, 2025 - 2026",
+        "applied?": "No",
+        "application_date": null,
+        "company": "University of Pennsylvania",
+        "city": "Philadelphia",
+        "state": "PA",
+        "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179276770&Title=ESE%20Tenured%20or%20Tenure%2Dtrack%20Faculty%20Positions%2C%202025%20%2D%202026"
+      },
+      "required_documents": [],
+      "unclassified_requirements": [],
+      "missing_documents": [],
+      "manual_review_required": true,
+      "review_reason": "Ollama fallback failed validation; manual review required.",
+      "ollama_fallback_used": true,
+      "ollama_fallback_error": "ValueError: Fallback evidence is not an exact posting quote.",
+      "ready": false
+    },
+    {
+      "job": {
+        "job_sequence_number": 16,
+        "title": "Assistant Professor in Electrical or Computer Engineering",
+        "applied?": "No",
+        "application_date": null,
+        "company": "Penn State Erie, The Behrend College",
+        "city": "Erie",
+        "state": "PA",
+        "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179276615&Title=Assistant%20Professor%20in%20Electrical%20or%20Computer%20Engineering"
+      },
+      "required_documents": [
+        {
+          "document_type": "cover_letter",
+          "posting_requirement": "Please upload a cover letter",
+          "available": true,
+          "selected_template": {
+            "name": "cover_letter_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/cover_letter_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "cv",
+          "posting_requirement": "Please upload a cover letter, complete resume",
+          "available": true,
+          "selected_template": {
+            "name": "cv_master.docx",
+            "path": "required_documents/original/cv/cv_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "teaching_statement",
+          "posting_requirement": "Please upload a cover letter, complete resume, teaching statement",
+          "available": true,
+          "selected_template": {
+            "name": "teaching_statement_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/teaching_statement_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "research_statement",
+          "posting_requirement": "Please upload a cover letter, complete resume, teaching statement, research statement",
+          "available": true,
+          "selected_template": {
+            "name": "research_statement_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/research_statement_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "references",
+          "posting_requirement": "Please upload a cover letter, complete resume, teaching statement, research statement and the names of three references",
+          "available": true,
+          "selected_template": {
+            "name": "references.docx",
+            "path": "required_documents/original/static/references.docx",
+            "extension": ".docx"
+          }
+        }
+      ],
+      "unclassified_requirements": [],
+      "missing_documents": [],
+      "manual_review_required": false,
+      "review_reason": null,
+      "ollama_fallback_used": true,
+      "ollama_fallback_error": null,
+      "ready": true
+    },
+    {
+      "job": {
+        "job_sequence_number": 17,
+        "title": "ESE Tenured or Tenure-Track Faculty Positions, 2025 - 2026",
+        "applied?": "No",
+        "application_date": null,
+        "company": "University of Pennsylvania",
+        "city": "Philadelphia",
+        "state": "PA",
+        "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179274915&Title=ESE%20Tenured%20or%20Tenure%2DTrack%20Faculty%20Positions%2C%202025%20%2D%202026"
+      },
+      "required_documents": [],
+      "unclassified_requirements": [],
+      "missing_documents": [],
+      "manual_review_required": true,
+      "review_reason": "Ollama fallback failed validation; manual review required.",
+      "ollama_fallback_used": true,
+      "ollama_fallback_error": "ValueError: Fallback evidence is not an exact posting quote.",
+      "ready": false
+    },
+    {
+      "job": {
+        "job_sequence_number": 18,
+        "title": "Department of Electrical & Computer Engineering - Faculty Positions (PITTSBURGH)",
+        "applied?": "No",
+        "application_date": null,
+        "company": "Carnegie Mellon University",
+        "city": "Pittsburgh",
+        "state": "PA",
+        "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179258342&Title=Department%20of%20Electrical%20%26amp%3B%20Computer%20Engineering%20%2D%20Faculty%20Positions%20%28PITTSBURGH%29"
+      },
+      "required_documents": [],
+      "unclassified_requirements": [],
+      "missing_documents": [],
+      "manual_review_required": true,
+      "review_reason": "Ollama fallback failed validation; manual review required.",
+      "ollama_fallback_used": true,
+      "ollama_fallback_error": "ValueError: Fallback evidence is not an exact posting quote.",
+      "ready": false
+    },
+    {
+      "job": {
+        "job_sequence_number": 19,
+        "title": "Empire Innovation Professor, Artificial Intelligence",
+        "applied?": "No",
+        "application_date": null,
+        "company": "University at Buffalo",
+        "city": "Buffalo",
+        "state": "NY",
+        "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=179250084&Title=Empire%20Innovation%20Professor%2C%20Artificial%20Intelligence"
+      },
+      "required_documents": [
+        {
+          "document_type": "cv",
+          "posting_requirement": "Candidates must hold a doctorate in computer science, computer engineering, or a closely related field.",
+          "available": true,
+          "selected_template": {
+            "name": "cv_master.docx",
+            "path": "required_documents/original/cv/cv_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "references",
+          "posting_requirement": "Candidates should be internationally recognized scholars as evidenced by peer-reviewed publications, citations and a sustained externally funded research program.",
+          "available": true,
+          "selected_template": {
+            "name": "references.docx",
+            "path": "required_documents/original/static/references.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "cover_letter",
+          "posting_requirement": "The purpose of the diversity statement is to help the committee understand how youll contribute to our efforts to build a more equitable and inclusive learning and working environment.",
+          "available": true,
+          "selected_template": {
+            "name": "cover_letter_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/cover_letter_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "transcripts",
+          "posting_requirement": "Candidates must demonstrate excellence in research, teaching, service, and mentoring.",
+          "available": true,
+          "selected_template": {
+            "name": "transcripts.pdf",
+            "path": "required_documents/original/static/transcripts.pdf",
+            "extension": ".pdf"
+          }
+        }
+      ],
+      "unclassified_requirements": [],
+      "missing_documents": [],
+      "manual_review_required": false,
+      "review_reason": null,
+      "ollama_fallback_used": true,
+      "ollama_fallback_error": null,
+      "ready": true
+    },
+    {
+      "job": {
+        "job_sequence_number": 20,
+        "title": "Tenure-Track Faculty in Computer Engineering",
+        "applied?": "No",
+        "application_date": null,
+        "company": "Villanova University",
+        "city": "Villanova",
+        "state": "PA",
+        "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=178577748&Title=Tenure%2DTrack%20Faculty%20in%20Computer%20Engineering"
+      },
+      "required_documents": [],
+      "unclassified_requirements": [],
+      "missing_documents": [],
+      "manual_review_required": true,
+      "review_reason": "Ollama fallback failed validation; manual review required.",
+      "ollama_fallback_used": true,
+      "ollama_fallback_error": "ValueError: Fallback evidence is not an exact posting quote.",
+      "ready": false
+    },
+    {
+      "job": {
+        "job_sequence_number": 21,
+        "title": "Assistant Professor (Computer Engineering)",
+        "applied?": "No",
+        "application_date": null,
+        "company": "University of Massachusetts - Boston",
+        "city": "Boston",
+        "state": "MA",
+        "source_url": "https://www.higheredjobs.com/details.cfm?JobCode=177673119&Title=Assistant%20Professor%20%28Computer%20Engineering%29"
+      },
+      "required_documents": [
+        {
+          "document_type": "cover_letter",
+          "posting_requirement": "(1) a cover letter",
+          "available": true,
+          "selected_template": {
+            "name": "cover_letter_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/cover_letter_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "cv",
+          "posting_requirement": "(2) a curriculum vitae",
+          "available": true,
+          "selected_template": {
+            "name": "cv_master.docx",
+            "path": "required_documents/original/cv/cv_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "research_statement",
+          "posting_requirement": "(3) a concise statement of research accomplishments and long-term vision",
+          "available": true,
+          "selected_template": {
+            "name": "research_statement_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/research_statement_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "teaching_statement",
+          "posting_requirement": "(4) a statement of teaching experience and goals",
+          "available": true,
+          "selected_template": {
+            "name": "teaching_statement_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/teaching_statement_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "service_statement",
+          "posting_requirement": "(5) a diversity statement that reflects the candidate’s experience and commitment to diversity, equity, and inclusion",
+          "available": true,
+          "selected_template": {
+            "name": "service_statement_master.docx",
+            "path": "required_documents/original/dynamic/formatting_templates/service_statement_master.docx",
+            "extension": ".docx"
+          }
+        },
+        {
+          "document_type": "references",
+          "posting_requirement": "(6) names and contact information for three letters of reference",
+          "available": true,
+          "selected_template": {
+            "name": "references.docx",
+            "path": "required_documents/original/static/references.docx",
+            "extension": ".docx"
+          }
+        }
+      ],
+      "unclassified_requirements": [],
+      "missing_documents": [],
+      "manual_review_required": false,
+      "review_reason": null,
+      "ollama_fallback_used": true,
+      "ollama_fallback_error": null,
+      "ready": true
+    }
+  ],
+  "validation": {
+    "all_apply_jobs_accounted_for": true,
+    "unique_apply_source_urls": true,
+    "unique_plan_source_urls": true,
+    "sequential_job_sequence_numbers": true
+  }
+}

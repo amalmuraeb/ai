@@ -1,0 +1,37 @@
+# Copy this file outside the repository as user_profile.toml and replace the
+# fictional values with your own preferences. Never commit the private copy.
+
+target_roles = ["Example role"]
+discipline_focus = ["Example discipline"]
+
+# For every exclude_ field, place values in double quotes and separate them
+# with commas. Example: ["<value_1>", "<value_2>", "<value_3>"]
+exclude_industries = []
+exclude_institution_orientations = []
+exclude_focus_areas = []
+exclude_roles = []
+
+[role_scope]
+academic_faculty_allowed = true
+
+[employment_type]
+allowed_types = ["full-time"]
+exclude_adjunct = false
+exclude_postdoc = false
+exclude_visiting = false
+
+[work_constraints]
+remote_preferred = false
+location_flexibility = "Example region"
+
+[salary_constraint]
+minimum_salary_usd = 50000
+hard_requirement = true
+
+[application_constraints]
+closing_date_soon_threshold_months = 1
+skip_if_closing_date_soon = true
+
+[ranking_constraints]
+apply_min_fit_score = 85
+review_min_fit_score = 65
