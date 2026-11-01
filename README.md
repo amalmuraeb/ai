@@ -2,8 +2,9 @@
 
 # 1. Overview
 
-AI Job Agent is a local-first assistant for discovering, filtering, and
-analyzing academic jobs and identifying their required application materials.
+AI Job Agent is a source-available, local-first assistant for discovering,
+filtering, and analyzing academic jobs and identifying their required
+application materials.
 Python runs in WSL, while Microsoft Edge and Ollama run natively on Windows.
 HigherEdJobs is the current job source, and a local Ollama model performs job
 analysis and controlled document-requirement fallback.
@@ -494,6 +495,12 @@ job-agent/
 ├── user_profile.example.toml
 │   Fictional public template for the external private profile
 │
+├── LICENSE
+│   PolyForm Noncommercial License 1.0.0 and copyright notice
+│
+├── COMMERCIAL.md
+│   Commercial licensing policy and contact channel
+│
 └── README.md
 ```
 
@@ -771,4 +778,14 @@ Complete these user-specific settings once before the first run:
 
 # 9. License
 
-* Personal learning and development project.
+Copyright 2026 Ahmed Al-Muraeb.
+
+JOB-AGENT is source-available for permitted noncommercial use under the
+[PolyForm Noncommercial License 1.0.0](LICENSE). This is not an OSI-approved
+open-source license because commercial use is restricted.
+
+Commercial use requires a separate written agreement negotiated with and
+executed by the copyright holder. Contacting the copyright holder or
+discussing terms does not grant commercial rights. See
+[COMMERCIAL.md](COMMERCIAL.md) for commercial licensing, customization,
+enterprise deployment, or acquisition inquiries.
