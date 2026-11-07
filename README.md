@@ -1,12 +1,15 @@
 # AI Job Agent
 
+[![DOI](https://zenodo.org/badge/1268836012.svg)](https://doi.org/10.5281/zenodo.24041592)
+
 # 1. Overview
 
 AI Job Agent is a source-available, local-first assistant for discovering,
-filtering, and analyzing academic jobs and identifying their required
+filtering, and analyzing job opportunities and identifying their required
 application materials.
 Python runs in WSL, while Microsoft Edge and Ollama run natively on Windows.
-HigherEdJobs is the current job source, and a local Ollama model performs job
+HigherEdJobs is the current job source, while the job-board architecture
+supports future source-specific extensions. A local Ollama model performs job
 analysis and controlled document-requirement fallback.
 
 The automated scope ends with the generated JSON and text reports. The user
