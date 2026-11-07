@@ -2,6 +2,8 @@
   "report_metadata": {
     "report_name": "summary.json",
     "report_version": "1.2",
+    "software_version": "1.0.0",
+    "job_scope": "non_remote",
     "pipeline": "Job-Agent RPA Run",
     "job_board": "higheredjobs_html",
     "run_started_at": "2026-07-26T18:08:54-04:00",

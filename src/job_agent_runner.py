@@ -19,6 +19,7 @@ from src.job_pipeline import (
     parse_elapsed_time,
 )
 from src.job_provisioner import JobProvisioner
+from src.version import __version__
 
 
 REPORT_CATEGORIES = (
@@ -89,7 +90,9 @@ class JobAgentRunner(ABC):
 
     def _stamp_scope(self, report):
         """Record the independently published job channel in metadata."""
-        report.setdefault("report_metadata", {})["job_scope"] = (
+        metadata = report.setdefault("report_metadata", {})
+        metadata["software_version"] = __version__
+        metadata["job_scope"] = (
             "remote" if self.remote else "non_remote"
         )
         return report
@@ -328,6 +331,7 @@ class JobAgentRunner(ABC):
         )
         summary["timing"] = normalized_timing
         summary["report_metadata"]["report_version"] = "1.2"
+        summary["report_metadata"]["software_version"] = __version__
         summary["report_metadata"]["report_created_at"] = (
             datetime.now().astimezone().isoformat(timespec="seconds")
         )

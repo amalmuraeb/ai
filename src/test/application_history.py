@@ -6,6 +6,7 @@ Validates durable numbering, archival, duplicate suppression, and expiry.
 from datetime import date
 
 from src.application_history import ApplicationHistory
+from src.version import __version__
 
 
 def _apply_job(url, closing_date=None, sequence=None, remote=False):
@@ -59,6 +60,9 @@ def main():
     assert [job["source_url"] for job in result["new_apply_jobs"]] == [fresh["source_url"]]
     assert result["last_job_sequence_number"] == 23
     assert result["applied_report"]["job_count"] == 1
+    assert result["applied_report"]["report_metadata"][
+        "software_version"
+    ] == __version__
     assert result["applied_report"]["jobs"][0]["job"]["applied?"] == "Yes"
     archived_job = result["applied_report"]["jobs"][0]["job"]
     assert archived_job["focus_areas"] == ["Artificial Intelligence"]

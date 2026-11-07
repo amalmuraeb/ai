@@ -16,6 +16,7 @@ from src.job_boards.higheredjobs.runner import HigherEdJobsRunner
 from src.job_agent_runner import JobAgentRunner
 from src.job_provisioner import JobProvisioner
 from src.test.data.user_profile import TEST_USER_PROFILE
+from src.version import __version__
 
 
 FIXTURE_DIR = Path("input/job_boards/higheredjobs")
@@ -212,6 +213,10 @@ def main() -> None:
             for report in category_reports.values()
         )
         assert all(
+            report["report_metadata"]["software_version"] == __version__
+            for report in category_reports.values()
+        )
+        assert all(
             job["remote?"] in {"Yes", "No"}
             for report in category_reports.values()
             for job in report["jobs"]
@@ -239,6 +244,7 @@ def main() -> None:
         )
         assert all(summary["validation"].values())
         assert summary["report_metadata"]["job_scope"] == "non_remote"
+        assert summary["report_metadata"]["software_version"] == __version__
         assert document_report["job_count"] == expected_counts["apply"]
         assert document_report["report_metadata"]["job_scope"] == (
             "non_remote"

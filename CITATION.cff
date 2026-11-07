@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use JOB-AGENT, please cite it using the metadata in this file."
+type: software
+title: "JOB-AGENT: A Local-First AI Agent for Academic Job Discovery and Analysis"
+version: 1.0.0
+date-released: 2026-11-07
+authors:
+  - family-names: "Al-Muraeb"
+    given-names: "Ahmed"
+repository-code: "https://github.com/amalmuraeb/ai"
+url: "https://github.com/amalmuraeb/ai"
+license-url: "https://polyformproject.org/licenses/noncommercial/1.0.0"
+abstract: >-
+  JOB-AGENT is a source-available, local-first application for discovering,
+  filtering, analyzing, and tracking academic job opportunities. It combines
+  browser automation, deterministic provisioning, local large-language-model
+  analysis, document-requirement discovery, transactional report publication,
+  and privacy-preserving external user data.
+keywords:
+  - academic jobs
+  - agentic AI
+  - browser automation
+  - job analysis
+  - large language models
+  - local-first software
+  - Ollama
+  - Playwright
+  - research software

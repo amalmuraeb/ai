@@ -8,6 +8,7 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 
 from src.document_manager import DocumentManager
+from src.version import __version__
 
 
 EXAMPLE_JOB = {
@@ -145,6 +146,9 @@ def main():
         assert loaded_report == report
         assert report["report_metadata"]["report_name"] == (
             "document_manager.json"
+        )
+        assert report["report_metadata"]["software_version"] == (
+            __version__
         )
         assert report["job_count"] == 1
         assert report["ready_count"] == 0

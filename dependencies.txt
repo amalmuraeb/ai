@@ -1,4 +1,5 @@
-beautifulsoup4
-langgraph
-playwright
-requests
+# Direct runtime dependencies tested for JOB-AGENT 1.0.0 on Python 3.14.4.
+beautifulsoup4==4.15.0
+langgraph==1.2.11
+playwright==1.62.0
+requests==2.34.2

@@ -10,6 +10,7 @@ from datetime import datetime
 from pathlib import Path
 
 from src.config.documents import ORIGINAL_DOCUMENTS_DIR
+from src.version import __version__
 
 
 DOCUMENT_TYPES = {
@@ -423,6 +424,7 @@ class DocumentManager:
             "report_metadata": {
                 "report_name": "document_manager.json",
                 "report_version": "1.1",
+                "software_version": __version__,
                 "pipeline": pipeline_name,
                 "phase": "Phase 6 — Document Manager",
                 "job_board": job_board,

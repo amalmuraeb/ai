@@ -21,6 +21,7 @@ from src.job_boards.higheredjobs.runner import (
 )
 from src.job_pipeline import format_elapsed_time
 from src.profile_loader import load_user_profile
+from src.version import __version__
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -192,6 +193,11 @@ def print_final_summary(run_result: dict) -> None:
 def parse_arguments(argv=None):
     """Parse normal-run and isolated-phase command options."""
     parser = argparse.ArgumentParser(description="Run the Job-Agent.")
+    parser.add_argument(
+        "--version",
+        action="version",
+        version=f"JOB-AGENT {__version__}",
+    )
     run_mode = parser.add_mutually_exclusive_group()
     run_mode.add_argument(
         "--document_manager",

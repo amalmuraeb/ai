@@ -9,6 +9,7 @@ from pathlib import Path
 from time import perf_counter
 
 from src.config.report_paths import DEBUG_SEPARATOR_WIDTH
+from src.version import __version__
 
 
 def format_elapsed_time(elapsed_seconds: float) -> str:
@@ -492,6 +493,7 @@ class JobPipeline:
             "report_metadata": {
                 "report_name": report_name,
                 "report_version": "1.0",
+                "software_version": __version__,
                 "pipeline": pipeline_name,
                 "job_board": job_board,
                 "category": category,
@@ -672,6 +674,7 @@ class JobPipeline:
             "report_metadata": {
                 "report_name": "summary.json",
                 "report_version": "1.2",
+                "software_version": __version__,
                 "pipeline": pipeline_name,
                 "job_board": job_board,
                 "run_started_at": started_at.isoformat(

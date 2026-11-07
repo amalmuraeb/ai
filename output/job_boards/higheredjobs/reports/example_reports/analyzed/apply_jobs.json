@@ -2,6 +2,8 @@
   "report_metadata": {
     "report_name": "apply_jobs.json",
     "report_version": "1.0",
+    "software_version": "1.0.0",
+    "job_scope": "non_remote",
     "pipeline": "Job-Agent RPA Run",
     "job_board": "higheredjobs_html",
     "category": "apply",

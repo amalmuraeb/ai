@@ -2,6 +2,8 @@
   "report_metadata": {
     "report_name": "document_manager.json",
     "report_version": "1.1",
+    "software_version": "1.0.0",
+    "job_scope": "non_remote",
     "pipeline": "Job-Agent Isolated Phase 6 Run",
     "phase": "Phase 6 — Document Manager",
     "job_board": "higheredjobs",

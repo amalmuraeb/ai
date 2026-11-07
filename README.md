@@ -53,7 +53,7 @@ from HigherEdJobs structured metadata and posting text.
 |---|---|
 | Windows 11 | Hosts Microsoft Edge and Ollama. |
 | WSL2 Ubuntu with mirrored networking | Runs Python, Playwright, agents, pipeline, and report generation. |
-| Python 3.14+ and `python3-venv` | Application runtime and virtual environment. |
+| Python 3.14+ and `python3-venv` | Application runtime and virtual environment; version 1.0.0 was tested with Python 3.14.4. |
 | Microsoft Edge or compatible Chromium browser | Exposes CDP; Edge is the tested reference. |
 | Ollama with `qwen3:8b` | Handles job analysis and controlled document-requirement fallback. |
 | Git and GitHub access | Source control. |
@@ -386,6 +386,9 @@ job-agent/
 │   ├── main.py
 │   │   Production command entry point and final console summary
 │   │
+│   ├── version.py
+│   │   Authoritative JOB-AGENT semantic version
+│   │
 │   ├── job_agent_runner.py
 │   │   Parent runner containing shared pipeline orchestration,
 │   │   validation, report generation, staging, and publication
@@ -501,6 +504,12 @@ job-agent/
 ├── COMMERCIAL.md
 │   Commercial licensing policy and contact channel
 │
+├── CHANGELOG.md
+│   Versioned release history
+│
+├── CITATION.cff
+│   Machine-readable software citation metadata
+│
 └── README.md
 ```
 
@@ -515,6 +524,10 @@ job-agent/
 | 7 | `document_manager.json` | Phase 6 instructions, selected originals, missing materials, manual-review state, and readiness. |
 | 8 | `log.txt` | Current invocation only: mode, failures or interruption, completion status, and pipeline details where applicable. It is cleared when `src.main` starts. |
 | 9 | `summary.json` | Outcome counts, paths, validation, and human-readable timing such as `2 m 5.2 s` or `1 h 32 m 48.48 s`. |
+
+Every JSON report identifies the generating JOB-AGENT release through
+`software_version`. This is separate from `report_version`, which versions the
+individual report schema.
 
 `example_reports/` contains the repository's fixed sample report set.
 Production reports, including `apply_jobs_stats.txt`, are generated under
@@ -539,6 +552,36 @@ Windows paths are normalized to their WSL `/mnt/<drive>/...` equivalents, and
 the private path is redacted from `log.txt`. Applied and manually closed URLs
 are removed before Phase 4, receive no recommendation, and appear in no
 repository JSON report.
+
+## 6.1 Versioning and Compatibility
+
+JOB-AGENT follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+The current application version is available without starting the pipeline:
+
+```bash
+python -m src.main --version
+```
+
+The public compatibility surface consists of:
+
+- Documented `src.main` commands and command-line arguments.
+- Documented `user_profile.toml` fields and value types.
+- Published report filenames, layouts, and JSON contracts.
+- The external `applied_jobs.json` and `closed_jobs.json` formats.
+
+Version increments have the following meaning:
+
+| Increment | Meaning |
+|---|---|
+| Major | An incompatible change to the public compatibility surface. |
+| Minor | Backward-compatible functionality or a documented deprecation. |
+| Patch | A backward-compatible defect correction. |
+
+Internal module organization, timing values, model-generated wording,
+third-party website markup, and sample-job contents are not compatibility
+guarantees. Each report's `report_version` tracks that report's schema
+independently, while `software_version` identifies the JOB-AGENT release that
+generated it. Released changes are recorded in [CHANGELOG.md](CHANGELOG.md).
 
 
 # 7. Running Job-Agent

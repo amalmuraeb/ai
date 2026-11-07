@@ -6,6 +6,8 @@ Maintains durable job identities and manual application state across runs.
 from copy import deepcopy
 from datetime import date, datetime
 
+from src.version import __version__
+
 
 class ApplicationHistory:
     """Reconcile fresh recommendations with persistent application reports."""
@@ -90,6 +92,7 @@ class ApplicationHistory:
             "report_metadata": {
                 "report_name": "applied_jobs.json",
                 "report_version": "1.0",
+                "software_version": __version__,
                 "pipeline": pipeline_name,
                 "job_board": job_board,
                 "report_created_at": now,
@@ -253,6 +256,7 @@ class ApplicationHistory:
             {
                 "report_name": "applied_jobs.json",
                 "report_version": "1.0",
+                "software_version": __version__,
                 "pipeline": pipeline_name,
                 "job_board": job_board,
                 "report_created_at": datetime.now().astimezone().isoformat(

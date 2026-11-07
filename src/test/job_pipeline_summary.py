@@ -18,6 +18,7 @@ from src.job_pipeline import (
 from src.job_agent_runner import JobAgentRunner
 from src.test.data.user_profile import TEST_USER_PROFILE
 from src.profile_loader import validate_user_profile
+from src.version import __version__
 from src.main import (
     _done_job_files,
     _private_files,
@@ -34,6 +35,15 @@ class Stub:
 
 def main() -> None:
     assert validate_user_profile(TEST_USER_PROFILE) is TEST_USER_PROFILE
+    version_output = StringIO()
+    with redirect_stdout(version_output):
+        try:
+            parse_arguments(["--version"])
+        except SystemExit as error:
+            assert error.code == 0
+        else:
+            raise AssertionError("--version did not exit after printing.")
+    assert version_output.getvalue().strip() == f"JOB-AGENT {__version__}"
     private_path_arguments = [
         "--private_data_path",
         "/tmp/job-agent-private/private_data",
@@ -216,6 +226,9 @@ def main() -> None:
         assert summary["job_counts"]["accounted_for"] == 5
         assert all(summary["validation"].values())
         assert summary["report_metadata"]["report_version"] == "1.2"
+        assert summary["report_metadata"]["software_version"] == (
+            __version__
+        )
         assert summary["timing"]["phase_3_elapsed_time"] == "0 s"
         assert summary["timing"]["phase_4_elapsed_time"] == "1 s"
         assert summary["timing"]["phase_5_elapsed_time"] == "8 s"
